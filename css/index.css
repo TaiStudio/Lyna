@@ -33,11 +33,13 @@ body .content{
     left: 50%;
     width: 30%;
     transform: translate(-50%, 100%);
+    opacity: 0;
     transition: 0.5s;
     background: var(--sec);
     box-shadow: #000 0px 0px 50px;
 }
 body .content.active{
+    opacity: 1;
     transform: translate(-50%, 0%);
 }
 body .content .top{
