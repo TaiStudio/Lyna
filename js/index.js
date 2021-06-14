@@ -8,8 +8,6 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
-const { config } = require("process");
-
 var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
     page = document.URL.replace(`${page}/`, '');
 
