@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^
-RewriteRule ^subdir/(.*)$ /$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^lyna.ga
+RewriteRule ^subdir/(.*)$ https://www.lyna.ga/$1 [L,R=301]
