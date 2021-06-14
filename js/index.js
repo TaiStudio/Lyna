@@ -60,11 +60,18 @@ function load(data){
         $('body').addClass(config.theme);
     }
     for(i=0;i<config.links.length;i++){
+        var icon;
+        if(config.links[i].icon != null){
+            icon = config.links[i].icon;
+        }
+        else{
+            icon = `./img/services/${config.links[i].service}.png`;
+        }
         $('.bottom').append(`
             <div class="link" data-link="${config.links[i].link}">
                 <div class="left">
                     <div class="logo">
-                        <img src="./img/services/${config.links[i].service}.png" alt="${config.links[i].service}">
+                        <img src="${icon}" alt="${config.links[i].service}">
                     </div>
                 </div>
                 <div class="center">
