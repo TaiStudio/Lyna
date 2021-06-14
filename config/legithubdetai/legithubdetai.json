@@ -14,6 +14,11 @@
             "link": "https://www.twitch.tv/la_chaine_de_tai"
         },
         {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/LeTwittairDeTai"
+        },
+        {
             "name": "Instagram",
             "service": "Instagram",
             "link": "https://youtube.com"
