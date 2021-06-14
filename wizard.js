@@ -31,19 +31,6 @@ const questions = [
       if (!value) return "Please select a fonts";
     },
   },
-  {
-    type: "input",
-    name: "keywords",
-    message: "Keywords (optional, comma-delimited)",
-    filter: function (value) {
-      return value.split(",").map((keyword) => keyword.trim());
-    },
-  },
-  {
-    type: "input",
-    name: "license",
-    message: "License (optional)",
-  },
 ];
 
 inquirer
@@ -54,7 +41,6 @@ inquirer
     const basepath = path.join(__dirname, `config/${slug}`);
     const jsonPath = path.join(basepath, `${slug}.json`);
     mkdirp(basepath);
-    mkdirp(path.join(basepath, "files"));
     createFile(
       jsonPath,
       `${JSON.stringify(extension)} \r\n`,
@@ -62,15 +48,9 @@ inquirer
     );
     console.log();
     console.log(`Yay! Created ${path.relative(process.cwd(), jsonPath)}`);
-    console.log(`Now you just need to add an icon named ${slug}-icon.png\n`);
+    console.log(`Now you just need to add an icon named ${slug}.png\n`);
     console.log(
-      `And add your extension files in ${path.relative(
-        process.cwd(),
-        basepath
-      )}\n`
-    );
-    console.log(
-      `Once you're done, run \`npm test\` to verify. Then open your pull request!`
+      `Once you're done, open your pull request!`
     );
     console.log();
   })
