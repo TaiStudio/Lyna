@@ -1,6 +1,6 @@
 {
     "name": "Pot!on",
-    "logo": "img/pages/potion.jpg",
+    "logo": "config/potion/potion.jpg",
     "font": "ancient",
     "links": [
         {

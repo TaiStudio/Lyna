@@ -1,6 +1,6 @@
 {
     "name": "Tai Studio",
-    "logo": "img/Tai Studio.png",
+    "logo": "config/taistudio/taistudio.png",
     "font": "ancient",
     "links": [
         {

@@ -16,7 +16,7 @@ if(page == ""){
 }
 
 $(function(){
-    $.getJSON(`../config/${page}.json`, function(data) {
+    $.getJSON(`../config/${page}/${page}.json`, function(data) {
         config = data;
         $('.top .logo img').attr('src', config.logo);
         $('.top .name').text(config.name);
