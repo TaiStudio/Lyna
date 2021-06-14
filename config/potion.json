@@ -6,12 +6,12 @@
         {
             "name": "Youtube",
             "service": "Youtube",
-            "link": "https://youtube.com"
+            "link": "https://www.youtube.com/channel/UCdnKkw5D0ZEzRP01b73t2Ng"
         },
         {
-            "name": "Twitch",
-            "service": "Twitch",
-            "link": "https://youtube.com"
+            "name": "SoundCloud",
+            "service": "Soundcloud",
+            "link": "https://soundcloud.com/user-357305126-160770071"
         },
         {
             "name": "Instagram",
@@ -19,14 +19,14 @@
             "link": "https://youtube.com"
         },
         {
-            "name": "Facebook",
-            "service": "Facebook",
-            "link": "https://youtube.com"
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.com/invite/rd4RgWJGzA"
         },
         {
-            "name": "Tai Studio",
-            "service": "Internet",
-            "link": "https://tai-studio.ml"
+            "name": "Bandcamp",
+            "service": "Bandcamp",
+            "link": "https://drinkpotion.bandcamp.com/releases"
         }
     ]
 }
