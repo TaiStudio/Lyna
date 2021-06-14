@@ -32,9 +32,13 @@ body .content{
     bottom: 0;
     left: 50%;
     width: 30%;
-    transform: translate(-50%);
+    transform: translate(-50%, 100%);
+    transition: 0.5s;
     background: var(--sec);
     box-shadow: #000 0px 0px 50px;
+}
+body .content.active{
+    transform: translate(-50%, 0%);
 }
 body .content .top{
     display: flex;
