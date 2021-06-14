@@ -20,6 +20,7 @@ $(function(){
         config = data;
         $('.top .logo img').attr('src', config.logo);
         $('.top .name').text(config.name);
+        $('title').text(`Lyna | ${config.name}`);
         for(i=0;i<config.links.length;i++){
             $('.bottom').append(`
                 <div class="link" data-link="${config.links[i].link}">
