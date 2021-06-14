@@ -51,7 +51,9 @@ $(function(){
                 </div>
             `);
         }
-        $('.content').addClass('active');
+        setTimeout(() => {
+            $('.content').addClass('active');
+        }, 1000);
         $('.link').addClass('active');
     });
     $('.bottom').on('click', '.link', function(){
