@@ -9,11 +9,14 @@
 \--------------------------------------------------------------------------------------*/
 
 var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
-console.log(document.URL);
-console.log(page);
+    page = document.URL.replace(`${page}/`, '');
+
+if(page == ""){
+    page = "taistudio";
+}
 
 $(function(){
-    $.getJSON('../config/user.json', function(data) {
+    $.getJSON(`../config/${page}.json`, function(data) {
         config = data;
         $('.top .logo img').attr('src', config.logo);
         $('.top .name').text(config.name);
