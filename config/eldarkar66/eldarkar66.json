@@ -1,0 +1,17 @@
+{
+    "name": "Eldarkar66",
+    "logo": "config/eldarkar66/eldarkar66.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/eldarkar66"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.me/eldarkar99corp"
+        }
+    ]
+}
