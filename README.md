@@ -11,4 +11,5 @@
 3. run `npm install`
 4. run `npm run wizard`
 5. create an pull request
-6. enjoy
+6. open your web browser on `https://lyna.ga/YOUR_USER_NAME`
+7. enjoy
