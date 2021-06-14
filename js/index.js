@@ -56,6 +56,9 @@ function load(data){
         }
     }
     $('body').addClass(config.name);
+    if(config.theme != null){
+        $('body').addClass(config.theme);
+    }
     for(i=0;i<config.links.length;i++){
         $('.bottom').append(`
             <div class="link" data-link="${config.links[i].link}">
