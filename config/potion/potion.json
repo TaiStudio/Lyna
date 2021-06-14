@@ -2,6 +2,7 @@
     "name": "Pot!on",
     "logo": "config/potion/potion.jpg",
     "font": "ancient",
+    "background": "config/potion/POTON_BACK.jpg",
     "links": [
         {
             "name": "Youtube",

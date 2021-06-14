@@ -38,6 +38,11 @@ $(window).resize(function(){
 });
 function load(data){
     config = data;
+    if(config.background != null){
+        $('body').prepend(`
+            <img class="background" src="${config.background}"/>
+        `);
+    }
     $('.top .logo img').attr('src', config.logo);
     $('.top .name').text(config.name);
     $('title').text(`Lyna | ${config.name}`);

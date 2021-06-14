@@ -2,6 +2,7 @@
     "name": "Tai Studio",
     "logo": "config/taistudio/taistudio.png",
     "font": "ancient",
+    "background": "config/taistudio/Tai Studio.png",
     "links": [
         {
             "name": "Youtube",
