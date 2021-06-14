@@ -21,6 +21,7 @@ $(function(){
         $('.top .logo img').attr('src', config.logo);
         $('.top .name').text(config.name);
         $('title').text(`Lyna | ${config.name}`);
+        console.log(getFavicon(config.links[i].link));
         for(i=0;i<config.links.length;i++){
             $('.bottom').append(`
                 <div class="link" data-link="${config.links[i].link}">
@@ -40,4 +41,17 @@ $(function(){
     $('.bottom').on('click', '.link', function(){
         window.open($(this).attr('data-link'), "_blank");
     })
-})
+});
+
+var getFavicon = function(arg){
+    var favicon = undefined;
+    var nodeList = document.getElementsByTagName("link");
+    for (var i = 0; i < nodeList.length; i++)
+    {
+        if((nodeList[i].getAttribute("rel") == "icon")||(nodeList[i].getAttribute("rel") == "shortcut icon"))
+        {
+            favicon = nodeList[i].getAttribute("data-link");
+        }
+    }
+    return favicon;        
+}
