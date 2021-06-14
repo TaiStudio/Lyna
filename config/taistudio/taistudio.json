@@ -46,7 +46,8 @@
         {
             "name": "Animeback",
             "service": "Internet",
-            "link": "https://animeback.tai-studio.ml/"
+            "link": "https://animeback.tai-studio.ml/",
+            "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
         },
         {
             "name": "Octavia",
