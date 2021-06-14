@@ -1,4 +1,4 @@
-RewriteEngine on
-
-RewriteCond %{REQUEST_URI} !^/
-RewriteRule ^(.*)$ /$1 [NC,L]
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^
+RewriteRule ^subdir/(.*)$ /$1 [L,R=301]
