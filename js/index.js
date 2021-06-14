@@ -8,6 +8,8 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
+const { config } = require("process");
+
 var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
     page = document.URL.replace(`${page}/`, '');
 
@@ -21,6 +23,19 @@ $(function(){
         $('.top .logo img').attr('src', config.logo);
         $('.top .name').text(config.name);
         $('title').text(`Lyna | ${config.name}`);
+        if(config.colors != null){
+            $('body').append(`
+                <style>
+                    body{
+                        --pri: ${config.colors[0]};
+                        --sec: ${config.colors[1]};
+                        --tri: ${config.colors[2]};
+                        --qua: ${config.colors[3]};
+                    }
+                </style>
+            `);
+        }
+        $('body').addClass(config.name);
         for(i=0;i<config.links.length;i++){
             $('.bottom').append(`
                 <div class="link" data-link="${config.links[i].link}">

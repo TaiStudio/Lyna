@@ -48,5 +48,11 @@
             "service": "Internet",
             "link": "https://animeback.tai-studio.ml/"
         }
+    ],
+    "colors": [
+        "red",
+        "green",
+        "blue",
+        "cyan"
     ]
 }
