@@ -47,6 +47,26 @@
             "name": "Animeback",
             "service": "Internet",
             "link": "https://animeback.tai-studio.ml/"
+        },
+        {
+            "name": "Brawlshoot",
+            "service": "Internet",
+            "link": "https://brawlshoot-legithubdetai.vercel.app/"
+        },
+        {
+            "name": "Octavia",
+            "service": "Internet",
+            "link": "https://www.youtube.com/playlist?list=PLZiAlHsp810GJPX3CScsk3HGiH-rYiDPh"
+        },
+        {
+            "name": "orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/"
+        },
+        {
+            "name": "IO",
+            "service": "Internet",
+            "link": "https://io.tai-studio.ml/"
         }
     ],
     "colors": [
