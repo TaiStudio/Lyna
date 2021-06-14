@@ -78,6 +78,10 @@ body .content .bottom .link{
     align-items: center;
     justify-content: space-evenly;
     transition: 0.5s;
+    transform: translate(100%);
+}
+body .content .bottom .link.active{
+    transform: translate(0%);
 }
 body .content .bottom .link:hover{
     background: var(--qua);

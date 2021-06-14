@@ -35,8 +35,12 @@ $(function(){
                     </div>
                 </div>
             `);
+            setTimeout(() => {
+                $('.link').addClass('active');
+            }, 1000);
         }
         $('.content').addClass('active');
+        $('.link').addClass('active');
     });
     $('.bottom').on('click', '.link', function(){
         window.open($(this).attr('data-link'), "_blank");
