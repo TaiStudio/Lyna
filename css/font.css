@@ -15,3 +15,10 @@
 body.ancient{
     font-family: 'ancient';
 }
+@font-face {
+    font-family: 'poppins';
+    src: url('font/poppins/Poppins-Regular.ttf');
+}
+body{
+    font-family: 'poppins';
+}
