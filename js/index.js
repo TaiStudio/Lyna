@@ -22,7 +22,7 @@ $(function(){
         $('.top .name').text(config.name);
         for(i=0;i<config.links.length;i++){
             $('.bottom').append(`
-                <div class="link">
+                <div class="link" data-link="${config.links[i].link}">
                     <div class="logo">
                         <img src="./img/services/${config.links[i].service}.png" alt="${config.links[i].service}">
                     </div>
@@ -36,4 +36,7 @@ $(function(){
             `);
         }
     });
+    $('.bottom').on('click', '.link', function(){
+        window.open($(this).attr('data-link'), "_blank");
+    })
 })

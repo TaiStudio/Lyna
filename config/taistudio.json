@@ -22,6 +22,11 @@
             "name": "Facebook",
             "service": "Facebook",
             "link": "https://youtube.com"
+        },
+        {
+            "name": "Tai Studio",
+            "service": "Internet",
+            "link": "https://tai-studio.ml"
         }
     ]
 }
