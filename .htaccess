@@ -1,3 +1,1 @@
-RewriteEngine on
-RewriteBase /
-RewriteRule ^subfolder/(.*)$ /$1 [R=301,NC,L]
+ErrorDocument 404 /
