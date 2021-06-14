@@ -22,16 +22,18 @@ $(function(){
         $('.top .name').text(config.name);
         $('title').text(`Lyna | ${config.name}`);
         if(config.colors != null){
-            $('body').append(`
-                <style>
-                    body{
-                        --pri: ${config.colors[0]};
-                        --sec: ${config.colors[1]};
-                        --tri: ${config.colors[2]};
-                        --qua: ${config.colors[3]};
-                    }
-                </style>
-            `);
+            if(config.colors.length == 4){
+                $('body').append(`
+                    <style>
+                        body{
+                            --pri: ${config.colors[0]};
+                            --sec: ${config.colors[1]};
+                            --tri: ${config.colors[2]};
+                            --qua: ${config.colors[3]};
+                        }
+                    </style>
+                `);
+            }
         }
         $('body').addClass(config.name);
         for(i=0;i<config.links.length;i++){
