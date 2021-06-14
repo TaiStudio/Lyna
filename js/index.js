@@ -17,46 +17,55 @@ if(page == ""){
 
 $(function(){
     $.getJSON(`../config/${page}/${page}.json`, function(data) {
-        config = data;
-        $('.top .logo img').attr('src', config.logo);
-        $('.top .name').text(config.name);
-        $('title').text(`Lyna | ${config.name}`);
-        if(config.colors != null){
-            if(config.colors.length == 4){
-                $('body').append(`
-                    <style>
-                        body{
-                            --pri: ${config.colors[0]};
-                            --sec: ${config.colors[1]};
-                            --tri: ${config.colors[2]};
-                            --qua: ${config.colors[3]};
-                        }
-                    </style>
-                `);
-            }
-        }
-        $('body').addClass(config.name);
-        for(i=0;i<config.links.length;i++){
-            $('.bottom').append(`
-                <div class="link" data-link="${config.links[i].link}">
-                    <div class="logo">
-                        <img src="./img/services/${config.links[i].service}.png" alt="${config.links[i].service}">
-                    </div>
-                    <div class="name">
-                        ${config.links[i].name}
-                    </div>
-                    <div class="arrow">
-                        <img src="./img/assets/arrow-circle-right-solid.svg" alt="ARROW">
-                    </div>
-                </div>
-            `);
-        }
-        setTimeout(() => {
-            $('.content').addClass('active');
-        }, 1000);
-        $('.link').addClass('active');
-    });
+        load(data);
+    })
+    .fail(function(){
+        $.getJSON(`../config/taistudio/taistudio.json`, function(data) {
+            load(data);
+        })
+    })
     $('.bottom').on('click', '.link', function(){
         window.open($(this).attr('data-link'), "_blank");
     })
 });
+
+function load(data){
+    config = data;
+    $('.top .logo img').attr('src', config.logo);
+    $('.top .name').text(config.name);
+    $('title').text(`Lyna | ${config.name}`);
+    if(config.colors != null){
+        if(config.colors.length == 4){
+            $('body').append(`
+                <style>
+                    body{
+                        --pri: ${config.colors[0]};
+                        --sec: ${config.colors[1]};
+                        --tri: ${config.colors[2]};
+                        --qua: ${config.colors[3]};
+                    }
+                </style>
+            `);
+        }
+    }
+    $('body').addClass(config.name);
+    for(i=0;i<config.links.length;i++){
+        $('.bottom').append(`
+            <div class="link" data-link="${config.links[i].link}">
+                <div class="logo">
+                    <img src="./img/services/${config.links[i].service}.png" alt="${config.links[i].service}">
+                </div>
+                <div class="name">
+                    ${config.links[i].name}
+                </div>
+                <div class="arrow">
+                    <img src="./img/assets/arrow-circle-right-solid.svg" alt="ARROW">
+                </div>
+            </div>
+        `);
+    }
+    setTimeout(() => {
+        $('.content').addClass('active');
+    }, 1000);
+    $('.link').addClass('active');
+}
