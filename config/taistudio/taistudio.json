@@ -27,6 +27,11 @@
             "name": "Tai Studio",
             "service": "Internet",
             "link": "https://tai-studio.ml"
+        },
+        {
+            "name": "Animeback",
+            "service": "Internet",
+            "link": "https://animeback.tai-studio.ml/"
         }
     ]
 }
