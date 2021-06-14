@@ -1,4 +1,0 @@
-ErrorDocument 404 /
-
-RewriteEngine On
-RewriteRule ^([^/]*)$ /?param=$1 [L]

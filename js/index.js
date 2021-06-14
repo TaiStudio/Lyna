@@ -9,6 +9,7 @@
 \--------------------------------------------------------------------------------------*/
 
 var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
+console.log(document.URL);
 console.log(page);
 
 $(function(){
