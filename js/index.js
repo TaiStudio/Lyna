@@ -35,9 +35,6 @@ $(function(){
                     </div>
                 </div>
             `);
-            setTimeout(() => {
-                $('.link').addClass('active');
-            }, 1000);
         }
         $('.content').addClass('active');
         $('.link').addClass('active');
