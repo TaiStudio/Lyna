@@ -1,0 +1,27 @@
+{
+    "name": "Tai Studio",
+    "logo": "img/Tai Studio.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://youtube.com"
+        },
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://youtube.com"
+        },
+        {
+            "name": "Instagram",
+            "service": "Instagram",
+            "link": "https://youtube.com"
+        },
+        {
+            "name": "Facebook",
+            "service": "Facebook",
+            "link": "https://youtube.com"
+        }
+    ]
+}
