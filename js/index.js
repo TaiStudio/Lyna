@@ -27,8 +27,15 @@ $(function(){
     $('.bottom').on('click', '.link', function(){
         window.open($(this).attr('data-link'), "_blank");
     })
+    var height = $(window).height() - $('.top').height();
+        height = Math.ceil(height) - 19;
+    $('body .bottom').attr('style', `height:${height}px`);
 });
-
+$(window).resize(function(){
+    var height = $(window).height() - $('.top').height();
+        height = Math.ceil(height) - 19;
+    $('body .bottom').attr('style', `height:${height}px`);
+});
 function load(data){
     config = data;
     $('.top .logo img').attr('src', config.logo);
