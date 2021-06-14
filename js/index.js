@@ -36,6 +36,7 @@ $(function(){
                 </div>
             `);
         }
+        $('.content').addClass('active');
     });
     $('.bottom').on('click', '.link', function(){
         window.open($(this).attr('data-link'), "_blank");
