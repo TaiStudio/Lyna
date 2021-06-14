@@ -53,27 +53,32 @@
         {
             "name": "Octavia",
             "service": "Internet",
-            "link": "https://www.youtube.com/playlist?list=PLZiAlHsp810GJPX3CScsk3HGiH-rYiDPh"
+            "link": "https://www.youtube.com/playlist?list=PLZiAlHsp810GJPX3CScsk3HGiH-rYiDPh",
+            "icon": "https://tai-studio.ml/img/others/octavia.png"
         },
         {
             "name": "Sofia",
             "service": "Internet",
-            "link": "https://github.com/TaiStudio/Sofia"
+            "link": "https://github.com/TaiStudio/Sofia",
+            "icon": "https://tai-studio.ml/img/others/sofia.png"
         },
         {
             "name": "IO",
             "service": "Internet",
-            "link": "https://io.tai-studio.ml/"
+            "link": "https://io.tai-studio.ml/",
+            "icon": "https://tai-studio.ml/img/others/IO.png"
         },
         {
             "name": "orchidee",
             "service": "Internet",
-            "link": "https://orchidee.ga/"
+            "link": "https://orchidee.ga/",
+            "icon": "https://tai-studio.ml/img/others/Orchidee.png"
         },
         {
             "name": "Brawlshoot",
             "service": "Internet",
-            "link": "https://brawlshoot-legithubdetai.vercel.app/"
+            "link": "https://brawlshoot-legithubdetai.vercel.app/",
+            "icon": "https://tai-studio.ml/img/others/Brawl%20Shoot.png"
         }
     ],
     "colors": [
