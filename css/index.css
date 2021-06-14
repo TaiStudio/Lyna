@@ -118,3 +118,23 @@ body .power a{
     text-decoration: none;
     color: var(--qua);
 }
+
+@media (max-width: 1000px) {
+    body .content{
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transform: translate(0%, 100%);
+    }
+    body .content.active{
+        transform: translate(0);
+    }
+    body .power{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: inherit;
+        bottom: inherit;
+    }
+}
