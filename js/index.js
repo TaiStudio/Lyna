@@ -26,6 +26,7 @@ $(function(){
                 <div class="link" data-link="${config.links[i].link}">
                     <div class="logo">
                         <img src="./img/services/${config.links[i].service}.png" alt="${config.links[i].service}">
+                        <img src="https://s2.googleusercontent.com/s2/favicons?domain=${config.links[i].link}">
                     </div>
                     <div class="name">
                         ${config.links[i].name}
