@@ -1,1 +1,52 @@
-{"name":"LeGitHubDeTai","font":"akira"} 
+{
+    "name": "LeGitHubDeTai",
+    "logo": "config/legithubdetai/legithubdetai.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCBEQSKPgaJiG4R02n5SMMKw"
+        },
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/la_chaine_de_tai"
+        },
+        {
+            "name": "Instagram",
+            "service": "Instagram",
+            "link": "https://youtube.com"
+        },
+        {
+            "name": "Github",
+            "service": "Github",
+            "link": "https://github.com/LeGitHubDeTai"
+        },
+        {
+            "name": "Spreadshirt",
+            "service": "spreadshirt",
+            "link": "https://shop.spreadshirt.fr/tai-studio/"
+        },
+        {
+            "name": "Tipeee",
+            "service": "tipeee",
+            "link": "https://fr.tipeee.com/tai-studio"
+        },
+        {
+            "name": "Buymeacoffee",
+            "service": "buymeacoffee",
+            "link": "https://www.buymeacoffee.com/taistudio"
+        },
+        {
+            "name": "Tai Studio",
+            "service": "Internet",
+            "link": "https://tai-studio.ml"
+        },
+        {
+            "name": "Animeback",
+            "service": "Internet",
+            "link": "https://animeback.tai-studio.ml/"
+        }
+    ]
+}
