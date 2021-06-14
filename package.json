@@ -1,0 +1,35 @@
+{
+  "name": "@taistudio/lyna",
+  "version": "1.0.0",
+  "description": "provide your social links",
+  "main": "main.js",
+  "scripts": {
+    "wizard": "node wizard.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaiStudio/Lyna.git"
+  },
+  "keywords": [
+    "Tai",
+    "Studio",
+    "provide",
+    "social"
+  ],
+  "author": "Tai Studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TaiStudio/Lyna/issues"
+  },
+  "homepage": "https://github.com/TaiStudio/Lyna#readme",
+  "dependencies": {
+    "clean-deep": "^3.4.0",
+    "create-file": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.1.0",
+    "is-url": "^1.2.4",
+    "mkdirp": "^1.0.4",
+    "path": "^0.12.7",
+    "slugg": "^1.2.1"
+  }
+}

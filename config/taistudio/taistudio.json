@@ -6,12 +6,12 @@
         {
             "name": "Youtube",
             "service": "Youtube",
-            "link": "https://youtube.com"
+            "link": "https://www.youtube.com/channel/UCZiVWB8_UNH4NLzr7XbaI8A"
         },
         {
             "name": "Twitch",
             "service": "Twitch",
-            "link": "https://youtube.com"
+            "link": "https://www.twitch.tv/tai_studio"
         },
         {
             "name": "Instagram",
@@ -19,9 +19,19 @@
             "link": "https://youtube.com"
         },
         {
-            "name": "Facebook",
-            "service": "Facebook",
-            "link": "https://youtube.com"
+            "name": "Github",
+            "service": "Github",
+            "link": "https://github.com/TaiStudio"
+        },
+        {
+            "name": "Spreadshirt",
+            "service": "spreadshirt",
+            "link": "https://shop.spreadshirt.fr/tai-studio/"
+        },
+        {
+            "name": "Tipeee",
+            "service": "tipeee",
+            "link": "https://fr.tipeee.com/tai-studio"
         },
         {
             "name": "Tai Studio",
