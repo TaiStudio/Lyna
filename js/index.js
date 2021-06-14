@@ -59,11 +59,15 @@ function load(data){
     for(i=0;i<config.links.length;i++){
         $('.bottom').append(`
             <div class="link" data-link="${config.links[i].link}">
-                <div class="logo">
-                    <img src="./img/services/${config.links[i].service}.png" alt="${config.links[i].service}">
+                <div class="left">
+                    <div class="logo">
+                        <img src="./img/services/${config.links[i].service}.png" alt="${config.links[i].service}">
+                    </div>
                 </div>
-                <div class="name">
-                    ${config.links[i].name}
+                <div class="center">
+                    <div class="name">
+                        ${config.links[i].name}
+                    </div>
                 </div>
                 <div class="arrow">
                     <img src="./img/assets/arrow-circle-right-solid.svg" alt="ARROW">

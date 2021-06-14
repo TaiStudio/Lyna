@@ -81,6 +81,23 @@ body .content .bottom .link{
     transition: 0.5s;
     transform: translate(100%);
 }
+body .content .bottom .link .left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+}
+body .content .bottom .link .center{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: translate(0, 37%);
+}
 body .content .bottom .link.active{
     transform: translate(0%);
 }
@@ -89,13 +106,15 @@ body .content .bottom .link:hover{
     color: var(--tri);
 }
 body .content .bottom .link .arrow{
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
     height: 50%;
-    transform: translate(500%);
+    transform: translate(110%, 50%);
     transition: 0.5s;
 }
 body .content .bottom .link:hover .arrow{
-    transform: translate(300%);
+    transform: translate(-50%, 50%);
 }
 body .content .bottom .link .arrow img{
     width: auto;
