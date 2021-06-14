@@ -22,10 +22,19 @@ $(function(){
     .fail(function(){
         $.getJSON(`../config/taistudio/taistudio.json`, function(data) {
             load(data);
+            $('body').append(`
+                <div class="error">
+                    <p>ERROR: PAGE NOT FOUND! CREATE THE <a href="https://github.com/TaiStudio/Lyna">OWN</a> !</p>
+                    <img src="./img/assets/close.png" class="close" />
+                </div>
+            `);
         })
     })
     $('.bottom').on('click', '.link', function(){
         window.open($(this).attr('data-link'), "_blank");
+    })
+    $('body').on('click', '.close', function(){
+        $('.error').remove();
     })
     var height = $(window).height() - $('.top').height();
         height = Math.ceil(height) - 19;

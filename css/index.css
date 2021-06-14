@@ -25,6 +25,21 @@ body{
 ::-webkit-scrollbar-thumb{
     background: var(--qua);
 }
+body .error{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #fc5c65;
+}
+body .error img{
+    position: absolute;
+    top: calc(50% / 2);
+    right: 1%;
+    height: 50%;
+    cursor: pointer;
+}
 body .background{
     position: absolute;
     top: 0;
