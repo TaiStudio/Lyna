@@ -34,6 +34,11 @@
             "link": "https://fr.tipeee.com/tai-studio"
         },
         {
+            "name": "Buymeacoffee",
+            "service": "buymeacoffee",
+            "link": "https://www.buymeacoffee.com/taistudio"
+        },
+        {
             "name": "Tai Studio",
             "service": "Internet",
             "link": "https://tai-studio.ml"
