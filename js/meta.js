@@ -15,6 +15,4 @@ if(page == ""){
     page = "taistudio";
 }
 
-var $metaOgImage = $('property[og="image:url"]');
-
-$metaOgImage.attr('content', `https://lyna.ga/config/${page}/${page}.png`);
+$('meta[property="og:image"]').attr('content', `https://lyna.ga/config/${page}/${page}.png`);
