@@ -24,6 +24,11 @@
             "link": "https://twitter.com/sireneframboise"
         },
         {
+            "name": "Patreon",
+            "service": "Patreon",
+            "link": "https://www.patreon.com/sireneframboise"
+        },
+        {
             "name": "Facebook",
             "service": "facebook",
             "link": "https://www.facebook.com/sireneframboise.twitch/"
