@@ -1,0 +1,37 @@
+{
+    "name": "SireneFramboise",
+    "logo": "pages/sireneframboise/sireneframboise.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/sireneframboise"
+        },
+        {
+            "name": "Instagram",
+            "service": "Instagram",
+            "link": "https://www.instagram.com/sireneframboise/"
+        },
+        {
+            "name": "Twitter",
+            "service": "Twitter",
+            "link": "https://twitter.com/sireneframboise"
+        },
+        {
+            "name": "Facebook",
+            "service": "facebook",
+            "link": "https://www.facebook.com/sireneframboise.twitch/"
+        },
+        {
+            "name": "Tiktok",
+            "service": "Tiktok",
+            "link": "https://www.tiktok.com/@sireneframboise"
+        },
+        {
+            "name": "SireneFramboise",
+            "service": "Internet",
+            "link": "https://www.sireneframboise.com/"
+        }
+    ]
+}

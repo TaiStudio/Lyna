@@ -2,8 +2,9 @@
   "name": "@taistudio/lyna",
   "version": "1.0.0",
   "description": "provide your social links",
-  "main": "main.js",
+  "main": "app/main.js",
   "scripts": {
+    "gui": "electron .",
     "wizard": "node wizard.js"
   },
   "repository": {
@@ -25,10 +26,12 @@
   "dependencies": {
     "clean-deep": "^3.4.0",
     "create-file": "^1.0.1",
+    "electron": "^13.1.2",
     "fs": "^0.0.1-security",
     "inquirer": "^8.1.0",
     "is-url": "^1.2.4",
     "mkdirp": "^1.0.4",
+    "nconf": "^0.11.2",
     "path": "^0.12.7",
     "slugg": "^1.2.1"
   }

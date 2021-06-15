@@ -15,6 +15,11 @@
             "link": "https://soundcloud.com/user-357305126-160770071"
         },
         {
+            "name": "Buymeacoffee",
+            "service": "buymeacoffee",
+            "link": "https://www.buymeacoffee.com/potion"
+        },
+        {
             "name": "Instagram",
             "service": "Instagram",
             "link": "https://www.instagram.com/potion_design/"
