@@ -9,6 +9,11 @@
             "link": "https://www.twitch.tv/sireneframboise"
         },
         {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCE937VAZSZyR-DaxiNBZ5QA"
+        },
+        {
             "name": "Instagram",
             "service": "Instagram",
             "link": "https://www.instagram.com/sireneframboise/"
