@@ -47,6 +47,9 @@ $(window).resize(function(){
 });
 function load(data){
     config = data;
+    if(config.power == false){
+        $('.power').remove();
+    }
     if(config.background != null){
         $('body').prepend(`
             <img class="background" src="${config.background}"/>
