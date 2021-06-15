@@ -15,5 +15,7 @@ if(page == ""){
     page = "taistudio";
 }
 
+document.querySelector('meta[name="description"]').setAttribute("content", page);
+
 $('meta[property="og:image"]').attr('content', `https://lyna.ga/config/${page}/${page}.png`);
 $('meta[property="twitter:image"]').attr('content', `https://lyna.ga/config/${page}/${page}.png`);
