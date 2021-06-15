@@ -1,0 +1,42 @@
+{
+    "name": "LaTaniereTV",
+    "logo": "pages/latanieretv/latanieretv.jpg",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/latanieretv"
+        },
+        {
+            "name": "Book of the face",
+            "service": "facebook",
+            "link": "http://facebook.com/latanieretv"
+        },
+        {
+            "name": "Le Gazouilleux",
+            "service": "twitter",
+            "link": "http://twitter.com/latanieretv"
+        },
+        {
+            "name": "ToéTube",
+            "service": "youtube",
+            "link": "http://youtube.com/latanieretv"
+        },
+        {
+            "name": "Business Enquiries",
+            "service": "Internet",
+            "link": "latanieretv@gmail.com"
+        },
+        {
+            "name": "Shop Now",
+            "service": "streamelements",
+            "link": "https://merch.streamelements.com/latanieretv"
+        },
+        {
+            "name": "Dons",
+            "service": "streamelements",
+            "link": "https://streamelements.com/latanieretv/tip"
+        }
+    ]
+}

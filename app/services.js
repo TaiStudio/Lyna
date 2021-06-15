@@ -29,6 +29,7 @@ module.exports = [
     "soundcloud",
     "spotify",
     "spreadshirt",
+    "streamelements",
     "tiktok",
     "tipeee",
     "twitch",
