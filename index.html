@@ -48,9 +48,12 @@
         <link rel="stylesheet" href="./css/themes.css">
 
         <script>
-            document.querySelector('meta[name="description"]').setAttribute("content", page);
+            $(document).ready(function(){
+                $('title').text("Your new title tag here");
+                $('meta[name=description]').attr('content', 'new Meta Description here');
+            });
         </script>
-        
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLGKRRCSQP"></script>
         <script>
