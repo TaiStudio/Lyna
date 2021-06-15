@@ -1,0 +1,37 @@
+{
+    "name": "SynDofficiel",
+    "logo": "pages/syndofficiel/syndofficiel.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/syndofficiel"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCfyUDWN4lpQswmKJwWT3QXA"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.gg/BwDE3tY"
+        },
+        {
+            "name": "Instagram",
+            "service": "Instagram",
+            "link": "https://www.instagram.com/syndofficiel/"
+        },
+        {
+            "name": "Utip",
+            "service": "utip",
+            "link": "https://www.utip.io/s/HCUnTB"
+        },
+        {
+            "name": "Don",
+            "service": "streamlabs",
+            "link": "https://streamlabs.com/syndofficiel"
+        }
+    ]
+}
