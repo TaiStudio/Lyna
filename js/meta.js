@@ -15,7 +15,31 @@ if(page == ""){
     page = "taistudio";
 }
 
-document.querySelector('meta[name="description"]').setAttribute("content", page);
+$('body').append(`
+    <meta name="title" content="Lyna | Home">
+    <meta name="description" content="Create a page for provide your social links and other.">
+    <meta name="keywords" content="open-source, links, lien, liens, provider, promote, share, free, social, taistudio, lyna">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="French">
+    <meta name="author" content="Tai Studio">
 
-$('meta[property="og:image"]').attr('content', `https://lyna.ga/pages/${page}/${page}.png`);
-$('meta[property="twitter:image"]').attr('content', `https://lyna.ga/pages/${page}/${page}.png`);
+    <meta property="og:title" content="Lyna | Home"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://lyna.ga/"/>
+    <meta property="og:image" content="https://lyna.ga/pages/taistudio/Tai%20Studio.png"/>
+    <meta property="og:description" content="Create a page for provide your social links and other."/>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://lyna.ga/">
+    <meta name="twitter:title" content="Lyna | Home">
+    <meta name="twitter:description" content="Create a page for provide your social links and other.">
+    <meta name="twitter:creator" content="Tai Studio">
+
+    <meta name="twitter:image" content="https://lyna.ga/pages/taistudio/Tai%20Studio.png">
+
+    <title>Lyna | Home</title>
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/index.css" id="css">
+    <link rel="stylesheet" href="./css/themes.css">
+`);

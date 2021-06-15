@@ -47,6 +47,36 @@ $(window).resize(function(){
 });
 function load(data){
     config = data;
+
+    $('body').append(`
+        <meta name="title" content="Lyna | ${config.name}">
+        <meta name="description" content="Create a page for provide your social links and other.">
+        <meta name="keywords" content="open-source, links, lien, liens, provider, promote, share, free, social, taistudio, lyna">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="French">
+        <meta name="author" content="Tai Studio">
+
+        <meta property="og:title" content="Lyna | ${config.name}"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://lyna.ga/"/>
+        <meta property="og:image" content="https://lyna.ga/${config.logo}"/>
+        <meta property="og:description" content="Create a page for provide your social links and other."/>
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="https://lyna.ga/">
+        <meta name="twitter:title" content="Lyna | ${config.name}">
+        <meta name="twitter:description" content="Create a page for provide your social links and other.">
+        <meta name="twitter:creator" content="Tai Studio">
+
+        <meta name="twitter:image" content="https://lyna.ga/${config.logo}">
+
+        <title>Lyna | Home</title>
+        <link rel="stylesheet" href="./css/font.css">
+        <link rel="stylesheet" href="./css/index.css" id="css">
+        <link rel="stylesheet" href="./css/themes.css">
+    `);
+
     if(config.background != null){
         $('body').prepend(`
             <img class="background" src="${config.background}"/>
