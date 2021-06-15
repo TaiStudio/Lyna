@@ -1,0 +1,37 @@
+{
+    "name": "Marypou",
+    "logo": "pages/marypou/marypou.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/marypou"
+        },
+        {
+            "name": "Instagram",
+            "service": "Instagram",
+            "link": "https://www.instagram.com/marypou.art"
+        },
+        {
+            "name": "Amazon",
+            "service": "Amazon",
+            "link": "https://www.amazon.ca/hz/wishlist/ls/1ISK0YSX7OWIF?ref_=wl_share"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discordapp.com/invite/eKDXRPJ"
+        },
+        {
+            "name": "Tiktok",
+            "service": "Tiktok",
+            "link": "https://www.tiktok.com/@marypou.art"
+        },
+        {
+            "name": "Marypou",
+            "service": "Internet",
+            "link": "https://www.marypou.art/"
+        }
+    ]
+}
