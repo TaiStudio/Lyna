@@ -47,6 +47,13 @@
         <link rel="stylesheet" href="./css/index.css" id="css">
         <link rel="stylesheet" href="./css/themes.css">
 
+        <script>
+            document
+                .getElementsByTagName('meta')
+                .namedItem('description')
+                .setAttribute('content','My Meta Description Here')
+        </script>
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLGKRRCSQP"></script>
         <script>
@@ -73,12 +80,5 @@
         </div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('title').text("Your new title tag here");
-            $('meta[name=description]').attr('content', 'new Meta Description here');
-        });
-    </script>
     <script src="js/index.js"></script>
-    <script src="js/meta.js"></script>
 </html>
