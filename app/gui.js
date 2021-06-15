@@ -8,31 +8,6 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
-const { app, BrowserWindow, ipcMain } = require('electron');
-const fs = require('fs');
-const path = require('path');
+const { ipcRenderer } = require("electron");
 
-app.allowRendererProcessReuse = true;
-app.whenReady().then(() => {
-    createWindow();
-
-    ipcMain.on('save', (event, arg) => {
-        console.log(arg);
-        // fs.writeSync(path.join(__dirname, 'pages'), data);
-    });
-});
-
-function createWindow () {
-    const win = new BrowserWindow({
-        width: 800,
-        height: 600,
-        autoHideMenuBar: true,
-        resizable: false,
-        webPreferences: {
-            nodeIntegration: true,
-            contextIsolation: false
-        }
-    })
-  
-    win.loadFile('app/gui.html');
-}
+console.log(ipcRenderer.sendSync('save', 'ping'));

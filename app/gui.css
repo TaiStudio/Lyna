@@ -1,0 +1,53 @@
+body{
+    background: #121212;
+    color: white;
+}
+.elements{
+    position: relative;
+    width: 45%;
+    display: flex;
+    background: blueviolet;
+}
+.elements.general{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    background: blueviolet;
+    height: 48%;
+}
+.elements.colors{
+    position: absolute;
+    left: 0;
+    bottom: 7%;
+    width: 50%;
+    background: blueviolet;
+    height: 44%;
+}
+.elements.links{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 49%;
+    background: blueviolet;
+    height: 93%;
+}
+.elements.save{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: blueviolet;
+    height: 6%;
+    cursor: pointer;
+}
+.elements .title{
+    width: 100%;
+    position: relative;
+    background: red;
+}
+.elements .element{
+    width: 100%;
+    position: relative;
+    background: red;
+}
