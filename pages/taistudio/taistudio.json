@@ -25,6 +25,11 @@
             "link": "https://github.com/TaiStudio"
         },
         {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.com/invite/kHWRn2x"
+        },
+        {
             "name": "Spreadshirt",
             "service": "spreadshirt",
             "link": "https://shop.spreadshirt.fr/tai-studio/"
