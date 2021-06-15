@@ -1,0 +1,59 @@
+{
+    "name": "Starrysky",
+    "logo": "config/starrysky/starrysky.jpg",
+    "font": "ancient",
+    "background": "config/starrysky/background.png",
+    "links": [
+        {
+            "name": "Starrysky",
+            "service": "Internet",
+            "link": "http://www.starrysky.fr/",
+            "icon": "./config/starrysky/Starrysky-2016-logo-alongueur-2.png"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/starryskyproject"
+        },
+        {
+            "name": "Bandcamp",
+            "service": "Bandcamp",
+            "link": "https://starrysky.bandcamp.com/"
+        },
+        {
+            "name": "Spotify",
+            "service": "Spotify",
+            "link": "https://open.spotify.com/artist/7nNqW0I0m5fiORv6P38fP4?si=CXDLkczBTlS7QWr_Uf0Psw&dl_branch=1"
+        },
+        {
+            "name": "Deezer",
+            "service": "Deezer",
+            "link": "https://www.deezer.com/fr/artist/92541"
+        },
+        {
+            "name": "Apple Music",
+            "service": "applemusic",
+            "link": "https://music.apple.com/us/artist/starrysky/1309189212"
+        },
+        {
+            "name": "Tipeee",
+            "service": "Tipeee",
+            "link": "https://fr.tipeee.com/tai-wuang-shindehai"
+        },
+        {
+            "name": "Twitter",
+            "service": "Twitter",
+            "link": "https://twitter.com/taiwuang"
+        },
+        {
+            "name": "Instagram",
+            "service": "Instagram",
+            "link": "https://www.instagram.com/sasha_strsky/"
+        },
+        {
+            "name": "Facebook",
+            "service": "Facebook",
+            "link": "https://www.facebook.com/Starryskyproject"
+        }
+    ]
+}
