@@ -1,8 +1,8 @@
 {
     "name": "Tai Studio",
-    "logo": "config/taistudio/taistudio.png",
+    "logo": "pages/taistudio/taistudio.png",
     "font": "ancient",
-    "background": "config/taistudio/Tai Studio.png",
+    "background": "pages/taistudio/Tai Studio.png",
     "links": [
         {
             "name": "Youtube",
@@ -43,7 +43,7 @@
             "name": "Tai Studio",
             "service": "Internet",
             "link": "https://tai-studio.ml",
-            "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/config/taistudio/taistudio.png"
+            "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png"
         },
         {
             "name": "Animeback",

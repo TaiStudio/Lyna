@@ -16,7 +16,7 @@ const fs = require("fs");
 const slugify = require("slugg");
 const mkdirp = require("mkdirp");
 const cleanDeep = require("clean-deep");
-const existingSlugs = fs.readdirSync(path.join(__dirname, "config"));
+const existingSlugs = fs.readdirSync(path.join(__dirname, "pages"));
 var createFile = require("create-file");
 
 const questions = [
@@ -48,7 +48,7 @@ inquirer
   .then(function (answers) {
     const extension = cleanDeep(answers);
     const slug = slugify(extension.name);
-    const basepath = path.join(__dirname, `config/${slug}`);
+    const basepath = path.join(__dirname, `pages/${slug}`);
     const jsonPath = path.join(basepath, `${slug}.json`);
     mkdirp(basepath);
     createFile(

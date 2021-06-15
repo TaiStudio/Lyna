@@ -1,14 +1,14 @@
 {
     "name": "Starrysky",
-    "logo": "config/starrysky/starrysky.jpeg",
+    "logo": "pages/starrysky/starrysky.jpeg",
     "font": "ancient",
-    "background": "config/starrysky/background.png",
+    "background": "pages/starrysky/background.png",
     "links": [
         {
             "name": "Starrysky",
             "service": "Internet",
             "link": "http://www.starrysky.fr/",
-            "icon": "./config/starrysky/Starrysky-2016-logo-alongueur-2.png"
+            "icon": "./pages/starrysky/Starrysky-2016-logo-alongueur-2.png"
         },
         {
             "name": "Youtube",

@@ -16,11 +16,11 @@ if(page == ""){
 }
 
 $(function(){
-    $.getJSON(`../config/${page}/${page}.json`, function(data) {
+    $.getJSON(`../pages/${page}/${page}.json`, function(data) {
         load(data);
     })
     .fail(function(){
-        $.getJSON(`../config/taistudio/taistudio.json`, function(data) {
+        $.getJSON(`../pages/taistudio/taistudio.json`, function(data) {
             load(data);
             $('body').append(`
                 <div class="error">

@@ -1,6 +1,6 @@
 {
     "name": "LeGitHubDeTai",
-    "logo": "config/legithubdetai/legithubdetai.png",
+    "logo": "pages/legithubdetai/legithubdetai.png",
     "font": "ancient",
     "links": [
         {
@@ -47,7 +47,7 @@
             "name": "Tai Studio",
             "service": "Internet",
             "link": "https://tai-studio.ml",
-            "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/config/taistudio/taistudio.png"
+            "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png"
         },
         {
             "name": "Animeback",
