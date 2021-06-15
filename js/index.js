@@ -72,9 +72,6 @@ function load(data){
         <meta name="twitter:image" content="https://lyna.ga/${config.logo}">
 
         <title>Lyna | Home</title>
-        <link rel="stylesheet" href="./css/font.css">
-        <link rel="stylesheet" href="./css/index.css" id="css">
-        <link rel="stylesheet" href="./css/themes.css">
     `);
 
     if(config.background != null){
