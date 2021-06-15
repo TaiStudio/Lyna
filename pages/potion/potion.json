@@ -10,6 +10,11 @@
             "link": "https://www.youtube.com/channel/UCdnKkw5D0ZEzRP01b73t2Ng"
         },
         {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/potion_design"
+        },
+        {
             "name": "SoundCloud",
             "service": "Soundcloud",
             "link": "https://soundcloud.com/user-357305126-160770071"
