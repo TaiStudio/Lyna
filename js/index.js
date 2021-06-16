@@ -38,13 +38,13 @@ $(function(){
     })
     var height = $(window).height() - $('.top').height();
         height = Math.ceil(height) - 19;
-    $('body .bottom').attr('style', `height:${height}px`);
+    // $('body .bottom').attr('style', `height:${height}px`);
 });
-$(window).resize(function(){
-    var height = $(window).height() - $('.top').height();
-        height = Math.ceil(height) - 19;
-    $('body .bottom').attr('style', `height:${height}px`);
-});
+// $(window).resize(function(){
+//     var height = $(window).height() - $('.top').height();
+//         height = Math.ceil(height) - 19;
+//     $('body .bottom').attr('style', `height:${height}px`);
+// });
 function load(data){
     config = data;
     if(config.power == false){

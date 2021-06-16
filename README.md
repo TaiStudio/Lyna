@@ -13,3 +13,12 @@
 5. create an pull request
 6. open your web browser on `https://lyna.ga/YOUR_USER_NAME`
 7. enjoy
+
+<p style="text-align: center;">
+    <a href="https://lyna.ga/taistudio">
+        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/taistudio.png" width="45%"/>
+    </a>
+    <a href="https://lyna.ga/taistudio">
+        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/taistudio.png" width="45%"/>
+    </a>
+</p>
