@@ -14,6 +14,38 @@
 6. open your web browser on `https://lyna.ga/YOUR_USER_NAME`
 7. enjoy
 
+## ⚙️ Supported services
+````
+amazon
+applemusic
+bandcamp
+bitbucket
+buymeacoffee
+deezer
+discord
+facebook
+github
+gitlab
+instagram
+instantgaming
+internet
+linkedIn
+mail
+malt
+paypal
+snapchat
+soundcloud
+spotify
+spreadshirt
+streamelements
+tiktok
+tipeee
+twitch
+twitter
+ulule
+youtube
+````
+
 ## 📷 ScreenShots
 <p align="center">
     <a href="https://lyna.ga/taistudio">
