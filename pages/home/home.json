@@ -1,0 +1,49 @@
+{
+    "name": "Tai Studio",
+    "logo": "pages/home/home.png",
+    "font": "ancient",
+    "background": "pages/home/homeback.png",
+    "power": false,
+    "links": [
+        {
+            "name": "How to create my own page ?",
+            "service": "Internet",
+            "link": "https://github.com/TaiStudio/Lyna/blob/main/CONTRIBUTING.md",
+            "icon": "pages/home/add.png"
+        },
+        {
+            "name": "I have found a bug ! (github)",
+            "service": "Internet",
+            "link": "https://github.com/TaiStudio/Lyna/issues",
+            "icon": "pages/home/bug.png"
+        },
+        {
+            "name": "I have found a bug ! (discord)",
+            "service": "Internet",
+            "link": "https://github.com/TaiStudio/Lyna/issues",
+            "icon": "pages/home/bug.png"
+        },
+        {
+            "name": "I have an idea !",
+            "service": "Internet",
+            "link": "https://github.com/TaiStudio/Lyna/discussions/categories/ideas",
+            "icon": "pages/home/idea.png"
+        },
+        {
+            "name": "Github",
+            "service": "Github",
+            "link": "https://github.com/TaiStudio"
+        },
+        {
+            "name": "Buymeacoffee",
+            "service": "buymeacoffee",
+            "link": "https://www.buymeacoffee.com/taistudio"
+        },
+        {
+            "name": "Tai Studio",
+            "service": "Internet",
+            "link": "https://lyna.ga/taistudio",
+            "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png"
+        }
+    ]
+}

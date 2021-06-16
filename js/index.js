@@ -12,7 +12,7 @@ var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
     page = document.URL.replace(`${page}/`, '');
 
 if(page == ""){
-    page = "taistudio";
+    page = "home";
 }
 
 $(function(){
