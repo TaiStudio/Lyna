@@ -35,6 +35,11 @@
             "link": "https://merch.streamelements.com/latanieretv"
         },
         {
+            "name": "Amazon",
+            "service": "Amazon",
+            "link": "https://www.amazon.ca/hz/wishlist/ls/2YARGKOUDZ0ZL?ref_=wl_share"
+        },
+        {
             "name": "Dons",
             "service": "streamelements",
             "link": "https://streamelements.com/latanieretv/tip"
