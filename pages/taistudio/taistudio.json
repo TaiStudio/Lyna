@@ -3,6 +3,7 @@
     "logo": "pages/taistudio/taistudio.png",
     "font": "ancient",
     "background": "pages/taistudio/Tai Studio.png",
+    "power": false,
     "links": [
         {
             "name": "Youtube",
