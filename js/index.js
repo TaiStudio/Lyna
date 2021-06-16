@@ -125,7 +125,7 @@ function twitchGetID(name) {
         success: function (result) {
             if(result["users"] != null){
                 if(twitchGetStream(result["users"][0]["_id"]) == true){
-                    inlive = `<div class="live"></div>`;
+                    $('.link.twitchButton .left .logo').append(`<div class="live"></div>`);
                 }
             }
         },
