@@ -89,6 +89,7 @@ function load(data){
             var twitchName = config.links[i].link.substr(0,config.links[i].link.lastIndexOf('/'));
             twitchName = config.links[i].link.replace(`${twitchName}/`, '');
             var twitchID = twitchGetID(twitchName);
+            console.log(twitchName);
             console.log(twitchID);
             console.log(twitchGetStream(twitchID));
             if(twitchGetStream(twitchID) == true){
