@@ -20,7 +20,7 @@ $(function(){
         load(data);
     })
     .fail(function(){
-        $.getJSON(`../pages/taistudio/taistudio.json`, function(data) {
+        $.getJSON(`../pages/home/home.json`, function(data) {
             load(data);
             $('body').append(`
                 <div class="error">
