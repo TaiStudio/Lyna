@@ -15,36 +15,34 @@
 7. enjoy
 
 ## ⚙️ Supported services
-````
-amazon
-applemusic
-bandcamp
-bitbucket
-buymeacoffee
-deezer
-discord
-facebook
-github
-gitlab
-instagram
-instantgaming
-internet
-linkedIn
-mail
-malt
-paypal
-snapchat
-soundcloud
-spotify
-spreadshirt
-streamelements
-tiktok
-tipeee
-twitch
-twitter
-ulule
-youtube
-````
+- amazon
+- applemusic
+- bandcamp
+- bitbucket
+- buymeacoffee
+- deezer
+- discord
+- facebook
+- github
+- gitlab
+- instagram
+- instantgaming
+- internet
+- linkedIn
+- mail
+- malt
+- paypal
+- snapchat
+- soundcloud
+- spotify
+- spreadshirt
+- streamelements
+- tiktok
+- tipeee
+- twitch
+- twitter
+- ulule
+- youtube
 
 ## 📷 ScreenShots
 <p align="center">
