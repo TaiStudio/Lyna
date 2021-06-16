@@ -7,7 +7,7 @@
     "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png",
     "links": [
         {
-            "name": "How to create my own page ?",
+            "name": "How to create/edit my own page ?",
             "service": "Internet",
             "link": "https://github.com/TaiStudio/Lyna/blob/main/CONTRIBUTING.md",
             "icon": "pages/home/add.png"
