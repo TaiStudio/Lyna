@@ -78,7 +78,7 @@ function load(data){
     }
     for(i=0;i<config.links.length;i++){
         var icon,
-            inlive = "";
+            twitchButton = "";
         if(config.links[i].icon != null){
             icon = config.links[i].icon;
         }
@@ -88,17 +88,17 @@ function load(data){
         if(config.links[i].link.includes('twitch.tv/')){
             var twitchName = config.links[i].link.substr(0,config.links[i].link.lastIndexOf('/'));
             twitchName = config.links[i].link.replace(`${twitchName}/`, '');
+            twitchButton = "twitchButton";
             twitchGetID(twitchName);
         }
         if(config.icon != null){
             $('head').append(`<link rel="shortcut icon" href="${config.icon}" type="image/x-icon">`);
         }
         $('.bottom').append(`
-            <div class="link" data-link="${config.links[i].link}">
+            <div class="link" data-link="${config.links[i].link}" ${twitchButton}>
                 <div class="left">
                     <div class="logo">
                         <img src="${icon}" alt="${config.links[i].service}">
-                        ${inlive}
                     </div>
                 </div>
                 <div class="center">
