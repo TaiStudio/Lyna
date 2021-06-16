@@ -92,7 +92,7 @@ body .content .bottom .link{
     position: relative;
     text-align: center;
     width: 100%;
-    height: 8%;
+    height: 7%;
     background: var(--sec);
     cursor: pointer;
     display: flex;
