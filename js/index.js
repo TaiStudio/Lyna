@@ -141,6 +141,7 @@ function twitchGetStream(id) {
         beforeSend: function (xhr) { xhr.setRequestHeader('Client-ID', '4mojfuyk1x22s12dv0uyzs63rasstx');xhr.setRequestHeader('Accept', 'application/vnd.twitchtv.v5+json'); },
         success: function (result) {
             if(result["stream"] != null){
+                console.log(result);
                 return true;
             }
             return false;
