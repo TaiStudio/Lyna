@@ -20,7 +20,7 @@ body{
     -moz-user-select: none;
 }
 body .hide{
-    display: hide;
+    display: none!important;
 }
 ::-webkit-scrollbar{
     width: 0.5em;
