@@ -1,9 +1,10 @@
 {
-    "name": "Tai Studio",
+    "name": "Lyna by Tai Studio",
     "logo": "pages/home/home.png",
     "font": "ancient",
     "background": "pages/home/homeback.png",
     "power": false,
+    "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png",
     "links": [
         {
             "name": "How to create my own page ?",
