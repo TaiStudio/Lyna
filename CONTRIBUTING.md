@@ -19,7 +19,7 @@
     <a href="https://lyna.ga/taistudio">
         <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/taistudio.png" width="45%"/>
     </a>
-    <a href="https://lyna.ga/taistudio">
-        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/taistudio.png" width="45%"/>
+    <a href="https://lyna.ga/potion">
+        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/potion.png" width="45%"/>
     </a>
 </p>
