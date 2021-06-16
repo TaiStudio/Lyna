@@ -23,6 +23,7 @@ module.exports = [
     "instantgaming",
     "internet",
     "linkedIn",
+    "mail",
     "malt",
     "paypal",
     "snapchat",
