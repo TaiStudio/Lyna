@@ -19,6 +19,9 @@ body{
     user-select: none;
     -moz-user-select: none;
 }
+body .hide{
+    display: hide;
+}
 ::-webkit-scrollbar{
     width: 0.5em;
 }

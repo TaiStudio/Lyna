@@ -78,7 +78,8 @@ function load(data){
     }
     for(i=0;i<config.links.length;i++){
         var icon,
-            twitchButton = "";
+            twitchButton = "",
+            display = "";
         if(config.links[i].icon != null){
             icon = config.links[i].icon;
         }
@@ -94,8 +95,11 @@ function load(data){
         if(config.icon != null){
             $('head').append(`<link rel="shortcut icon" href="${config.icon}" type="image/x-icon">`);
         }
+        if(config.links[i].display == false){
+            display = "hide";
+        }
         $('.bottom').append(`
-            <div class="link ${twitchButton}" data-link="${config.links[i].link}">
+            <div class="link ${twitchButton} ${display}" data-link="${config.links[i].link}">
                 <div class="left">
                     <div class="logo">
                         <img src="${icon}" alt="${config.links[i].service}">

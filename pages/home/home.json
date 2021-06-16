@@ -21,7 +21,8 @@
             "name": "I have found a bug ! (discord)",
             "service": "Internet",
             "link": "https://github.com/TaiStudio/Lyna/issues",
-            "icon": "pages/home/bug.png"
+            "icon": "pages/home/bug.png",
+            "display": false
         },
         {
             "name": "I have an idea !",
