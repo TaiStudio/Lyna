@@ -122,7 +122,6 @@ function twitchGetID(name) {
         url: `https://api.twitch.tv/kraken/users?login=${name}`,
         beforeSend: function (xhr) { xhr.setRequestHeader('Client-ID', '4mojfuyk1x22s12dv0uyzs63rasstx');xhr.setRequestHeader('Accept', 'application/vnd.twitchtv.v5+json'); },
         success: function (result) {
-            console.log(result);
             if(result["users"] != null){
                 return result["users"][0]["_id"];
             }
