@@ -90,6 +90,9 @@ function load(data){
             twitchName = config.links[i].link.replace(`${twitchName}/`, '');
             twitchGetID(twitchName);
         }
+        if(config.icon != null){
+            $('head').append(`<link rel="shortcut icon" href="${config.icon}" type="image/x-icon">`);
+        }
         $('.bottom').append(`
             <div class="link" data-link="${config.links[i].link}">
                 <div class="left">
