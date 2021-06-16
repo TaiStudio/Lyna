@@ -14,7 +14,8 @@
 6. open your web browser on `https://lyna.ga/YOUR_USER_NAME`
 7. enjoy
 
-<p style="text-align: center;">
+## 📷 ScreenShots
+<p align="center">
     <a href="https://lyna.ga/taistudio">
         <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/taistudio.png" width="45%"/>
     </a>
