@@ -2,6 +2,7 @@
     "name": "SireneFramboise",
     "logo": "pages/sireneframboise/sireneframboise.png",
     "font": "ancient",
+    "power": false,
     "links": [
         {
             "name": "Twitch",

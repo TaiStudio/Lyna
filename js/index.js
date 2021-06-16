@@ -77,18 +77,26 @@ function load(data){
         $('body').addClass(config.theme);
     }
     for(i=0;i<config.links.length;i++){
-        var icon;
+        var icon,inlive;
         if(config.links[i].icon != null){
             icon = config.links[i].icon;
         }
         else{
             icon = `./img/services/${config.links[i].service}.png`;
         }
+        if(config.links[i].link.includes('twitch.tv/')){
+            var twitchName = config.links[i].link.substr(0,config.links[i].link.lastIndexOf('/'));
+            twitchName = config.links[i].link.replace(`${twitchName}/`, '');
+            if(twitchGetStream(twitchGetID(twitchName))){
+                inlive = `<div class="live"></div>`;
+            }
+        }
         $('.bottom').append(`
             <div class="link" data-link="${config.links[i].link}">
                 <div class="left">
                     <div class="logo">
                         <img src="${icon}" alt="${config.links[i].service}">
+                        ${inlive}
                     </div>
                 </div>
                 <div class="center">
@@ -106,4 +114,36 @@ function load(data){
         $('.content').addClass('active');
     }, 1000);
     $('.link').addClass('active');
+}
+function twitchGetID(name) {
+    $.ajax({
+        type: "GET",
+        url: `https://api.twitch.tv/kraken/users?login=${name}`,
+        beforeSend: function (xhr) { xhr.setRequestHeader('Client-ID', '4mojfuyk1x22s12dv0uyzs63rasstx');xhr.setRequestHeader('Accept', 'application/vnd.twitchtv.v5+json'); },
+        success: function (result) {
+            console.log(result);
+            if(result["users"] != null){
+                return result["users"][0]["_id"];
+            }
+        },
+        error: function (result) {
+            return false;
+        }
+    });
+}
+function twitchGetStream(id) {
+    $.ajax({
+        type: "GET",
+        url: `https://api.twitch.tv/kraken/streams/${id}`,
+        beforeSend: function (xhr) { xhr.setRequestHeader('Client-ID', '4mojfuyk1x22s12dv0uyzs63rasstx');xhr.setRequestHeader('Accept', 'application/vnd.twitchtv.v5+json'); },
+        success: function (result) {
+            if(result["stream"] != null){
+                return true;
+            }
+            return false;
+        },
+        error: function (result) {
+            return false;
+        }
+    });
 }
