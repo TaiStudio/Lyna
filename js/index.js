@@ -88,13 +88,7 @@ function load(data){
         if(config.links[i].link.includes('twitch.tv/')){
             var twitchName = config.links[i].link.substr(0,config.links[i].link.lastIndexOf('/'));
             twitchName = config.links[i].link.replace(`${twitchName}/`, '');
-            var twitchID = twitchGetID(twitchName);
-            console.log(twitchName);
-            console.log(twitchID);
-            console.log(twitchGetStream(twitchID));
-            if(twitchGetStream(twitchID) == true){
-                inlive = `<div class="live"></div>`;
-            }
+            twitchGetID(twitchName);
         }
         $('.bottom').append(`
             <div class="link" data-link="${config.links[i].link}">
@@ -127,7 +121,9 @@ function twitchGetID(name) {
         beforeSend: function (xhr) { xhr.setRequestHeader('Client-ID', '4mojfuyk1x22s12dv0uyzs63rasstx');xhr.setRequestHeader('Accept', 'application/vnd.twitchtv.v5+json'); },
         success: function (result) {
             if(result["users"] != null){
-                return result["users"][0]["_id"];
+                if(twitchGetStream(result["users"][0]["_id"]) == true){
+                    inlive = `<div class="live"></div>`;
+                }
             }
         },
         error: function (result) {
