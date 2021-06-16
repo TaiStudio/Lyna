@@ -103,6 +103,17 @@ body .content .bottom .link{
     transition: 0.5s;
     transform: translate(100%);
 }
+body .content .bottom .link .live{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 10%);
+    width: 20%;
+    height: 30%;
+    clip-path: circle();
+    animation: clin 1.5s infinite;
+    background: #ff4e50;
+}
 body .content .bottom .link .left{
     position: absolute;
     top: 0;
@@ -158,6 +169,18 @@ body .power{
 body .power a{
     text-decoration: none;
     color: var(--qua);
+}
+
+@keyframes clin{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 
 @media (max-width: 1000px) {
