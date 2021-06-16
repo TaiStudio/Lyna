@@ -95,7 +95,7 @@ function load(data){
             $('head').append(`<link rel="shortcut icon" href="${config.icon}" type="image/x-icon">`);
         }
         $('.bottom').append(`
-            <div class="link" data-link="${config.links[i].link}" ${twitchButton}>
+            <div class="link ${twitchButton}" data-link="${config.links[i].link}">
                 <div class="left">
                     <div class="logo">
                         <img src="${icon}" alt="${config.links[i].service}">
