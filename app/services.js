@@ -36,5 +36,6 @@ module.exports = [
     "twitch",
     "twitter",
     "ulule",
+    "utip",
     "youtube"
 ];

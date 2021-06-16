@@ -42,6 +42,7 @@
 - twitch
 - twitter
 - ulule
+- utip
 - youtube
 
 ## 📷 ScreenShots
