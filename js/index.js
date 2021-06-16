@@ -77,7 +77,8 @@ function load(data){
         $('body').addClass(config.theme);
     }
     for(i=0;i<config.links.length;i++){
-        var icon,inlive;
+        var icon,
+            inlive = "";
         if(config.links[i].icon != null){
             icon = config.links[i].icon;
         }
