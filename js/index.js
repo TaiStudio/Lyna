@@ -124,10 +124,7 @@ function twitchGetID(name) {
         beforeSend: function (xhr) { xhr.setRequestHeader('Client-ID', '4mojfuyk1x22s12dv0uyzs63rasstx');xhr.setRequestHeader('Accept', 'application/vnd.twitchtv.v5+json'); },
         success: function (result) {
             if(result["users"] != null){
-                console.log(twitchGetStream(result["users"][0]["_id"]));
-                if(twitchGetStream(result["users"][0]["_id"]) == true){
-                    $('.link.twitchButton .left .logo').append(`<div class="live"></div>`);
-                }
+                twitchGetStream(result["users"][0]["_id"]);
             }
         },
         error: function (result) {
@@ -143,7 +140,7 @@ function twitchGetStream(id) {
         success: function (result) {
             if(result["stream"] != null){
                 console.log(result);
-                return true;
+                $('.link.twitchButton .left .logo').append(`<div class="live"></div>`);
             }
             return false;
         },
