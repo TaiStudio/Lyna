@@ -87,7 +87,8 @@ function load(data){
         if(config.links[i].link.includes('twitch.tv/')){
             var twitchName = config.links[i].link.substr(0,config.links[i].link.lastIndexOf('/'));
             twitchName = config.links[i].link.replace(`${twitchName}/`, '');
-            if(twitchGetStream(twitchGetID(twitchName))){
+            var twitchID = twitchGetID(twitchName);
+            if(twitchGetStream(twitchID)){
                 inlive = `<div class="live"></div>`;
             }
         }
