@@ -11,8 +11,10 @@
 var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
     page = document.URL.replace(`${page}/`, '');
 
+var config = null;
+
 if(page == ""){
-    page = "home";
+    page = "eldarkar66";
 }
 
 $(function(){
@@ -47,67 +49,67 @@ $(function(){
 // });
 function load(data){
     config = data;
-    if(config.power == false){
+    if(data.power == false){
         $('.power').remove();
     }
-    if(config.background != null){
+    if(data.background != null){
         $('body').prepend(`
-            <img class="background" src="${config.background}"/>
+            <img class="background" src="${data.background}"/>
         `);
     }
-    $('.top .logo img').attr('src', config.logo);
-    $('.top .name').text(config.name);
-    $('title').text(`Lyna | ${config.name}`);
-    if(config.colors != null){
-        if(config.colors.length == 4){
+    $('.top .logo img').attr('src', data.logo);
+    $('.top .name').text(data.name);
+    $('title').text(`Lyna | ${data.name}`);
+    if(data.colors != null){
+        if(data.colors.length == 4){
             $('body').append(`
                 <style>
                     body{
-                        --pri: ${config.colors[0]};
-                        --sec: ${config.colors[1]};
-                        --tri: ${config.colors[2]};
-                        --qua: ${config.colors[3]};
+                        --pri: ${data.colors[0]};
+                        --sec: ${data.colors[1]};
+                        --tri: ${data.colors[2]};
+                        --qua: ${data.colors[3]};
                     }
                 </style>
             `);
         }
     }
-    $('body').addClass(config.name);
-    if(config.theme != null){
-        $('body').addClass(config.theme);
+    $('body').addClass(data.name);
+    if(data.theme != null){
+        $('body').addClass(data.theme);
     }
-    for(i=0;i<config.links.length;i++){
+    for(i=0;i<data.links.length;i++){
         var icon,
             twitchButton = "",
             display = "";
-        if(config.links[i].icon != null){
-            icon = config.links[i].icon;
+        if(data.links[i].icon != null){
+            icon = data.links[i].icon;
         }
         else{
-            icon = `./img/services/${config.links[i].service}.png`;
+            icon = `./img/services/${data.links[i].service}.png`;
         }
-        if(config.links[i].link.includes('twitch.tv/')){
-            var twitchName = config.links[i].link.substr(0,config.links[i].link.lastIndexOf('/'));
-            twitchName = config.links[i].link.replace(`${twitchName}/`, '');
+        if(data.links[i].link.includes('twitch.tv/')){
+            var twitchName = data.links[i].link.substr(0,data.links[i].link.lastIndexOf('/'));
+            twitchName = data.links[i].link.replace(`${twitchName}/`, '');
             twitchButton = "twitchButton";
             twitchGetID(twitchName);
         }
-        if(config.icon != null){
-            $('head').append(`<link rel="shortcut icon" href="${config.icon}" type="image/x-icon">`);
+        if(data.icon != null){
+            $('head').append(`<link rel="shortcut icon" href="${data.icon}" type="image/x-icon">`);
         }
-        if(config.links[i].display == false){
+        if(data.links[i].display == false){
             display = "hide";
         }
         $('.bottom').append(`
-            <div class="link ${twitchButton} ${display}" data-link="${config.links[i].link}">
+            <div class="link ${twitchButton} ${display}" data-link="${data.links[i].link}">
                 <div class="left">
                     <div class="logo">
-                        <img src="${icon}" alt="${config.links[i].service}">
+                        <img src="${icon}" alt="${data.links[i].service}">
                     </div>
                 </div>
                 <div class="center">
                     <div class="name">
-                        ${config.links[i].name}
+                        ${data.links[i].name}
                     </div>
                 </div>
                 <div class="arrow">
@@ -116,6 +118,7 @@ function load(data){
             </div>
         `);
     }
+    animator();
     setTimeout(() => {
         $('.content').addClass('active');
     }, 1000);
@@ -152,4 +155,25 @@ function twitchGetStream(id) {
             return false;
         }
     });
+}
+var all_anim,
+    default_anim = "translate(-50%, 0%)",
+    active_anim = "translate(-50%, 0%)";
+function animator(){
+    if(config.animations != null){
+        $.getJSON(`./js/animations.json`, function(data) {
+            all_anim = data;
+             
+            for(a=0;a<config.animations.length;a++){
+                default_anim = `${default_anim} ${all_anim[config.animations[a]]["default"]}`;
+                active_anim = `${active_anim} ${all_anim[config.animations[a]]["active"]}`;
+            }
+             
+            $('body .content').attr('style', `transform: ${default_anim}`);
+             
+            setTimeout(() => {
+                $('body .content').attr('style', `transform: ${active_anim}`);
+            }, 1000);
+        });
+    }
 }

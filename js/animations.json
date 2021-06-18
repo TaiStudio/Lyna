@@ -1,0 +1,30 @@
+{
+    "toTop": {
+        "default": "translate(0%, 100%)",
+        "active": "translate(0%, 0%)"
+    },
+    "toBottom": {
+        "default": "translate(0%, -100%)",
+        "active": "translate(0%, 0%)"
+    },
+    "rotateY": {
+        "default": "rotateY(90deg)",
+        "active": "rotateY(0)"
+    },
+    "rotateLeft": {
+        "default": "rotate(-45deg)",
+        "active": "rotate(0)"
+    },
+    "rotateRight": {
+        "default": "rotate(45deg)",
+        "active": "rotate(0)"
+    },
+    "rotateInfinite": {
+        "default": "rotate(360deg)",
+        "active": "rotate(0)"
+    },
+    "zoom": {
+        "default": "scale(0)",
+        "active": "scale(1)"
+    }
+}

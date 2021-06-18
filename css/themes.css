@@ -15,10 +15,10 @@ body{
     --qua: #A593E0;
 }
 body.orange{
-    --pri: #000000;
-    --sec: #CE6D39;
-    --tri: #F17F42;
-    --qua: #FFEEE4;
+    --pri: #a5b1c2;
+    --sec: #fa8231;
+    --tri: #fd9644;
+    --qua: #d1d8e0;
 }
 body.green{
     --pri: #285943;
@@ -27,14 +27,20 @@ body.green{
     --qua: #D7FFF1;
 }
 body.purple{
-    --pri: #011638;
-    --sec: #2E294E;
-    --tri: #9055A2;
-    --qua: #D499B9;
+    --pri: #574b90;
+    --sec: #596275;
+    --tri: #303952;
+    --qua: #786fa6;
 }
-body.orange2{
-    --pri: #6f2108;
-    --sec: #e3632d;
-    --tri: #e77e4d;
-    --qua: #fffcf0;
+body.dark{
+    --pri: #404146;
+    --sec: #54546c;
+    --tri: #8283a7;
+    --qua: #a5d296;
+}
+body.blue{
+    --pri: #1B2940;
+    --sec: #365280;
+    --tri: #527DC2;
+    --qua: #6093E6;
 }
