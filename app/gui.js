@@ -10,4 +10,4 @@
 
 const { ipcRenderer } = require("electron");
 
-console.log(ipcRenderer.sendSync('save', 'ping'));
+// console.log(ipcRenderer.sendSync('save', 'ping'));
