@@ -14,7 +14,7 @@ var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
 var config = null;
 
 if(page == ""){
-    page = "eldarkar66";
+    page = "home";
 }
 
 $(function(){
