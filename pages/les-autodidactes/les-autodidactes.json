@@ -12,6 +12,11 @@
             "name": "Youtube",
             "service": "Youtube",
             "link": "https://www.youtube.com/channel/UCPhqzAV7gJJG6hB6g4u-uVg"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.gg/cpR7DqbtkW"
         }
     ]
 }
