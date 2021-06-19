@@ -2,7 +2,6 @@
     "name": "les_autodidactes",
     "logo": "pages/les_autodidactes/logo512x512.png",
     "font": "ancient",
-    "background": "pages/potion/POTON_BACK.jpg",
     "links": [
         {
             "name": "Youtube",
