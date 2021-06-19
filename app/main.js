@@ -8,9 +8,20 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
-const { app, BrowserWindow, ipcMain } = require('electron');
+const { app, BrowserWindow, ipcMain, shell } = require('electron');
 const fs = require('fs');
 const path = require('path');
+
+const express = require('express');
+const web = express();
+web.use(express.static('.'));
+
+web.get('/:id', function (req, res) {
+    res.sendFile('./index.html');
+});
+
+web.listen(3000);
+shell.openExternal("http://localhost:3000");
 
 app.allowRendererProcessReuse = true;
 app.whenReady().then(() => {

@@ -27,6 +27,7 @@
     "clean-deep": "^3.4.0",
     "create-file": "^1.0.1",
     "electron": "^13.1.2",
+    "express": "^4.17.1",
     "fs": "^0.0.1-security",
     "inquirer": "^8.1.0",
     "is-url": "^1.2.4",
