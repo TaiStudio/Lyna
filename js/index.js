@@ -14,7 +14,7 @@ var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
 var config = null;
 
 if(page == ""){
-    page = "potion";
+    page = "home";
 }
 
 $(function(){
