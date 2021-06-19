@@ -14,7 +14,7 @@ var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
 var config = null;
 
 if(page == ""){
-    page = "home";
+    page = "potion";
 }
 
 $(function(){
@@ -42,6 +42,11 @@ $(function(){
         height = Math.ceil(height) - 19;
     // $('body .bottom').attr('style', `height:${height}px`);
 });
+function imgError(image) {
+    image.onerror = "";
+    image.src = "./img/services/internet.png";
+    return true;
+}
 // $(window).resize(function(){
 //     var height = $(window).height() - $('.top').height();
 //         height = Math.ceil(height) - 19;
@@ -104,7 +109,7 @@ function load(data){
             <div class="link ${twitchButton} ${display}" data-link="${data.links[i].link}">
                 <div class="left">
                     <div class="logo">
-                        <img src="${icon}" alt="${data.links[i].service}">
+                        <img src="${icon}" alt="${data.links[i].service}" onerror="imgError(this);" />
                     </div>
                 </div>
                 <div class="center">
