@@ -1,0 +1,12 @@
+{
+    "name": "les-autodidactes",
+    "logo": "pages/les-autodidactes/logo512x512.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCPhqzAV7gJJG6hB6g4u-uVg"
+        }
+    ]
+}
