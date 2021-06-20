@@ -13,6 +13,10 @@ var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
 
 var config = null;
 
+if(typeof $ == 'undefined'){
+    const $ = require('jquery');
+}
+
 if(page == ""){
     page = "home";
 }
