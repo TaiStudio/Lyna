@@ -67,8 +67,8 @@ function load(data){
 
     //SEO
     $('title').text(`Lyna | ${data.name}`);
-    $('meta[property="title"]').attr('content', `Lyna | ${data.name}`);
-    $('meta[property="twitter:title"]').attr('content', `Lyna | ${data.name}`);
+    $('meta[name="title"]').attr('content', `Lyna | ${data.name}`);
+    $('meta[name="twitter:title"]').attr('content', `Lyna | ${data.name}`);
     $('meta[property="og:title"]').attr('content', `Lyna | ${data.name}`);
 
     if(data.colors != null){
