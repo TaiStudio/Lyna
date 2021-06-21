@@ -17,6 +17,11 @@
             "name": "Discord",
             "service": "Discord",
             "link": "https://discord.gg/cpR7DqbtkW"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/les.autodidactesyt/"
         }
     ]
 }
