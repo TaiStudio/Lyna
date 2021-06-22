@@ -44,3 +44,9 @@ body.blue{
     --tri: #527DC2;
     --qua: #6093E6;
 }
+body.orangeBlue{
+    --pri: #DC4829;
+    --sec: #4A292D;
+    --tri: #645267;
+    --qua: #7A92AD;
+}
