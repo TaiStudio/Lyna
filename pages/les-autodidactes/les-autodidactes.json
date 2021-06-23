@@ -22,6 +22,16 @@
             "name": "Instagram",
             "service": "instagram",
             "link": "https://www.instagram.com/les.autodidactesyt/"
+        },
+        {
+            "name": "Potion",
+            "service": "Lyna",
+            "link": "https://lyna.ga/potion"
+        },
+        {
+            "name": "Tai",
+            "service": "Lyna",
+            "link": "https://lyna.ga/legithubdetai"
         }
     ]
 }
