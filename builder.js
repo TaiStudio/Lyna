@@ -28,6 +28,9 @@ function getFiles (dir, files_){
         $('meta[name="twitter:title"]').attr('content', `Lyna | ${config.name}`);
         $('meta[property="og:title"]').attr('content', `Lyna | ${config.name}`);
         
+        $('meta[name="twitter:image"]').attr('content', `https://lyna.ga/${config.logo}`);
+        $('meta[property="og:image"]').attr('content', `https://lyna.ga/${config.logo}`);
+        
         fs.writeFileSync(`dist/${files[i]}.html`, $.html());
     }
     return files_;
