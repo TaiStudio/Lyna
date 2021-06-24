@@ -4,6 +4,7 @@
   "description": "provide your social links",
   "main": "app/main.js",
   "scripts": {
+    "build": "node ./builder.js",
     "gui": "electron .",
     "wizard": "node wizard.js"
   },
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/TaiStudio/Lyna#readme",
   "dependencies": {
+    "cheerio": "*",
     "clean-deep": "^3.4.0",
     "create-file": "^1.0.1",
     "electron": "^13.1.2",
