@@ -113,7 +113,7 @@ function load(data){
             $('head').append(`<link rel="shortcut icon" href="${data.icon}" type="image/x-icon">`);
         }
         else{
-            $('head').append(`<link rel="shortcut icon" href="${icon}" type="image/x-icon">`);
+            $('head').append(`<link rel="shortcut icon" href="${data.logo}" type="image/x-icon">`);
         }
         if(data.links[i].display == false){
             display = "hide";
