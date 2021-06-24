@@ -70,10 +70,10 @@ function load(data){
     $('.top .name').text(data.name);
 
     //SEO
-    $('title').text(`Lyna | ${data.name}`);
-    $('meta[name="title"]').attr('content', `Lyna | ${data.name}`);
-    $('meta[name="twitter:title"]').attr('content', `Lyna | ${data.name}`);
-    $('meta[property="og:title"]').attr('content', `Lyna | ${data.name}`);
+    // $('title').text(`Lyna | ${data.name}`);
+    // $('meta[name="title"]').attr('content', `Lyna | ${data.name}`);
+    // $('meta[name="twitter:title"]').attr('content', `Lyna | ${data.name}`);
+    // $('meta[property="og:title"]').attr('content', `Lyna | ${data.name}`);
 
     if(data.colors != null){
         if(data.colors.length == 4){
