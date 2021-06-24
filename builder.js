@@ -28,7 +28,7 @@ function getFiles (dir, files_){
         $('meta[name="twitter:title"]').attr('content', `Lyna | ${config.name}`);
         $('meta[property="og:title"]').attr('content', `Lyna | ${config.name}`);
         
-        fs.writeFileSync(`dist/${config.name}.html`, $.html());
+        fs.writeFileSync(`dist/${files[i]}.html`, $.html());
     }
     return files_;
 }
