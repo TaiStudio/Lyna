@@ -14,6 +14,11 @@
             "link": "https://www.youtube.com/channel/UCPhqzAV7gJJG6hB6g4u-uVg"
         },
         {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/lesautodidactes"
+        },
+        {
             "name": "Discord",
             "service": "Discord",
             "link": "https://discord.gg/cpR7DqbtkW"
