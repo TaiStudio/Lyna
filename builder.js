@@ -9,7 +9,6 @@
 \--------------------------------------------------------------------------------------*/
 
 const fs = require('fs');
-const path = require('path');
 const cheerio = require('cheerio');
 
 if(!fs.existsSync('dist')){
