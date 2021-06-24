@@ -15,6 +15,10 @@ const cheerio = require('cheerio');
 if(!fs.existsSync('dist')){
     fs.mkdirSync('dist');
 }
+else{
+    fs.rmdirSync('dist', { recursive: true });
+    fs.mkdirSync('dist');
+}
 
 function getFiles (dir, files_){
     files_ = files_ || [];
