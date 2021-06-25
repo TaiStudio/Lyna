@@ -19,6 +19,15 @@ else{
     fs.mkdirSync('dist');
 }
 
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0');
+var yyyy = today.getFullYear();
+today = `${yyyy}-${mm}-${dd}`;
+//SITEMAP
+const sitemap = cheerio.load(fs.readFileSync('sitemap.xml'), {
+    xmlMode: true
+});
 function getFiles (dir, files_){
     files_ = files_ || [];
     var files = fs.readdirSync(dir);
@@ -42,16 +51,6 @@ function getFiles (dir, files_){
         $('meta[name="description"]').attr('content', `${config.description}`);
         
         fs.writeFileSync(`dist/${files[i]}.html`, $.html());
-
-        //SITEMAP
-        const sitemap = cheerio.load(fs.readFileSync('sitemap.xml'), {
-            xmlMode: true
-        });
-        var today = new Date();
-        var dd = String(today.getDate()).padStart(2, '0');
-        var mm = String(today.getMonth() + 1).padStart(2, '0');
-        var yyyy = today.getFullYear();
-        today = `${yyyy}-${mm}-${dd}`;
 
         sitemap("urlset").append(`
             <url>
