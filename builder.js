@@ -26,13 +26,19 @@ function getFiles (dir, files_){
         var config = require(`./pages/${files[i]}/${files[i]}.json`);
         const $ = cheerio.load(fs.readFileSync('index.html'));
         
+        //TITLES
         $('title').text(`Lyna | ${config.name}`);
         $('meta[name="title"]').attr('content', `Lyna | ${config.name}`);
         $('meta[name="twitter:title"]').attr('content', `Lyna | ${config.name}`);
         $('meta[property="og:title"]').attr('content', `Lyna | ${config.name}`);
         
+        //IMAGES
         $('meta[name="twitter:image"]').attr('content', `https://lyna.ga/${config.logo}`);
         $('meta[property="og:image"]').attr('content', `https://lyna.ga/${config.logo}`);
+
+        //DESCRIPTION
+        if(config.description == null){config.description = "Create a page for provide your social links and other."}
+        $('meta[name="description"]').attr('content', `${config.description}`);
         
         fs.writeFileSync(`dist/${files[i]}.html`, $.html());
     }
