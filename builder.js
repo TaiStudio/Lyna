@@ -25,7 +25,7 @@ var mm = String(today.getMonth() + 1).padStart(2, '0');
 var yyyy = today.getFullYear();
 today = `${yyyy}-${mm}-${dd}`;
 //SITEMAP
-const sitemap = cheerio.load(fs.readFileSync('sitemap.xml'), {
+const sitemap = cheerio.load(fs.readFileSync('PatternSitemap.xml'), {
     xmlMode: true
 });
 function getFiles (dir, files_){
@@ -60,7 +60,7 @@ function getFiles (dir, files_){
             </url>
         `);
 
-        fs.writeFileSync(`AutoSitemap.xml`, sitemap.html());
+        fs.writeFileSync(`sitemap.xml`, sitemap.html());
     }
     return files_;
 }
