@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://lyna.ga/patternsitemap.xml
+Sitemap: http://lyna.ga/patternsitemap.xml
 Sitemap: https://lyna.ga/sitemap.xml
+Sitemap: http://lyna.ga/sitemap.xml
