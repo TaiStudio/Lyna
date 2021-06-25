@@ -23,6 +23,7 @@ function getFiles (dir, files_){
     files_ = files_ || [];
     var files = fs.readdirSync(dir);
     for (var i in files){
+        //PAGES
         var config = require(`./pages/${files[i]}/${files[i]}.json`);
         const $ = cheerio.load(fs.readFileSync('index.html'));
         
@@ -41,6 +42,26 @@ function getFiles (dir, files_){
         $('meta[name="description"]').attr('content', `${config.description}`);
         
         fs.writeFileSync(`dist/${files[i]}.html`, $.html());
+
+        //SITEMAP
+        const sitemap = cheerio.load(fs.readFileSync('sitemap.xml'), {
+            xmlMode: true
+        });
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0');
+        var yyyy = today.getFullYear();
+        today = `${yyyy}-${mm}-${dd}`;
+
+        sitemap("urlset").append(`
+            <url>
+                <loc>https://lyna.ga/${files[i]}</loc>
+                <lastmod>${today}</lastmod>
+                <changefreq>hourly</changefreq>
+            </url>
+        `);
+
+        fs.writeFileSync(`AutoSitemap.xml`, sitemap.html());
     }
     return files_;
 }
