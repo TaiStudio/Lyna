@@ -3,6 +3,9 @@
     "logo": "pages/potion/potion.jpg",
     "font": "ancient",
     "background": "pages/potion/POTON_BACK.jpg",
+    "animations": [
+        "rotateY"
+    ],
     "links": [
         {
             "name": "Youtube",
