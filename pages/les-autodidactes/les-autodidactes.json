@@ -31,12 +31,14 @@
         {
             "name": "Potion",
             "service": "Lyna",
-            "link": "https://lyna.ga/potion"
+            "link": "https://lyna.ga/potion",
+            "icon": "pages/potion/potion.jpg"
         },
         {
             "name": "Tai",
             "service": "Lyna",
-            "link": "https://lyna.ga/legithubdetai"
+            "link": "https://lyna.ga/legithubdetai",
+            "icon": "pages/legithubdetai/legithubdetai.png"
         }
     ]
 }
