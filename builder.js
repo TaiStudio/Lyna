@@ -61,6 +61,7 @@ function getFiles (dir, files_){
         `);
 
         fs.writeFileSync(`./dist/sitemap.xml`, sitemap.html());
+        fs.writeFileSync(`sitemap.xml`, sitemap.html());
     }
     return files_;
 }
