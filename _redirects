@@ -1,2 +1,3 @@
+/sitemap.xml /sitemap.xml 200
 /:user  /dist/:user 200
-/autositemap.xml /autositemap.xml 200
+/sitemap.xml /sitemap.xml 200
