@@ -5,7 +5,7 @@
     "font": "ancient",
     "background": "pages/home/homeback.png",
     "power": false,
-    "icon": "https://lyna.ga/pages/home/lina.png",
+    "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png",
     "links": [
         {
             "name": "How to create/edit my own page ?",
