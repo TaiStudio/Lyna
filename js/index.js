@@ -13,8 +13,8 @@ var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
 
 var config = null;
 
-if(typeof $ == 'undefined'){
-    const $ = require('jquery');
+if(typeof $ == "undefined"){
+    var $ = require('jquery');
 }
 
 if(page == ""){
