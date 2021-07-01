@@ -10,4 +10,24 @@
 
 const { ipcRenderer } = require("electron");
 
-// console.log(ipcRenderer.sendSync('save', 'ping'));
+if(typeof $ == "undefined"){
+    var $ = require('jquery');
+}
+
+var data = null;
+$('input').on('change', () => {
+    data.name = $('#namePage').val();
+    data.description = $('#descriptionPage').val();
+    // data.logo = $('#logoPage').val();
+    // data.background = $('#backgroundPage').val();
+    // data.font = $('#fontPage').val();
+    // data.power = $('#powerPage').val();
+    // data.icon = $('#iconPage').val();
+
+    // data.links = $('#iconPage').val();
+
+    ipcRenderer.send('change', JSON.stringify(data));
+});
+$('.save').on('click', () => {
+    ipcRenderer.sendSync('save', JSON.stringify(data));
+})

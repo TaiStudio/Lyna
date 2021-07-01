@@ -18,18 +18,18 @@ if(typeof $ == "undefined"){
 }
 
 if(page == ""){
-    page = "home";
+    page = "demo";
 }
 if(page == "index.html"){
-    page = "home";
+    page = "demo";
 }
 
 $(function(){
-    $.getJSON(`../pages/${page}/${page}.json`, function(data) {
+    $.getJSON(`./pages/${page}/${page}.json`, function(data) {
         load(data);
     })
     .fail(function(){
-        $.getJSON(`../pages/home/home.json`, function(data) {
+        $.getJSON(`./pages/home/home.json`, function(data) {
             load(data);
             $('body').append(`
                 <div class="error">
@@ -60,7 +60,6 @@ function imgError(image) {
 //     $('body .bottom').attr('style', `height:${height}px`);
 // });
 function load(data){
-    console.log(data);
     config = data;
     if(data.power == false){
         $('.power').remove();

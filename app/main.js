@@ -12,23 +12,61 @@ const { app, BrowserWindow, ipcMain, shell } = require('electron');
 const fs = require('fs');
 const path = require('path');
 
+var configPage = fs.readFileSync(path.join(__dirname, '..', 'pages', 'home', 'home.json')),
+    preview = null;
+
+if(!fs.existsSync(path.join(__dirname, '..', 'pages', 'demo'))){
+    fs.mkdirSync(path.join(__dirname, '..', 'pages', 'demo'));
+}
+if(!fs.existsSync(path.join(__dirname, '..', 'pages', 'demo', 'demo.json'))){
+    fs.writeFileSync(path.join(__dirname, '..', 'pages', 'demo', 'demo.json'), configPage);
+}
+
 app.allowRendererProcessReuse = true;
 app.whenReady().then(() => {
-    var config = createWindow('app/gui.html', false);
-    var preview = createWindow('index.html', true);
+    preview = createWindow('index.html', true, 1100, 619);
+    var config = createWindow('app/gui.html', false, 800, 600);
 
+    config.webContents.executeJavaScript(`data = ${configPage};`);
+
+    reloadPrev();
+
+    config.focus();
+
+    ipcMain.on('change', (event, arg) => {
+        fs.writeFileSync(path.join(__dirname, '..', 'pages', 'demo', 'demo.json'), arg);
+        reloadPrev();
+    });
     ipcMain.on('save', (event, arg) => {
-        console.log(arg);
-        // fs.writeSync(path.join(__dirname, 'pages'), data);
+        let data = JSON.parse(arg);
+
+        if(fs.existsSync(path.join(__dirname, '..', 'pages', 'demo', 'demo.json'))){
+            fs.writeFileSync(path.join(__dirname, '..', 'pages', 'demo', 'demo.json'), arg);
+        }
+        else{
+            fs.writeFileSync(path.join(__dirname, '..', 'pages', data.name, data.name + '.json'), arg);
+        }
+
+        fs.rename(path.join(__dirname, '..', 'pages', 'demo'), path.join(__dirname, '..', 'pages', data.name), () => {
+            fs.rename(path.join(__dirname, '..', 'pages', data.name, 'demo.json'), path.join(__dirname, '..', 'pages', data.name, data.name + '.json'), () => {
+                console.log('DONE!');
+            });
+        });
     });
 });
 
-function createWindow (url, resize) {
+function reloadPrev(){
+    preview.reload();
+    preview.webContents.executeJavaScript(`$('body').append('<script src="app/preview.js"></script>');`);
+}
+
+function createWindow (url, resize, w, h) {
     var win = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: w,
+        height: h,
         autoHideMenuBar: true,
         resizable: resize,
+        icon: path.join(__dirname, '..', 'pages', 'home', 'lina.png'),
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false
