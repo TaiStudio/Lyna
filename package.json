@@ -27,18 +27,12 @@
   "homepage": "https://github.com/TaiStudio/Lyna#readme",
   "dependencies": {
     "cheerio": "*",
-    "clean-deep": "^3.4.0",
-    "create-file": "^1.0.1",
     "electron": "^13.1.2",
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
-    "inquirer": "^8.1.0",
-    "is-url": "^1.2.4",
     "jquery": "^3.6.0",
-    "mkdirp": "^1.0.4",
     "nconf": "^0.11.2",
     "path": "^0.12.7",
-    "rimraf": "^3.0.2",
-    "slugg": "^1.2.1"
+    "rimraf": "^3.0.2"
   }
 }
