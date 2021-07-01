@@ -11,21 +11,30 @@
 const { ipcRenderer } = require("electron");
 var services = require('../lib/services.json');
 
-console.log(services.all);
-
 if(typeof $ == "undefined"){
     var $ = require('jquery');
 }
 
 var data = null;
 
-$(function(){
-    for(i=0;i<services.all.length;i++){
-        console.log(services["all"][i]);
-        $('#linkService').append(`<option value="${services.all[i].replace('.png', '')}">${services.all[i].replace('.png', '')}</option>`);
-    }
-})
-
+loadServices();
+$('.addlinks').on('click', () => {
+    $('.addlinks').before(`
+        <div class="element">
+            <label>Name</label>
+            <input type="text" id="linkName">
+            <label>Link:</label>
+            <input type="url" id="linkURL">
+            <label>Service</label>
+            <select id="linkService">
+                <option value="Select An Service !" hidden disabled selected></option>
+            </select>
+            <label>Custom icon (optional):</label>
+            <input type="url" id="linkIcon">
+        </div>
+    `);
+    loadServices();
+});
 $('input').on('change', () => {
     reload();
 });
@@ -35,6 +44,14 @@ $('select').on('change', () => {
 $('.save').on('click', () => {
     ipcRenderer.sendSync('save', JSON.stringify(data));
 });
+
+function loadServices(){
+    $('#linkService option').remove();
+    $('#linkService').append(`<option value="Select An Service !" hidden disabled selected></option>`);
+    for(i=0;i<services.all.length;i++){
+        $('#linkService').append(`<option value="${services.all[i].replace('.png', '')}">${services.all[i].replace('.png', '')}</option>`);
+    }
+}
 
 function reload(){
     data.name = $('#namePage').val();
