@@ -10,6 +10,7 @@
 
 const fs = require('fs');
 const cheerio = require('cheerio');
+const rimraf = require('rimraf');
 
 if(!fs.existsSync('dist')){
     fs.mkdirSync('dist');
@@ -17,6 +18,11 @@ if(!fs.existsSync('dist')){
 else{
     fs.rmdirSync('dist', { recursive: true });
     fs.mkdirSync('dist');
+}
+if(fs.existsSync('pages/demo')){
+    rimraf('pages/demo', (err) => {
+        if(err)console.log(err);
+    });
 }
 
 var today = new Date();
