@@ -22,4 +22,4 @@ git config user.name AnimeBack-Bot
 git add .
 git commit -am "🤖✔️ setup" --author "AnimeBack-Bot <animebot.tai.studio@outlook.fr>"
 git pull --rebase
-git push origin master
+git push origin main
