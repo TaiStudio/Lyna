@@ -25,7 +25,7 @@
     "url": "https://github.com/TaiStudio/Lyna/issues"
   },
   "homepage": "https://github.com/TaiStudio/Lyna#readme",
-  "dependencies": {
+  "devDependencies": {
     "cheerio": "*",
     "electron": "^13.1.2",
     "express": "^4.17.1",
