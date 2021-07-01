@@ -8,7 +8,7 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
-const { ipcRenderer } = require("electron");
+const { ipcRenderer, dialog } = require("electron");
 var services = require('../lib/services.json');
 
 if(typeof $ == "undefined"){
@@ -18,6 +18,12 @@ if(typeof $ == "undefined"){
 var data = null;
 
 loadServices();
+$('#logoPage').on('click', () => {
+    ipcRenderer.send('logoSelect', 'open');
+})
+$('#backgroundPage').on('click', () => {
+    ipcRenderer.send('backgroundSelect', 'open');
+})
 $('.addlinks').on('click', () => {
     $('.addlinks').before(`
         <div class="element">
@@ -44,6 +50,23 @@ $('select').on('change', () => {
 $('.save').on('click', () => {
     ipcRenderer.sendSync('save', JSON.stringify(data));
 });
+$('#removeLogo').on('click', () => {
+    data.logo = "pages/home/lyna.png";
+    reload();
+});
+$('#removeBG').on('click', () => {
+    data.background = "";
+    reload();
+});
+
+ipcRenderer.on('logoSelected', (event, arg) => {
+    data.logo = arg;
+    reload();
+});
+ipcRenderer.on('backgroundSelected', (event, arg) => {
+    data.background = arg;
+    reload();
+});
 
 function loadServices(){
     $('#linkService option').remove();
@@ -56,11 +79,15 @@ function loadServices(){
 function reload(){
     data.name = $('#namePage').val();
     data.description = $('#descriptionPage').val();
-    // data.logo = $('#logoPage').val();
-    // data.background = $('#backgroundPage').val();
+    data.power = $('#powerButton').prop('checked');
     // data.font = $('#fontPage').val();
-    // data.power = $('#powerPage').val();
-    // data.icon = $('#iconPage').val();
+
+    data.colors = [
+        $('#color1').val(),
+        $('#color2').val(),
+        $('#color3').val(),
+        $('#color4').val()
+    ];
 
     var links = [];
     $('.links .element').each((index, element) => {

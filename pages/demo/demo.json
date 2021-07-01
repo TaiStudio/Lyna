@@ -1,0 +1,22 @@
+{
+    "name": "",
+    "description": "",
+    "logo": "pages/home/lyna.png",
+    "font": "ancient",
+    "background": "",
+    "power": true,
+    "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png",
+    "links": [
+        {
+            "name": "",
+            "link": "",
+            "service": null
+        }
+    ],
+    "colors": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000"
+    ]
+}

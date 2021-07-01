@@ -8,7 +8,7 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
-const { app, BrowserWindow, ipcMain } = require('electron');
+const { app, BrowserWindow, ipcMain, dialog } = require('electron');
 const fs = require('fs');
 const path = require('path');
 
@@ -33,6 +33,24 @@ app.whenReady().then(() => {
 
     config.focus();
 
+    ipcMain.on('logoSelect', (event) => {
+        dialog.showOpenDialog({properties: ['openFile', 'multiSelections']})
+        .then(result => {
+            fs.copyFileSync(result.filePaths[0], path.join(__dirname, '..', 'pages', 'demo', 'demo.png'));
+            event.reply('logoSelected', path.join('pages', 'demo', 'demo.png'));
+        }).catch(err => {
+            console.log(err);
+        });
+    });
+    ipcMain.on('backgroundSelect', (event) => {
+        dialog.showOpenDialog({properties: ['openFile', 'multiSelections']})
+        .then(result => {
+            fs.copyFileSync(result.filePaths[0], path.join(__dirname, '..', 'pages', 'demo', 'demoBack.png'));
+            event.reply('backgroundSelected', path.join('pages', 'demo', 'demoBack.png'));
+        }).catch(err => {
+            console.log(err);
+        });
+    });
     ipcMain.on('change', (event, arg) => {
         fs.writeFileSync(path.join(__dirname, '..', 'pages', 'demo', 'demo.json'), arg);
         reloadPrev();

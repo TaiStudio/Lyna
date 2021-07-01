@@ -65,9 +65,11 @@ function load(data){
         $('.power').remove();
     }
     if(data.background != null){
-        $('body').prepend(`
-            <img class="background" src="${data.background}"/>
-        `);
+        if(data.background != ""){
+            $('body').prepend(`
+                <img class="background" src="${data.background}"/>
+            `);
+        }
     }
     $('.top .logo img').attr('src', data.logo);
     $('.top .name').text(data.name);

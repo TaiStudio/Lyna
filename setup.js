@@ -9,6 +9,8 @@
 \--------------------------------------------------------------------------------------*/
 
 const fs = require('fs');
+const path = require('path');
+const rimraf = require('rimraf');
 
 var list = [],
     file = {};
@@ -29,5 +31,8 @@ getFiles('img/services');
 
 file.all = list;
 fs.writeFileSync(`lib/services.json`, `${JSON.stringify(file)}`);
+rimraf(path.join(__dirname, 'pages', 'demo'), (err) => {
+    if(err)console.log(err);
+});
 
 console.log('DONE !');

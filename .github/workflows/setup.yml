@@ -1,0 +1,16 @@
+on: push
+
+name: Setup
+
+jobs:
+  updateDataAndRelease:
+    name: Loading setup
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.4
+      - name: Chmod
+        run: chmod +x ./setup.sh
+      - name: Execute setup
+        run: npm run setup
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}

@@ -5,7 +5,8 @@
   "main": "app/main.js",
   "scripts": {
     "build": "node ./builder.js",
-    "gui": "electron ."
+    "gui": "electron .",
+    "setup": "node ./setup.js"
   },
   "repository": {
     "type": "git",
