@@ -7,7 +7,7 @@ set -o nounset    # fail on unset variables
 
 git clone "https://AnimeBack-Bot:$GH_TOKEN@github.com/TaiStudio/Lyna" lyna
 cd lyna
-npm ci
+npm install
 
 npm run setup
 
