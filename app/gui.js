@@ -24,6 +24,9 @@ $('input').on('change', () => {
     // data.power = $('#powerPage').val();
     // data.icon = $('#iconPage').val();
 
+    $('.links .element').each((index, element) => {
+        $(element)
+    })
     // data.links = $('#iconPage').val();
 
     ipcRenderer.send('change', JSON.stringify(data));

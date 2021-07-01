@@ -8,7 +8,7 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
-const { app, BrowserWindow, ipcMain, shell } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
 const fs = require('fs');
 const path = require('path');
 
