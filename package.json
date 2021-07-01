@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node ./builder.js",
     "gui": "electron .",
-    "setuper": "./setup.sh",
+    "setuper": "lib/setup.sh",
     "setup": "node ./setup.js"
   },
   "repository": {
