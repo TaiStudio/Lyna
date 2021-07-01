@@ -66,7 +66,7 @@ function createWindow (url, resize, w, h) {
         height: h,
         autoHideMenuBar: true,
         resizable: resize,
-        icon: path.join(__dirname, '..', 'pages', 'home', 'lina.png'),
+        icon: path.join(__dirname, '..', 'pages', 'home', 'lyna.png'),
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false

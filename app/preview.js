@@ -71,6 +71,7 @@ function load(data){
     }
     $('.top .logo img').attr('src', data.logo);
     $('.top .name').text(data.name);
+    $('title').text(`Lyna | ${data.name}`);
 
     if(data.colors != null){
         if(data.colors.length == 4){
