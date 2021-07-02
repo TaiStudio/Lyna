@@ -5,7 +5,7 @@ set -o errexit    # always exit on error
 set -o pipefail   # honor exit codes when piping
 set -o nounset    # fail on unset variables
 
-git clone "https://AnimeBack-Bot:$GH_TOKEN@github.com/TaiStudio/Lyna" setup
+git clone "https://AnimeBack-Bot:$GH_TOKEN@github.com/TaiStudio/Lyna" --config core.autocrlf=false setup
 cd setup
 npm install
 
