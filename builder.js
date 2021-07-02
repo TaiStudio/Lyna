@@ -12,6 +12,8 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const rimraf = require('rimraf');
 
+
+
 if(!fs.existsSync('dist')){
     fs.mkdirSync('dist');
 }
