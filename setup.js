@@ -27,7 +27,7 @@ function getFiles (dir, files_){
             getFiles(name, files_);
         } else {
             list.push(files[i]);
-            readme('.services').append(`<img src="img/services/${files[i]}" width="5%" title="${files[i].replace('.png', '')}"></img>`);
+            readme('.services').append(`<img src="img/services/${files[i]}" width="5%" style="margin: 1%;" title="${files[i].replace('.png', '')}"></img>`);
         }
     }
     return files_;
