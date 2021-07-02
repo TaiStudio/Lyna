@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 
 set -v            # print commands before execution, but don't expand env vars in output
 set -o errexit    # always exit on error
