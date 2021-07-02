@@ -15,7 +15,7 @@ const cheerio = require('cheerio');
 const rimraf = require('rimraf');
 
 const readme = cheerio.load(fs.readFileSync('README.md'));
-readme('.services li').remove();
+readme('.services img').remove();
 var list = [],
     file = {};
 function getFiles (dir, files_){
