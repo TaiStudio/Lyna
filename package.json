@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/TaiStudio/Lyna#readme",
   "devDependencies": {
-    "cheerio": "*", 
+    "cheerio": "*",
     "electron": "^13.1.2",
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
