@@ -1,0 +1,28 @@
+{
+    "name": "La folle du rang 8",
+    "description": "La folle du rang 8 est pas si folle... Mais elle touche à tout. Déco, couture, dessin : la création fait partie d'elle. Adepte des Sims depuis 17 ans Maman de 3 ados Québécoise d'adoption, belge de naissance",
+    "logo": "pages/lafolledurang8/lafolledurang8.png",
+    "icon": "pages/lafolledurang8/lafolledurang8.png",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/lafolledurang8"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.gg/m5z5sVaW"
+        },
+        {
+            "name": "Facebook",
+            "service": "facebook",
+            "link": "https://www.facebook.com/creationsmayana"
+        },
+        {
+            "name": "Etsy",
+            "service": "etsy",
+            "link": "https://www.etsy.com/ca-fr/shop/MayanaGaspesie"
+        }
+    ]
+}
