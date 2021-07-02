@@ -1,7 +1,10 @@
-# Lyna
-
+<html><head></head><body><p align="center">
 <a href="https://lyna.ga/">
-    <img src="https://api.netlify.com/api/v1/badges/d5847749-1cda-4d52-9efa-110b78b5515d/deploy-status" />
+    <img src="img/assets/lyna.png" width="28%">
+</a>
+</p><p>
+<a href="https://lyna.ga/">
+    <img src="https://api.netlify.com/api/v1/badges/d5847749-1cda-4d52-9efa-110b78b5515d/deploy-status">
 </a>
 <a href="https://buymeacoffee.com/taistudio" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
@@ -16,42 +19,16 @@
 7. enjoy
 
 ## ⚙️ Supported services
-- amazon
-- applemusic
-- bandcamp
-- bitbucket
-- buymeacoffee
-- deezer
-- discord
-- facebook
-- github
-- gitlab
-- instagram
-- instantgaming
-- internet
-- linkedIn
-- mail
-- malt
-- paypal
-- snapchat
-- soundcloud
-- spotify
-- spreadshirt
-- streamelements
-- tiktok
-- tipeee
-- twitch
-- twitter
-- ulule
-- utip
-- youtube
+
+</p><div class="services"><img src="img/services/amazon.png" width="5%"><img src="img/services/applemusic.png" width="5%"><img src="img/services/bandcamp.png" width="5%"><img src="img/services/bitbucket.png" width="5%"><img src="img/services/buymeacoffee.png" width="5%"><img src="img/services/deezer.png" width="5%"><img src="img/services/discord.png" width="5%"><img src="img/services/facebook.png" width="5%"><img src="img/services/github.png" width="5%"><img src="img/services/gitlab.png" width="5%"><img src="img/services/instagram.png" width="5%"><img src="img/services/instantgaming.png" width="5%"><img src="img/services/internet.png" width="5%"><img src="img/services/keakr.png" width="5%"><img src="img/services/linkedIn.png" width="5%"><img src="img/services/lyna.png" width="5%"><img src="img/services/mailto.png" width="5%"><img src="img/services/malt.png" width="5%"><img src="img/services/patreon.png" width="5%"><img src="img/services/paypal.png" width="5%"><img src="img/services/snapchat.png" width="5%"><img src="img/services/soundcloud.png" width="5%"><img src="img/services/spotify.png" width="5%"><img src="img/services/spreadshirt.png" width="5%"><img src="img/services/streamelements.png" width="5%"><img src="img/services/streamlabs.png" width="5%"><img src="img/services/tiktok.png" width="5%"><img src="img/services/tipeee.png" width="5%"><img src="img/services/twitch.png" width="5%"><img src="img/services/twitter.png" width="5%"><img src="img/services/ulule.png" width="5%"><img src="img/services/utip.png" width="5%"><img src="img/services/youtube.png" width="5%"><img src="img/services/amazon.png" width="5%" title="amazon.png"><img src="img/services/applemusic.png" width="5%" title="applemusic.png"><img src="img/services/bandcamp.png" width="5%" title="bandcamp.png"><img src="img/services/bitbucket.png" width="5%" title="bitbucket.png"><img src="img/services/buymeacoffee.png" width="5%" title="buymeacoffee.png"><img src="img/services/deezer.png" width="5%" title="deezer.png"><img src="img/services/discord.png" width="5%" title="discord.png"><img src="img/services/facebook.png" width="5%" title="facebook.png"><img src="img/services/github.png" width="5%" title="github.png"><img src="img/services/gitlab.png" width="5%" title="gitlab.png"><img src="img/services/instagram.png" width="5%" title="instagram.png"><img src="img/services/instantgaming.png" width="5%" title="instantgaming.png"><img src="img/services/internet.png" width="5%" title="internet.png"><img src="img/services/keakr.png" width="5%" title="keakr.png"><img src="img/services/linkedIn.png" width="5%" title="linkedIn.png"><img src="img/services/lyna.png" width="5%" title="lyna.png"><img src="img/services/mailto.png" width="5%" title="mailto.png"><img src="img/services/malt.png" width="5%" title="malt.png"><img src="img/services/patreon.png" width="5%" title="patreon.png"><img src="img/services/paypal.png" width="5%" title="paypal.png"><img src="img/services/snapchat.png" width="5%" title="snapchat.png"><img src="img/services/soundcloud.png" width="5%" title="soundcloud.png"><img src="img/services/spotify.png" width="5%" title="spotify.png"><img src="img/services/spreadshirt.png" width="5%" title="spreadshirt.png"><img src="img/services/streamelements.png" width="5%" title="streamelements.png"><img src="img/services/streamlabs.png" width="5%" title="streamlabs.png"><img src="img/services/tiktok.png" width="5%" title="tiktok.png"><img src="img/services/tipeee.png" width="5%" title="tipeee.png"><img src="img/services/twitch.png" width="5%" title="twitch.png"><img src="img/services/twitter.png" width="5%" title="twitter.png"><img src="img/services/ulule.png" width="5%" title="ulule.png"><img src="img/services/utip.png" width="5%" title="utip.png"><img src="img/services/youtube.png" width="5%" title="youtube.png"></div>
+<br>
 
 ## 📷 ScreenShots
 <p align="center">
     <a href="https://lyna.ga/taistudio">
-        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/taistudio.png" width="45%"/>
+        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/taistudio.png" width="45%">
     </a>
     <a href="https://lyna.ga/potion">
-        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/potion.png" width="45%"/>
+        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/potion.png" width="45%">
     </a>
-</p>
+</p></body></html>

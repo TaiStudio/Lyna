@@ -11,8 +11,11 @@
 
 const fs = require('fs');
 const path = require('path');
+const cheerio = require('cheerio');
 const rimraf = require('rimraf');
 
+const readme = cheerio.load(fs.readFileSync('README.md'));
+readme('.services li').remove();
 var list = [],
     file = {};
 function getFiles (dir, files_){
@@ -24,6 +27,7 @@ function getFiles (dir, files_){
             getFiles(name, files_);
         } else {
             list.push(files[i]);
+            readme('.services').append(`<img src="img/services/${files[i]}" width="5%" title="${files[i]}"></img>`);
         }
     }
     return files_;
@@ -32,6 +36,7 @@ getFiles('img/services');
 
 file.all = list;
 fs.writeFileSync(`lib/services.json`, `${JSON.stringify(file)}`);
+fs.writeFileSync(`README.md`, readme.html());
 rimraf(path.join(__dirname, 'pages', 'demo'), (err) => {
     if(err)console.log(err);
 });

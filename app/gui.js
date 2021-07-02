@@ -10,6 +10,7 @@
 
 const { ipcRenderer, dialog } = require("electron");
 var services = require('../lib/services.json');
+var animations = require('../js/animations.json');
 
 if(typeof $ == "undefined"){
     var $ = require('jquery');
@@ -18,6 +19,7 @@ if(typeof $ == "undefined"){
 var data = null;
 
 loadServices();
+loadAnimations();
 $('#logoPage').on('click', () => {
     ipcRenderer.send('logoSelect', 'open');
 })
@@ -48,7 +50,7 @@ $('select').on('change', () => {
     reload();
 });
 $('.save').on('click', () => {
-    ipcRenderer.sendSync('save', JSON.stringify(data));
+    ipcRenderer.send('save', JSON.stringify(data));
 });
 $('#removeLogo').on('click', () => {
     data.logo = "pages/home/lyna.png";
@@ -75,19 +77,34 @@ function loadServices(){
         $('#linkService').append(`<option value="${services.all[i].replace('.png', '')}">${services.all[i].replace('.png', '')}</option>`);
     }
 }
+function loadAnimations(){
+    animations = Object.keys(animations);
+    for(i=0;i<animations.length;i++){
+        $('#linkAnimation').append(`<option value="${animations[i]}">${animations[i]}</option>`);
+    }
+}
 
 function reload(){
     data.name = $('#namePage').val();
     data.description = $('#descriptionPage').val();
     data.power = $('#powerButton').prop('checked');
     // data.font = $('#fontPage').val();
+    data.animations = [$('#linkAnimation').val()];
 
-    data.colors = [
-        $('#color1').val(),
-        $('#color2').val(),
-        $('#color3').val(),
-        $('#color4').val()
-    ];
+    if($('#color1').val() != "#000000" &&
+        $('#color2').val() != "#000000" &&
+        $('#color3').val() != "#000000" &&
+        $('#color4').val() != "#000000"){
+            data.colors = [
+                $('#color1').val(),
+                $('#color2').val(),
+                $('#color3').val(),
+                $('#color4').val()
+            ];
+    }
+    else{
+        data.colors = [];
+    }
 
     var links = [];
     $('.links .element').each((index, element) => {
