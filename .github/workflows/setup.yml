@@ -11,7 +11,6 @@ jobs:
       - name: Chmod
         run: chmod +x ./lib/setup.sh
       - name: Execute setup
-        run: npm install
-        run: npm run setuper
+        run: npm install && npm run setuper
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
