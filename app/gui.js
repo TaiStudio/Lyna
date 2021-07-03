@@ -89,7 +89,7 @@ function reload(){
     data.description = $('#descriptionPage').val();
     data.power = $('#powerButton').prop('checked');
     // data.font = $('#fontPage').val();
-    data.animations = [$('#linkAnimation').val()];
+    data.animations = $('#linkAnimation').val();
 
     if($('#color1').val() != "#000000" &&
         $('#color2').val() != "#000000" &&
