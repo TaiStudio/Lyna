@@ -68,6 +68,14 @@ app.whenReady().then(() => {
         fs.rename(path.join(__dirname, '..', 'pages', 'demo'), path.join(__dirname, '..', 'pages', data.name), () => {
             fs.rename(path.join(__dirname, '..', 'pages', data.name, 'demo.json'), path.join(__dirname, '..', 'pages', data.name, data.name + '.json'), () => {
                 console.log('DONE!');
+                dialog.showMessageBox(config, {
+                    message: "your page has been saved! now send pull request.",
+                    title: "Lyna Setup",
+                    icon: path.join(__dirname,'..', 'pages', 'home', 'lyna.png')
+                })
+                .then(result => {
+                    app.quit();
+                })
             });
         });
     });
