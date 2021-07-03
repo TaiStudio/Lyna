@@ -32,9 +32,9 @@
         <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/potion.png" width="45%">
     </a>
     <a href="https://lyna.ga/">
-        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/Lyna demo.png" width="45%">
+        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/Lyna demo.PNG" width="45%">
     </a>
     <a href="https://lyna.ga/les-autodidactes">
-        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/les-autodidactes.png" width="45%">
+        <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/les-autodidactes.PNG" width="45%">
     </a>
 </p></body></html>
