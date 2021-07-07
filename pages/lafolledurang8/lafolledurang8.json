@@ -17,12 +17,13 @@
         {
             "name": "Facebook",
             "service": "facebook",
-            "link": "https://www.facebook.com/creationsmayana"
+            "link": "https://www.facebook.com/lafabriquedurang8"
         },
         {
             "name": "Etsy",
             "service": "etsy",
-            "link": "https://www.etsy.com/ca-fr/shop/MayanaGaspesie"
+            "link": "https://www.etsy.com/ca-fr/shop/MayanaGaspesie",
+            "display": false
         }
     ]
 }
