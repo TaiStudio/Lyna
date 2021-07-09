@@ -1,0 +1,23 @@
+{
+    "name": "D0PS Silversouls",
+    "description": "builder a temp partiel, dessinateur le reste du temp ;)",
+    "logo": "pages/d0ps_silversouls/d0ps_silversouls.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/d0ps_silversouls"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCasjcLRsgGA5uDsMSxkVDVQ"
+        },
+        {
+            "name": "Instagram",
+            "service": "Instagram",
+            "link": "https://www.instagram.com/silver_souls_dops/"
+        }
+    ]
+}
