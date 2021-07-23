@@ -18,6 +18,11 @@
             "name": "Instagram",
             "service": "Instagram",
             "link": "https://www.instagram.com/silver_souls_dops/"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.com/invite/DjcnbC7SFA"
         }
     ]
 }
