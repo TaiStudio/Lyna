@@ -1,0 +1,29 @@
+{
+    "name": "Abyllisfly",
+    "description": "Viens on se pose et on vas détruire du tank sur WarThunder ou on se rejoins sur le no mans land de Battelfield 1 ou a la guerre du pacifique dans le 5...Quoi qu'on fasse on passera un bon moment !",
+    "logo": "pages/abyllisfly/abyllisfly.png",
+    "font": "ancient",
+    "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png",
+    "links": [
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.com/invite/TPJPubyf"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCGY4WNzZlWb1dccBoB8ZqBw"
+        },
+        {
+            "name": "Spotify",
+            "service": "Spotify",
+            "link": "https://open.spotify.com/playlist/10WbX9YLtagvCWYYnx21Dd?si=4151b93ef2c24c74&nd=1"
+        },
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/abyllisfly"
+        }
+    ]
+}
