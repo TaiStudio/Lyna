@@ -1,0 +1,33 @@
+{
+    "name": "Korisno",
+    "description": "juste la chaine d'un mec qui essaye de se frayer un chemin dans l'immensité d'internet.",
+    "logo": "pages/korisno/korisno.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/noki_85"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCRH4trG32t0p1_9ERtKLJjA"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.com/invite/EwpBcfFuyz"
+        },
+        {
+            "name": "Twitter",
+            "service": "Twitter",
+            "link": "https://twitter.com/Noumy_85"
+        },
+        {
+            "name": "Tip/Don",
+            "service": "streamlabs",
+            "link": "https://streamlabs.com/noki_85/tip"
+        }
+    ]
+}

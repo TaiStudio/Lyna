@@ -1,0 +1,18 @@
+{
+    "name": "Noki 85",
+    "description": "Salut ! Vous pouvez m'appeler Noumy ou Noki :) Je n'ais pas vraiment d'horaire de Stream pour l'instant, donc follow pour être avisé d'un live :D",
+    "logo": "pages/noki_85/noki_85.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/korisno"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.com/invite/WCVRg3Z"
+        }
+    ]
+}
