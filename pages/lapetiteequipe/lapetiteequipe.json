@@ -1,0 +1,33 @@
+{
+    "name": "LaPetiteEquipe",
+    "description": "La Petite Équipe est un collectif de gamers formée de 0ldaxe et Jaco. Tous deux Louperivois, ils se sont connus sur la plateforme twitch. Ayant chacun leur chaîne respective au départ, ils ont lié leur force pour vous offrir le meilleur contenu possible sur une seul et unique chaîne! LPE!!!",
+    "logo": "pages/lapetiteequipe/lapetiteequipe.png",
+    "icon": "pages/lapetiteequipe/lapetiteequipe.png",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/lapetiteequipe"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCqoYzvXQzuVAUL1m-Uk-lBA?view_as=subscriber"
+        },
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/EquipePetite"
+        },
+        {
+            "name": "Facebook",
+            "service": "facebook",
+            "link": "https://www.facebook.com/LaPetiteEquipe/?eid=ARDc8JbFP_o39cX6GzEgRXRk-PvKIfb-wcjvT3Ad8eTT7A3pppl7RLPL-i7bUbqL7Pw__WwL3Jb8XU3p"
+        },
+        {
+            "name": "Notre site",
+            "service": "internet",
+            "link": "https://www.lapetiteequipe.com/"
+        }
+    ]
+}
