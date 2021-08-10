@@ -1,0 +1,58 @@
+{
+    "name": "Pot!on",
+    "description": "Garde le smile!",
+    "logo": "pages/potion_design/potion_design.jpg",
+    "font": "ancient",
+    "background": "pages/potion_design/POTON_BACK.jpg",
+    "animations": [
+        "rotateY"
+    ],
+    "links": [
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCdnKkw5D0ZEzRP01b73t2Ng"
+        },
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/potion_design"
+        },
+        {
+            "name": "SoundCloud",
+            "service": "Soundcloud",
+            "link": "https://soundcloud.com/user-357305126-160770071"
+        },
+        {
+            "name": "Keakr",
+            "service": "keakr",
+            "link": "https://www.keakr.com/fr/profile/pot-on-8/beats"
+        },
+        {
+            "name": "Buymeacoffee",
+            "service": "buymeacoffee",
+            "link": "https://www.buymeacoffee.com/potion"
+        },
+        {
+            "name": "Instagram",
+            "service": "Instagram",
+            "link": "https://www.instagram.com/potion_design/"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.com/invite/rd4RgWJGzA"
+        },
+        {
+            "name": "Bandcamp",
+            "service": "Bandcamp",
+            "link": "https://drinkpotion.bandcamp.com/releases"
+        },
+        {
+            "name": "Animeback",
+            "service": "Internet",
+            "link": "https://animeback.tai-studio.ml/",
+            "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
+        }
+    ]
+}
