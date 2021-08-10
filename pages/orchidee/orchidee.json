@@ -1,0 +1,67 @@
+{
+    "name": "Orchidée",
+    "description": "Tai Studio, Développeur Web UI/UX design",
+    "logo": "pages/orchidee/orchidee.png",
+    "font": "ancient",
+    "background": "pages/orchidee/orchideeBG.png",
+    "animations": [
+        "rotateLeft",
+        "zoom"
+    ],
+    "links": [
+        {
+            "name": "Site",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "pages/orchidee/orchidee.png"
+        },
+        {
+            "name": "Tai",
+            "service": "Internet",
+            "link": "https://lyna.ga/la_chaine_de_tai",
+            "icon": "pages/la_chaine_de_tai/la_chaine_de_tai.png"
+        },
+        {
+            "name": "POTION",
+            "service": "Internet",
+            "link": "https://lyna.ga/potion_design",
+            "icon": "pages/potion_design/potion_design.jpg"
+        },
+        {
+            "name": "Eldarkar",
+            "service": "Internet",
+            "link": "https://lyna.ga/Eldarkar66",
+            "icon": "pages/Eldarkar66/Eldarkar66.png"
+        },
+        {
+            "name": "Noki_85",
+            "service": "Internet",
+            "link": "https://lyna.ga/noki_85",
+            "icon": "pages/noki_85/noki_85.png"
+        },
+        {
+            "name": "korisno",
+            "service": "Internet",
+            "link": "https://lyna.ga/korisno",
+            "icon": "pages/korisno/korisno.png"
+        },
+        {
+            "name": "Treany",
+            "service": "Internet",
+            "link": "https://lyna.ga/louisvuitt41",
+            "icon": "pages/louisvuitt41/louisvuitt41.png"
+        },
+        {
+            "name": "Mystery22",
+            "service": "Internet",
+            "link": "https://lyna.ga/Mystery22",
+            "icon": "pages/Mystery22/Mystery22.png"
+        },
+        {
+            "name": "Silver Souls",
+            "service": "Internet",
+            "link": "https://lyna.ga/d0ps_silversouls",
+            "icon": "pages/d0ps_silversouls/d0ps_silversouls.png"
+        }
+    ]
+}
