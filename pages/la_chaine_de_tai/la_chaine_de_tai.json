@@ -1,0 +1,60 @@
+{
+    "name": "la chaine de tai",
+    "description": "Bonjour, Je m'appelle Tai et je suis développeur. je fais surtout du html/css/js/jquery/php/mysql/java. Sur la chaîne vous verrez du code de 14h à 18h et après 20h du jeu vidéo (minecraft/civilization 6/ ...).Merci a tout les Followers, VIP, SUB, Donateur, Modérateurs !",
+    "logo": "pages/la_chaine_de_tai/la_chaine_de_tai.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCBEQSKPgaJiG4R02n5SMMKw"
+        },
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/la_chaine_de_tai"
+        },
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/LeTwittairDeTai"
+        },
+        {
+            "name": "tai.tetsuyuki",
+            "service": "Instagram",
+            "link": "https://www.instagram.com/tai.tetsuyuki/"
+        },
+        {
+            "name": "Github",
+            "service": "Github",
+            "link": "https://github.com/LeGitHubDeTai"
+        },
+        {
+            "name": "Spreadshirt",
+            "service": "spreadshirt",
+            "link": "https://shop.spreadshirt.fr/tai-studio/"
+        },
+        {
+            "name": "Tipeee",
+            "service": "tipeee",
+            "link": "https://fr.tipeee.com/tai-studio"
+        },
+        {
+            "name": "Buymeacoffee",
+            "service": "buymeacoffee",
+            "link": "https://www.buymeacoffee.com/taistudio"
+        },
+        {
+            "name": "Tai Studio",
+            "service": "Internet",
+            "link": "https://tai-studio.ml",
+            "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png"
+        },
+        {
+            "name": "Animeback",
+            "service": "Internet",
+            "link": "https://animeback.tai-studio.ml/",
+            "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
+        }
+    ]
+}
