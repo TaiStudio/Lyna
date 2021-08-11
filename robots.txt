@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: http://lyna.ga/sitemap.xml
+Sitemap: https://lyna.ga/sitemap.xml
