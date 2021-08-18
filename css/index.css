@@ -8,6 +8,10 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
+html, body {
+    height: 100%;
+}
+
 body{
     --pri: #566270;
     --sec: #FFFFF3;
@@ -18,6 +22,7 @@ body{
     overflow: hidden;
     user-select: none;
     -moz-user-select: none;
+    margin: 0;
 }
 body .hide{
     display: none!important;
@@ -56,11 +61,14 @@ body .content{
     bottom: 0;
     left: 50%;
     width: 30%;
-    transform: translate(-50%, 100%);
+    min-width: 400px;
+    transform: translateX(-50%);
     opacity: 0;
     transition: 0.5s;
     background: var(--sec);
     box-shadow: #000 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
 }
 body .content.active{
     opacity: 1;
@@ -75,7 +83,7 @@ body .content .top{
 body .content .top .logo{
     position: relative;
     width: 30%;
-    height: 30%;
+    flex-basis: 30%;
     clip-path: circle();
     background: var(--sec);
 }
@@ -87,7 +95,7 @@ body .content .top .logo img{
 body .content .bottom{
     transform: translate(0, 0%);
     width: 100%;
-    height: 80%;
+    flex-grow: 1;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -95,7 +103,7 @@ body .content .bottom .link{
     position: relative;
     text-align: center;
     width: 100%;
-    height: 7%;
+    min-height: 25px;
     background: var(--sec);
     cursor: pointer;
     display: flex;
@@ -119,20 +127,18 @@ body .content .bottom .link .live{
 }
 body .content .bottom .link .left{
     position: absolute;
+    z-index: 1;
     top: 0;
     left: 0;
-    width: 20%;
-    height: 100%;
+    bottom: 0;
+    width: 60px;
 }
 body .content .bottom .link .center{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     cursor: pointer;
     transition: 0.5s;
-    transform: translate(0, 37%);
+    position: relative;
+    z-index: 2;
+    padding: 5px 60px;
 }
 body .content .bottom .link.active{
     transform: translate(0%);
@@ -143,26 +149,34 @@ body .content .bottom .link:hover{
 }
 body .content .bottom .link .arrow{
     position: absolute;
+    z-index: 3;
     top: 0;
-    right: 0;
-    height: 50%;
-    transform: translate(110%, 50%);
-    transition: 0.5s;
+    right: -60px;
+    bottom: 0;
+    width: 60px;
+    transition: right 0.5s;
+    padding: 5px;
+    box-sizing: border-box;
 }
 body .content .bottom .link:hover .arrow{
-    transform: translate(-50%, 50%);
+    right: 0px;
 }
 body .content .bottom .link .arrow img{
-    width: auto;
-    height: 100%;
+    height: 25px;
+    width: 25px;
 }
 body .content .bottom .link .logo{
     position: relative;
     height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 body .content .bottom .link .logo img{
-    width: auto;
-    height: 100%;
+    height: 25px;
+    width: 25px;
 }
 body .power{
     position: absolute;
@@ -192,6 +206,7 @@ body .power a{
         bottom: 0;
         left: 0;
         width: 100%;
+        min-width: unset;
         transform: translate(0%, 100%);
     }
     body .content.active{
