@@ -12,8 +12,7 @@ jobs:
         run: chmod +x ./script/release.sh
       - name: Juste Test
         run: ls
-      - run: cd script
-      - run: ls
+      - run: cd script && ls
       - name: Update data and release
         run: npm run release
         env:
