@@ -11,6 +11,6 @@ jobs:
       - name: Chmod
         run: chmod +x ./script/release.sh
       - name: Update data and release
-        run: npm install && npm run release
+        run: npm run release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
