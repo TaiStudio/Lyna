@@ -17,6 +17,7 @@ body{
     --sec: #FFFFF3;
     --tri: #E0E3DA;
     --qua: #A593E0;
+    --sz: 50px;
     background: var(--pri);
     color: var(--qua);
     overflow: hidden;
@@ -108,7 +109,7 @@ body .content .bottom .link{
     cursor: pointer;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
     transition: 0.5s;
@@ -126,19 +127,18 @@ body .content .bottom .link .live{
     background: #ff4e50;
 }
 body .content .bottom .link .left{
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 60px;
+    height: 100%;
+    min-width: 80px;
+    flex-shrink: 0;
 }
 body .content .bottom .link .center{
     cursor: pointer;
     transition: 0.5s;
     position: relative;
     z-index: 2;
-    padding: 5px 60px;
+    padding: 5px 80px 5px 5px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 body .content .bottom .link.active{
     transform: translate(0%);
@@ -151,12 +151,15 @@ body .content .bottom .link .arrow{
     position: absolute;
     z-index: 3;
     top: 0;
-    right: -60px;
+    right: -80px;
     bottom: 0;
-    width: 60px;
+    width: 80px;
     transition: right 0.5s;
     padding: 5px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 body .content .bottom .link:hover .arrow{
     right: 0px;
@@ -175,8 +178,8 @@ body .content .bottom .link .logo{
     align-items: center;
 }
 body .content .bottom .link .logo img{
-    height: 25px;
-    width: 25px;
+    height: var(--sz);
+    width: auto;
 }
 body .power{
     position: absolute;
@@ -201,6 +204,9 @@ body .power a{
 }
 
 @media (max-width: 1000px) {
+    body {
+        --sz: 32px;
+    }
     body .content{
         top: 0;
         bottom: 0;
@@ -218,5 +224,18 @@ body .power a{
         left: 0;
         right: inherit;
         bottom: inherit;
+    }
+}
+
+@media (max-width: 480px) {
+    body .content .bottom .link .left{
+        min-width: 40px;
+    }
+    body .content .bottom .link .center{
+        padding: 5px 40px 5px 5px;
+    }
+    body .content .bottom .link .arrow{
+        right: -40px;
+        width: 40px;
     }
 }
