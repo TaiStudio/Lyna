@@ -10,6 +10,8 @@ jobs:
       - uses: actions/checkout@v2.3.4
       - name: Chmod
         run: chmod +x ./script/release.sh
+      - name: Juste Test
+        run: ls
       - name: Update data and release
         run: npm run release
         env:
