@@ -28,6 +28,12 @@
             "name": "Tik Tok",
             "service": "TikTok",
             "link": "https://www.tiktok.com/@silver_souls_d0ps"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
         }
     ]
 }

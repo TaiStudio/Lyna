@@ -13,6 +13,12 @@
             "name": "Discord",
             "service": "Discord",
             "link": "https://discord.me/eldarkar99corp"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
         }
     ]
 }

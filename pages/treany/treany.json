@@ -1,13 +1,19 @@
 {
     "name": "Treany",
     "description": "Pas de pro player mais on s'éclate ici",
-    "logo": "pages/louisvuitt41/louisvuitt41.png",
+    "logo": "pages/treany/treany.png",
     "font": "ancient",
     "links": [
         {
             "name": "Twitch",
             "service": "Twitch",
             "link": "https://www.twitch.tv/louisvuitt41"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
         }
     ]
 }
