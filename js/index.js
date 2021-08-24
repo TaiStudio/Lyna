@@ -72,6 +72,13 @@ function load(data){
             `);
         }
     }
+    if(data.backgroundV != null){
+        if(data.backgroundV != ""){
+            $('body').prepend(`
+                <video class="background" src="${data.backgroundV}"></video>
+            `);
+        }
+    }
     $('.top .logo img').attr('src', data.logo);
     $('.top .name').text(data.name);
 
