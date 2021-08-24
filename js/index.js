@@ -45,6 +45,9 @@ $(function(){
     $('body').on('click', '.close', function(){
         $('.error').remove();
     })
+    $("video").on("loadstart", function() {
+        $('video').trigger('play');
+    });
     var height = $(window).height() - $('.top').height();
         height = Math.ceil(height) - 19;
     // $('body .bottom').attr('style', `height:${height}px`);
@@ -77,9 +80,6 @@ function load(data){
             $('body').prepend(`
                 <video loop autoplay class="background" src="${data.backgroundV}"></video>
             `);
-            $("video").on("loadstart", function() {
-                $('video').trigger('play');
-            });
         }
     }
     $('.top .logo img').attr('src', data.logo);
