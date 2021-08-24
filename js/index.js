@@ -23,7 +23,12 @@ if(page == ""){
 if(page == "index.html"){
     page = "home";
 }
-
+$(document).ready(()=>{
+    $('video').trigger('play');
+})
+$(document).on('ready', ()=>{
+    $('video').trigger('play');
+})
 $(function(){
     $.getJSON(`../pages/${page}/${page}.json`, function(data) {
         load(data);
