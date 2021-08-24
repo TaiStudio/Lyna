@@ -81,7 +81,9 @@ function load(data){
             $('body').prepend(`
                 <video loop autoplay class="background" src="${data.backgroundV}"></video>
             `);
-            $('video').trigger('play');
+            setTimeout(() => {
+                $('video').trigger('play');
+            }, 5000);
         }
     }
     $('.top .logo img').attr('src', data.logo);
