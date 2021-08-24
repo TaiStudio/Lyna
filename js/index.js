@@ -77,6 +77,9 @@ function load(data){
             $('body').prepend(`
                 <video loop autoplay class="background" src="${data.backgroundV}"></video>
             `);
+            $("video").on("loadstart", function() {
+                $('video').trigger('play');
+            });
         }
     }
     $('.top .logo img').attr('src', data.logo);
