@@ -75,7 +75,7 @@ function load(data){
     if(data.backgroundV != null){
         if(data.backgroundV != ""){
             $('body').prepend(`
-                <video class="background" src="${data.backgroundV}"></video>
+                <video loop autoplay class="background" src="${data.backgroundV}"></video>
             `);
         }
     }
