@@ -1,0 +1,33 @@
+{
+    "name": "JessLeTest",
+    "description": "Enjouée, souriante et accueillante, je te souhaite la bienvenue sur ma chaîne! Je fais surtout du contenu horreur, COOP horreur, indé et survival! Je vous ouvres mes portes afin de vous joindre à moi dans cette aventure! Installe toi confortablement avec un petit café, un toutou, et c'est parti!",
+    "logo": "pages/jessletest/jessletest.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/jessletest"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCoEeut8UuZ4f-d8qEWALwaQ"
+        },
+        {
+            "name": "Facebook",
+            "service": "facebook",
+            "link": "https://www.facebook.com/Jess-le-test-100987762245669"
+        },
+        {
+            "name": "TikTok",
+            "service": "tiktok",
+            "link": "https://www.tiktok.com/@jessyka.henley_barry?lang=en"
+        },
+        {
+            "name": "Tip/Dons",
+            "service": "streamelements",
+            "link": "https://streamelements.com/jessletest/tip"
+        }
+    ]
+}
