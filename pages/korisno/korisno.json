@@ -15,6 +15,11 @@
             "link": "https://discord.com/invite/WCVRg3Z"
         },
         {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCRwOyud_vsEDSlWSPgt_-Lg"
+        },
+        {
             "name": "Orchidee",
             "service": "Internet",
             "link": "https://orchidee.ga/",
