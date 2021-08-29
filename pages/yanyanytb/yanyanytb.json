@@ -1,0 +1,34 @@
+{
+    "name": "YanYanytb",
+    "description": "Noob Professionel",
+    "logo": "pages/yanyanytb/yanyanytb.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/yanyanytb"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCzS7jGvC3FWd84DoeXaafDg"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/yanis.louati/"
+        },
+        {
+            "name": "Tip/Dons",
+            "service": "streamelements",
+            "link": "https://streamelements.com/yanyanytb/tip"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
+        }
+    ]
+}
