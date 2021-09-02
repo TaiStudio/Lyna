@@ -21,6 +21,16 @@
             "link": "https://tai-studio.itch.io/the-wind-lair/"
         },
         {
+            "name": "Epic Game",
+            "service": "epicgame",
+            "link": "#"
+        },
+        {
+            "name": "Steam",
+            "service": "steam",
+            "link": "#"
+        },
+        {
             "name": "Discord",
             "service": "Discord",
             "link": "https://discord.com/invite/kHWRn2x"
