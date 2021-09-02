@@ -69,7 +69,6 @@ function imgError(image) {
 //     $('body .bottom').attr('style', `height:${height}px`);
 // });
 function load(data){
-    console.log(data);
     config = data;
     if(data.power == false){
         $('.power').remove();
