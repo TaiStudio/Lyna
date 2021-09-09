@@ -1,0 +1,24 @@
+{
+    "name": "El",
+    "description": "Salut! Je suis un petit streamer québecois, je joue à vraiment toute les jeux, si ta suggestion vien faire un tour pour m'en parler!",
+    "logo": "pages/el/el.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/eldarkar66"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.me/eldarkar99corp"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
+        }
+    ]
+}
