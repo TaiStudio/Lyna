@@ -1,7 +1,8 @@
 {
-    "name": "YanYanYTB",
+    "name": "Yan",
     "description": "Noob Professionel",
-    "logo": "pages/yanyanytb/yanyanytb.png",
+    "logo": "pages/yan/yan.png",
+    "background": "pages/yan/Background.png",
     "font": "ancient",
     "links": [
         {
@@ -20,15 +21,21 @@
             "link": "https://www.instagram.com/yanis.louati/"
         },
         {
-            "name": "Tip/Dons",
-            "service": "streamelements",
-            "link": "https://streamelements.com/yanyanytb/tip"
+            "name": "TikTok",
+            "service": "https://www.tiktok.com/@yan.lou?",
+            "link": "https://www.tiktok.com/@yan.lou?"
         },
         {
             "name": "Orchidee",
             "service": "Internet",
             "link": "https://orchidee.ga/",
             "icon": "https://orchidee.ga/favicon.png"
+        },
+        {
+            "name": "Animeback",
+            "service": "Internet",
+            "link": "https://animeback.tai-studio.ml/",
+            "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
         }
     ]
 }
