@@ -1,0 +1,41 @@
+{
+    "name": "Yan",
+    "description": "Noob Professionel",
+    "logo": "pages/yan/yan.png",
+    "background": "pages/yan/Background.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/yanyanytb"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCzS7jGvC3FWd84DoeXaafDg"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/yanis.louati/"
+        },
+        {
+            "name": "TikTok",
+            "service": "https://www.tiktok.com/@yan.lou?",
+            "link": "https://www.tiktok.com/@yan.lou?"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
+        },
+        {
+            "name": "Animeback",
+            "service": "Internet",
+            "link": "https://animeback.tai-studio.ml/",
+            "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
+        }
+    ]
+}
