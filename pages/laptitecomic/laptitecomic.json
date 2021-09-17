@@ -1,0 +1,28 @@
+{
+    "name": "LaPtiteComic",
+    "description": "Illustratrice | Éducatrice spécialisée | Streameuse d’art sur Twitch | Maman d’une p’tite tannante",
+    "logo": "pages/laptitecomic/laptitecomic.png",
+    "icon": "pages/laptitecomic/laptitecomic.png",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/laptitecomic"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.gg/QdenCdS"
+        },
+        {
+            "name": "Facebook",
+            "service": "facebook",
+            "link": "https://www.facebook.com/laptitecomic/"
+        },
+        {
+            "name": "INSTAGRAM",
+            "service": "instagram",
+            "link": "https://www.instagram.com/laptitecomic"
+        }
+    ]
+}
