@@ -36,6 +36,11 @@
             "link": "https://discord.com/invite/6gEK3c3xKa"
         },
         {
+            "name": "Reddit",
+            "service": "reddit",
+            "link": "https://www.reddit.com/r/the_wind_lair/"
+        },
+        {
             "name": "Tai Studio",
             "service": "Internet",
             "link": "http://lyna.ga/taistudio",
