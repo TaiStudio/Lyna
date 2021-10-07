@@ -1,0 +1,29 @@
+{
+    "name": "eatwader",
+    "description": "Salut :), bienvenu sur cette 'chaîne', la cagoule🐱‍👤 c'est rien, c'est le personnage. Bon visionnage :)je suis un grand fan de csgo tkt",
+    "logo": "pages/eatwader/eatwader.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/eatwader"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCJDnxLQT-f7ngjT__hMQ3-w"
+        },
+        {
+            "name": "Soundcloud",
+            "service": "soundcloud",
+            "link": "https://soundcloud.com/salomarusbeats"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
+        }
+    ]
+}
