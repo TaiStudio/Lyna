@@ -1,0 +1,24 @@
+{
+    "name": "neonpixlive",
+    "description": "DU FORTNITE FUN",
+    "logo": "pages/neonpixlive/neonpixlive.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/neonpixlive"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCcXG-rYbypnipCrR5h-4SRA"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
+        }
+    ]
+}
