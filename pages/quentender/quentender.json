@@ -1,0 +1,24 @@
+{
+    "name": "Quentender",
+    "description": "Salut tout le monde :D Je suis Quentin je Stream principalement le soir sur tout type de jeux et sans prétention bien sur on est la pour s'amuser ! un discord est opérationnel pour ceux qui en veulent plus ;)",
+    "logo": "pages/quentender/quentender.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/quentender"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.gg/pcskd6nb"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
+        }
+    ]
+}
