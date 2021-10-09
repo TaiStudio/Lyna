@@ -1,0 +1,29 @@
+{
+    "name": "Thales49",
+    "description": "Bonjour, je s'appelle Thales (Nathan) j'aime bien jouer a minecraft c'est même l'un des jeux que je préfère je fait aussi plaint d'autre chose n'ésite pas à venir jouer avec moi et à lâcher ton folow chez moi",
+    "logo": "pages/thales49/thales49.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/Thales49"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/p/CPIpVFfH_39/?utm_medium=copy_link"
+        },
+        {
+            "name": "Discord",
+            "service": "discord",
+            "link": "https://discord.gg/mZ3rEP474Z"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
+        }
+    ]
+}
