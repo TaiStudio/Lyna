@@ -1,0 +1,24 @@
+{
+    "name": "docosy",
+    "description": "Bienvenue ! Je suis un ptit nouveau qui démarre une nouvelle aventure. 200 follows: Stream 12h.500 follows: Stream 16h. 1000 follows: Stream 24h.",
+    "logo": "pages/docosy/docosy.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/docosy"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UC4v3nGIaZsLCLw65ZTj1hUQ"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
+        }
+    ]
+}
