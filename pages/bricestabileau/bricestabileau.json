@@ -1,0 +1,44 @@
+{
+    "name": "bricestabileau",
+    "description": "Je suis un STABILEAU. Je fais des lives Minecraft. Si tu veux un max de construction. Bah, je crois que tes bien tombé(e).",
+    "logo": "pages/bricestabileau/bricestabileau.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/bricestabileau"
+        },
+        {
+            "name": "discord",
+            "service": "discord",
+            "link": "https://discord.gg/6puYuEmbsu"
+        },
+        {
+            "name": "twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/SubileauB"
+        },
+        {
+            "name": "instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/subilea/?r=nametag"
+        },
+        {
+            "name": "tiktok",
+            "service": "tiktok",
+            "link": "https://vm.tiktok.com/ZMR2osnwW/"
+        },
+        {
+            "name": "tipeeestream",
+            "service": "tipeeestream",
+            "link": "https://www.tipeeestream.com/bricestabileau/donation"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
+        }
+    ]
+}
