@@ -1,0 +1,34 @@
+{
+    "name": "arcadotv",
+    "description": "Je fait du gaming Québecois ! Si vous avez des suggestions de jeux, vous pouvez les écrire dans l'onglet Suggestion Box. Encouragez moi avec un petit follow !",
+    "logo": "pages/arcadotv/arcadotv.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/arcadotv"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCD92rwwUDvjxImyHRgyXGeA"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/arcadotv/"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.gg/ub8gDyyNHR"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
+        }
+    ]
+}
