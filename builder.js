@@ -55,6 +55,8 @@ function getFiles (dir, files_){
         //DESCRIPTION
         if(config.description == null){config.description = "Create a page for provide your social links and other."}
         $('meta[name="description"]').attr('content', `${config.description}`);
+        $('meta[property="og:description"]').attr('content', `${config.description}`);
+        $('meta[name="twitter:description"]').attr('content', `${config.description}`);
         
         fs.writeFileSync(`dist/${files[i]}.html`, $.html());
 
