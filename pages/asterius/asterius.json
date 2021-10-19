@@ -1,0 +1,28 @@
+{
+    "name": "Asterius",
+    "description": "Asterius, Développeur Web UI/UX Integrateur & Depanage informatique",
+    "logo": "pages/asterius/asterius.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UC1UfZtWgdMtESL0BYtC7csw"
+        },
+        {
+            "name": "Facebook",
+            "service": "Facebook",
+            "link": "https://www.facebook.com/Asterius"
+        },
+        {
+            "name": "Instagram",
+            "service": "Instagram",
+            "link": "https://www.instagram.com/asteriusae/"
+        },
+        {
+            "name": "Github",
+            "service": "Github",
+            "link": "https://github.com/AsteriusAE"
+        }
+    ]
+}
