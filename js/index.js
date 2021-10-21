@@ -191,6 +191,21 @@ function twitchGetStream(id) {
         }
     });
 }
+trustpilot('tai studio')
+function trustpilot(name) {
+    $.ajax({
+        type: "GET",
+        url: `https://trustscrap.herokuapp.com/${name}`,
+        success: function (result) {
+            if(result != null){
+                console.log(result);
+            }
+        },
+        error: function (result) {
+            return false;
+        }
+    });
+}
 var all_anim,
     default_anim = "translate(-50%, 0%)",
     active_anim = "translate(-50%, 0%)";
