@@ -193,17 +193,8 @@ function twitchGetStream(id) {
 }
 trustpilot('tai studio')
 function trustpilot(name) {
-    $.ajax({
-        type: "GET",
-        url: `https://trustscrap.herokuapp.com/${name}`,
-        success: function (result) {
-            if(result != null){
-                console.log(result);
-            }
-        },
-        error: function (result) {
-            return false;
-        }
+    $.get(`https://trustscrap.herokuapp.com/${name}`).success(function(data){ 
+        console.log(data);
     });
 }
 var all_anim,
