@@ -193,7 +193,7 @@ function twitchGetStream(id) {
 }
 trustpilot('tai studio')
 function trustpilot(name) {
-    $.get(`https://trustscrap.herokuapp.com/${name}`).success(function(data){ 
+    $.getJSON(`https://trustscrap.herokuapp.com/${name}`, function(data){ 
         console.log(data);
     });
 }
