@@ -114,7 +114,8 @@ function load(data){
     for(i=0;i<data.links.length;i++){
         var icon,
             twitchButton = "",
-            display = "";
+            display = "",
+            trustIDB = null;
         if(data.links[i].icon != null){
             icon = data.links[i].icon;
         }
@@ -136,8 +137,12 @@ function load(data){
         if(data.links[i].display == false){
             display = "hide";
         }
+        if(data.links[i].trustpilot != null){
+            trustIDB = 'trust1';
+            trustpilot(data.links[i].trustpilot, trustIDB);
+        }
         $('.bottom').append(`
-            <div class="link ${twitchButton} ${display}" data-link="${data.links[i].link}">
+            <div class="link ${twitchButton} ${display} ${trustIDB}" data-link="${data.links[i].link}">
                 <div class="left">
                     <div class="logo">
                         <img src="${icon}" alt="${data.links[i].service}" onerror="imgError(this);" />
@@ -191,10 +196,9 @@ function twitchGetStream(id) {
         }
     });
 }
-trustpilot('tai studio')
-function trustpilot(name) {
+function trustpilot(name, trustIDB) {
     $.getJSON(`https://trustscrap.herokuapp.com/${name}`, function(data){ 
-        console.log(data);
+        $(`.${trustIDB} .left`).append(`<img class="trustpilot" src="${data[0]['stars']}"></img>`);
     });
 }
 var all_anim,
