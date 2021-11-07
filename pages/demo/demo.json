@@ -1,0 +1,38 @@
+{
+    "name": "demo",
+    "description": "this is a demo for youtube !",
+    "logo": "https://www.crushpixel.com/static16/preview2/stock-photo-demo-2495858.jpg",
+    "font": "time new roman",
+    "links": [
+        {
+            "name": "My first link",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCZiVWB8_UNH4NLzr7XbaI8A"
+        },
+        {
+            "name": "link 1",
+            "service": "internet",
+            "link": "https://lyna.ga/"
+        },
+        {
+            "name": "link 1",
+            "service": "internet",
+            "link": "https://lyna.ga/"
+        },
+        {
+            "name": "link 1",
+            "service": "internet",
+            "link": "https://lyna.ga/"
+        },
+        {
+            "name": "link 1",
+            "service": "internet",
+            "link": "https://lyna.ga/"
+        },
+        {
+            "name": "link 1",
+            "service": "internet",
+            "link": "https://lyna.ga/"
+        }
+    ]
+}
