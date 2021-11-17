@@ -1,10 +1,10 @@
-{
-    "name": "Yan",
+ { "name": "Yan",
     "description": "Noob proffessionnel",
     "logo": "pages/yanyan/logo.png",
     "background": "pages/yanyan/Background.png",
     "font": "ancient",
     "links": [
+
         {
             "name": "Chaine principal",
             "service": "Youtube",
@@ -20,15 +20,19 @@
             "service": "Youtube",
             "link": "https://www.youtube.com/channel/UCwk0LX6Xb4h7KZa6Emf8X0w"
         },
+
+
         {
             "name": "Twitch",
             "service": "Twitch",
             "link": "https://www.twitch.tv/yanyanytb"
         },
+        
         {
             "name": "Instagram",
             "service": "instagram",
             "link": "https://www.instagram.com/yanis.louati/"
         }
-     ]
-}
+    
+    
+     ] }
