@@ -16,6 +16,11 @@
             "link": "https://www.youtube.com/channel/UCzS7jGvC3FWd84DoeXaafDg"
         },
         {
+            "name": "Short",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UC9QOkQOQoh9gRdeXMeuHWgw"
+        },
+        {
             "name": "Instagram",
             "service": "instagram",
             "link": "https://www.instagram.com/yanis.louati/"
