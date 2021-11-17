@@ -29,6 +29,18 @@
             "name": "Instagram",
             "service": "instagram",
             "link": "https://www.instagram.com/yanis.louati/"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee.ga/",
+            "icon": "https://orchidee.ga/favicon.png"
+        },
+        {
+            "name": "Animeback",
+            "service": "Internet",
+            "link": "https://animeback.tai-studio.ml/",
+            "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
         }
      ]
 }
