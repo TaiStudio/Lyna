@@ -10,6 +10,11 @@
             "link": "https://www.youtube.com/channel/UC1UfZtWgdMtESL0BYtC7csw"
         },
         {
+            "name": "Twitter",
+            "service": "Twitter",
+            "link": "https://twitter.com/AsteriusAE"
+        },
+        {
             "name": "Facebook",
             "service": "Facebook",
             "link": "https://www.facebook.com/Asterius"
