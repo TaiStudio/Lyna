@@ -25,9 +25,15 @@
             "link": "https://www.instagram.com/asteriusae/"
         },
         {
+            "name": "Bandcamp",
+            "service": "bandcamp",
+            "link": "https://asteriusbot.bandcamp.com/"
+        },
+        {
             "name": "Github",
             "service": "Github",
-            "link": "https://github.com/AsteriusAE"
+            "link": "https://github.com/AsteriusAE",
+            "display": false
         }
     ]
 }
