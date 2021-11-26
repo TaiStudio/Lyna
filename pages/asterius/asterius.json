@@ -18,7 +18,8 @@
         {
             "name": "Facebook",
             "service": "Facebook",
-            "link": "https://www.facebook.com/Asterius"
+            "link": "https://www.facebook.com/Asterius",
+            "display": false
         },
         {
             "name": "Instagram",
