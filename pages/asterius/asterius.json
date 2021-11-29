@@ -32,6 +32,11 @@
             "link": "https://asteriusbot.bandcamp.com/"
         },
         {
+            "name": "Soundcloud",
+            "service": "soundcloud",
+            "link": "https://soundcloud.com/asteriusae"
+        },
+        {
             "name": "Github",
             "service": "Github",
             "link": "https://github.com/AsteriusAE",
