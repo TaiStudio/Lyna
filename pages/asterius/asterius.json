@@ -6,6 +6,12 @@
     "font": "ancient",
     "links": [
         {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://www.twitch.tv/asteriusae",
+            "display": false
+        },
+        {
             "name": "Youtube",
             "service": "Youtube",
             "link": "https://www.youtube.com/channel/UC1UfZtWgdMtESL0BYtC7csw"
