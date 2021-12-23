@@ -17,7 +17,8 @@
         {
             "name": "twitter",
             "service": "twitter",
-            "link": "https://twitter.com/SubileauB"
+            "link": "https://twitter.com/SubileauB",
+            "display": false
         },
         {
             "name": "instagram",
@@ -32,7 +33,8 @@
         {
             "name": "tipeeestream",
             "service": "tipeeestream",
-            "link": "https://www.tipeeestream.com/bricestabileau/donation"
+            "link": "https://www.tipeeestream.com/bricestabileau/donation",
+            "display": false
         },
         {
             "name": "Orchidee",
