@@ -6,6 +6,13 @@
     "font": "ancient",
     "links": [
         {
+            "name": "Asterius Site",
+            "service": "internet",
+            "link": "https://asteriusae.netlify.app/",
+            "display": false,
+            "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico"
+        },
+        {
             "name": "Twitch",
             "service": "twitch",
             "link": "https://www.twitch.tv/asteriusae",
