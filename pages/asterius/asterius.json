@@ -4,7 +4,7 @@
     "logo": "pages/asterius/asterius.png",
     "background": "pages/asterius/background.png",
     "font": "ancient",
-    "music": "pages/asterius/music.mp4",
+    "music": "pages/asterius/music.wav",
     "links": [
         {
             "name": "Asterius Site",
