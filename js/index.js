@@ -54,10 +54,6 @@ $(function(){
         $('video').trigger('play');
     });
     $('video').trigger('play');
-    $("audio").on("loadstart", function() {
-        $('audio').trigger('play');
-    });
-    $('audio').trigger('play');
     var height = $(window).height() - $('.top').height();
         height = Math.ceil(height) - 19;
     // $('body .bottom').attr('style', `height:${height}px`);
@@ -166,6 +162,10 @@ function load(data){
     animator();
     setTimeout(() => {
         $('.content').addClass('active');
+        $("audio").on("loadstart", function() {
+            $('audio').trigger('play');
+        });
+        $('audio').trigger('play');
     }, 1000);
     $('.link').addClass('active');
 }
