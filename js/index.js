@@ -93,6 +93,9 @@ function load(data){
             }, 5000);
         }
     }
+    if(data.music != null){
+        $('body').append(`<audio loop autoplay src="${data.music}"/>`)
+    }
     $('.top .logo img').attr('src', data.logo);
     $('.top .name').text(data.name);
 
