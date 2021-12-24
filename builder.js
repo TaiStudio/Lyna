@@ -57,6 +57,11 @@ function getFiles (dir, files_){
         $('meta[name="description"]').attr('content', `${config.description}`);
         $('meta[property="og:description"]').attr('content', `${config.description}`);
         $('meta[name="twitter:description"]').attr('content', `${config.description}`);
+
+        // MUSIC
+        if(config.music != null){
+            $('body').append(`<audio loop autoplay src="${config.music}"/>`)
+        }
         
         fs.writeFileSync(`dist/${files[i]}.html`, $.html());
 
