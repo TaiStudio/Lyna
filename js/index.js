@@ -53,6 +53,9 @@ $(function(){
     $("video").on("loadstart", function() {
         $('video').trigger('play');
     });
+    $("audio").on("loadstart", function() {
+        $('audio').trigger('play');
+    });
     $('video').trigger('play');
     var height = $(window).height() - $('.top').height();
         height = Math.ceil(height) - 19;
@@ -162,9 +165,6 @@ function load(data){
     animator();
     setTimeout(() => {
         $('.content').addClass('active');
-        $("audio").on("loadstart", function() {
-            $('audio').trigger('play');
-        });
         $('audio').trigger('play');
     }, 1000);
     $('.link').addClass('active');
