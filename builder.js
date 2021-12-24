@@ -60,7 +60,7 @@ function getFiles (dir, files_){
 
         // MUSIC
         if(config.music != null){
-            $('body').append(`<audio loop autoplay src="${config.music}"/>`)
+            $('body').append(`<audio loop autoplay src="../${config.music}"/>`)
         }
         
         fs.writeFileSync(`dist/${files[i]}.html`, $.html());
