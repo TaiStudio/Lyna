@@ -54,7 +54,10 @@ $(function(){
         $('video').trigger('play');
     });
     $('video').trigger('play');
-    $('audio').trigger('play')
+    $("audio").on("loadstart", function() {
+        $('audio').trigger('play');
+    });
+    $('audio').trigger('play');
     var height = $(window).height() - $('.top').height();
         height = Math.ceil(height) - 19;
     // $('body .bottom').attr('style', `height:${height}px`);
