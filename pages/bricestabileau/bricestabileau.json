@@ -37,6 +37,16 @@
             "display": false
         },
         {
+            "name": "AZURIA",
+            "service": "discord",
+            "link": "https://discord.gg/azuria"
+        },
+        {
+            "name": "OCEANQUEST",
+            "service": "discord",
+            "link": "https://discord.gg/fMmGZvrpKc"
+        },
+        {
             "name": "Orchidee",
             "service": "Internet",
             "link": "https://orchidee.ga/",
