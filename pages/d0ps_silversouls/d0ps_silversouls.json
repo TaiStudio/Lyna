@@ -15,6 +15,11 @@
             "link": "https://www.youtube.com/channel/UCasjcLRsgGA5uDsMSxkVDVQ"
         },
         {
+            "name": "Test",
+            "service": "itchio",
+            "link": "https://www.youtube.com/watch?v=0zQh89meazA"
+        },
+        {
             "name": "Instagram",
             "service": "Instagram",
             "link": "https://www.instagram.com/silver_souls_dops/"
