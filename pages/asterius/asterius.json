@@ -51,6 +51,11 @@
             "link": "https://soundcloud.com/asteriusae"
         },
         {
+            "name": "Tik Tok",
+            "service": "TikTok",
+            "link": "https://www.tiktok.com/@asteriusae"
+        },
+        {
             "name": "Github",
             "service": "Github",
             "link": "https://github.com/AsteriusAE",
