@@ -41,6 +41,11 @@
             "link": "https://www.instagram.com/asteriusae/"
         },
         {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.gg/FdQcSPhqJR"
+        },
+        {
             "name": "Bandcamp",
             "service": "bandcamp",
             "link": "https://asteriusbot.bandcamp.com/"
