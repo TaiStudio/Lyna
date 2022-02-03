@@ -51,14 +51,13 @@
         {
             "name": "Animeback",
             "service": "Internet",
-            "link": "https://animeback.tai-studio.ml/",
+            "link": "https://animeback-tai-studio.netlify.app/",
             "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
         },
         {
-            "name": "Orchidee",
+            "name": "mrpapillon",
             "service": "Internet",
-            "link": "https://orchidee.ga/",
-            "icon": "https://orchidee.ga/favicon.png"
+            "link": "https://www.mrpapillon.fr/"
         }
     ]
 }
