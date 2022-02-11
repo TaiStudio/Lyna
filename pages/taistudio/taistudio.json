@@ -67,31 +67,31 @@
             "name": "Octavia",
             "service": "Internet",
             "link": "https://www.youtube.com/playlist?list=PLZiAlHsp810GJPX3CScsk3HGiH-rYiDPh",
-            "icon": "https://tai-studio.ml/img/others/octavia.png"
+            "icon": "https://tai-studio.netlify.app/img/others/octavia.png"
         },
         {
             "name": "Sofia",
             "service": "Internet",
             "link": "https://github.com/TaiStudio/Sofia",
-            "icon": "https://tai-studio.ml/img/others/sofia.png"
+            "icon": "https://tai-studio.netlify.app/img/others/sofia.png"
         },
         {
             "name": "IO",
             "service": "Internet",
             "link": "https://io.tai-studio.ml/",
-            "icon": "https://tai-studio.ml/img/others/IO.png"
+            "icon": "https://tai-studio.netlify.app/img/others/IO.png"
         },
         {
             "name": "orchidee",
             "service": "Internet",
-            "link": "https://orchidee.ga/",
-            "icon": "https://tai-studio.ml/img/others/Orchidee.png"
+            "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://tai-studio.netlify.app/img/others/Orchidee.png"
         },
         {
             "name": "Brawlshoot",
             "service": "Internet",
             "link": "https://brawlshoot.tai-studio.ml/",
-            "icon": "https://tai-studio.ml/img/others/Brawl%20Shoot.png"
+            "icon": "https://tai-studio.netlify.app/img/others/Brawl%20Shoot.png"
         }
     ],
     "colors": [

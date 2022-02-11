@@ -15,6 +15,11 @@
             "link": "https://www.youtube.com/channel/UCasjcLRsgGA5uDsMSxkVDVQ"
         },
         {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/clan_okami"
+        },
+        {
             "name": "Instagram",
             "service": "Instagram",
             "link": "https://www.instagram.com/silver_souls_dops/"
@@ -32,8 +37,8 @@
         {
             "name": "Orchidee",
             "service": "Internet",
-            "link": "https://orchidee.ga/",
-            "icon": "https://orchidee.ga/favicon.png"
+            "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
         }
     ]
 }

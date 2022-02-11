@@ -32,8 +32,8 @@
         {
             "name": "Orchidee",
             "service": "Internet",
-            "link": "https://orchidee.ga/",
-            "icon": "https://orchidee.ga/favicon.png"
+            "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
         }
     ]
 }
