@@ -1,9 +1,9 @@
 {
     "name": "silver",
     "description": "Graphiste debutant et streamer a ses heures perdues!",
-    "logo": "pages/d0ps_silversouls/d0ps_silversouls.png",
+    "logo": "pages/(okami)silversouls/d0ps_silversouls.png",
     "font": "ancient",
-    "music": "pages/asterius/ncs lyna silver.mp3",
+    "music": "pages/(okami)silversouls/ncs lyna silver.mp3",
     "links": [
         {
             "name": "Twitch",
