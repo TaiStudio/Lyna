@@ -60,38 +60,44 @@
         {
             "name": "Animeback",
             "service": "Internet",
-            "link": "https://animeback.tai-studio.ml/",
+            "link": "https://animeback-tai-studio.netlify.app",
             "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
         },
         {
             "name": "Octavia",
             "service": "Internet",
             "link": "https://www.youtube.com/playlist?list=PLZiAlHsp810GJPX3CScsk3HGiH-rYiDPh",
-            "icon": "https://tai-studio.netlify.app/img/others/octavia.png"
+            "icon": "https://tai-studio.netlify.app/img/projet/octavia.png"
         },
         {
             "name": "Sofia",
             "service": "Internet",
             "link": "https://github.com/TaiStudio/Sofia",
-            "icon": "https://tai-studio.netlify.app/img/others/sofia.png"
+            "icon": "https://tai-studio.netlify.app/img/projet/sofia.png"
         },
         {
             "name": "IO",
             "service": "Internet",
-            "link": "https://io.tai-studio.ml/",
-            "icon": "https://tai-studio.netlify.app/img/others/IO.png"
+            "link": "https://io-tai-studio.netlify.app",
+            "icon": "https://tai-studio.netlify.app/img/projet/IO.png"
         },
         {
-            "name": "orchidee",
+            "name": "Orchidee",
             "service": "Internet",
             "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "https://tai-studio.netlify.app/img/others/Orchidee.png"
+            "icon": "https://tai-studio.netlify.app/img/projet/Orchidee.png"
         },
         {
             "name": "Brawlshoot",
             "service": "Internet",
-            "link": "https://brawlshoot.tai-studio.ml/",
-            "icon": "https://tai-studio.netlify.app/img/others/Brawl%20Shoot.png"
+            "link": "https://brawlshoot-tai-studio.netlify.app",
+            "icon": "https://tai-studio.netlify.app/img/projet/Brawl%20Shoot.png"
+        },
+        {
+            "name": "Asterius",
+            "service": "Internet",
+            "link": "https://lyna.ga/asterius",
+            "icon": "https://tai-studio.netlify.app/img/projet/Asterius.png"
         }
     ],
     "colors": [

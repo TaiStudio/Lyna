@@ -1,0 +1,46 @@
+{
+    "name": "silver",
+    "description": "Graphiste debutant et streamer a ses heures perdues!",
+    "logo": "pages/(okami)silversouls/d0ps_silversouls.png",
+    "font": "ancient",
+    "music": "pages/(okami)silversouls/ncslynasilver.mp3",
+    "backgroundV": "pages/la_chaine_de_tai/PSX_20220214_163306.jpg",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/d0ps_silversouls"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCasjcLRsgGA5uDsMSxkVDVQ"
+        },
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/clan_okami"
+        },
+        {
+            "name": "Instagram",
+            "service": "Instagram",
+            "link": "https://www.instagram.com/silver_souls_dops/"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.com/invite/DjcnbC7SFA"
+        },
+        {
+            "name": "Tik Tok",
+            "service": "TikTok",
+            "link": "https://www.tiktok.com/@silver_souls_d0ps"
+        },
+        {
+            "name": "Orchidee",
+            "service": "Internet",
+            "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        }
+    ]
+}
