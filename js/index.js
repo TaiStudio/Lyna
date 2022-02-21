@@ -45,7 +45,14 @@ $(function(){
         })
     })
     $('.bottom').on('click', '.link', function(){
-        window.open($(this).attr('data-link'), "_blank");
+        console.log($(this).attr('data-target'));
+        console.log(typeof $(this).attr('data-target'));
+        if($(this).attr('data-target') == "null"){
+            window.open($(this).attr('data-link'), "_blank");
+        }
+        else{
+            window.open($(this).attr('data-link'), '_self');
+        }
     })
     $('body').on('click', '.close', function(){
         $('.error').remove();
@@ -151,7 +158,7 @@ function load(data){
             trustpilot(data.links[i].trustpilot, trustIDB);
         }
         $('.bottom').append(`
-            <div class="link ${twitchButton} ${display} ${trustIDB}" data-link="${data.links[i].link}">
+            <div class="link ${twitchButton} ${display} ${trustIDB}" data-link="${data.links[i].link}" data-target="${data.links[i].target || null}">
                 <div class="left">
                     <div class="logo">
                         <img src="${icon}" alt="${data.links[i].service}" onerror="imgError(this);" />

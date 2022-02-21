@@ -7,9 +7,16 @@
     "music": "pages/asterius-meteo/music.wav",
     "links": [
         {
-            "name": "Les Réseaux Asterius",
+            "name": "Retour",
             "service": "internet",
             "link": "https://lyna.ga/asterius",
+            "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico",
+            "target": "_self"
+        },
+        {
+            "name": "Les Réseaux Asterius",
+            "service": "internet",
+            "link": "https://lyna.ga/asterius-reseaux",
             "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico"
         },
         {

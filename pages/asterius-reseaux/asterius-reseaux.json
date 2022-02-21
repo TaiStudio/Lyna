@@ -7,6 +7,13 @@
     "music": "pages/asterius-reseaux/music.wav",
     "links": [
         {
+            "name": "Retour",
+            "service": "internet",
+            "link": "https://lyna.ga/asterius",
+            "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico",
+            "target": "_self"
+        },
+        {
             "name": "Asterius Site",
             "service": "internet",
             "link": "https://asteriusae.netlify.app/",
