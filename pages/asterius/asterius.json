@@ -10,13 +10,15 @@
             "name": "Asterius Réseaux",
             "service": "internet",
             "link": "https://lyna.ga/asterius-reseaux",
-            "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico"
+            "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico",
+            "target": "_self"
         },
         {
             "name": "Asterius Météo",
             "service": "twitch",
             "link": "https://lyna.ga/asterius-meteo",
-            "icon": "https://prevision-meteo.ch/style/images/icon/eclaircies-big.png"
+            "icon": "https://prevision-meteo.ch/style/images/icon/eclaircies-big.png",
+            "target": "_self"
         }
     ]
 }
