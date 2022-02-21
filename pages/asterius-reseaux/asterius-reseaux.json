@@ -1,0 +1,69 @@
+{
+    "name": "Asterius",
+    "description": "Asterius, Développeur Web UI/UX Integrateur & Depanage informatique",
+    "logo": "pages/asterius-reseaux/asterius-reseaux.png",
+    "background": "pages/asterius-reseaux/background.png",
+    "font": "ancient",
+    "music": "pages/asterius-reseaux/music.wav",
+    "links": [
+        {
+            "name": "Asterius Site",
+            "service": "internet",
+            "link": "https://asteriusae.netlify.app/",
+            "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico"
+        },
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://www.twitch.tv/asteriusae",
+            "display": false
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UC1UfZtWgdMtESL0BYtC7csw"
+        },
+        {
+            "name": "Twitter",
+            "service": "Twitter",
+            "link": "https://twitter.com/AsteriusAE"
+        },
+        {
+            "name": "Facebook",
+            "service": "Facebook",
+            "link": "https://www.facebook.com/Asterius-102116155601193",
+            "display": false
+        },
+        {
+            "name": "Instagram",
+            "service": "Instagram",
+            "link": "https://www.instagram.com/asteriusae/"
+        },
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.gg/FdQcSPhqJR"
+        },
+        {
+            "name": "Bandcamp",
+            "service": "bandcamp",
+            "link": "https://asteriusbot.bandcamp.com/"
+        },
+        {
+            "name": "Soundcloud",
+            "service": "soundcloud",
+            "link": "https://soundcloud.com/asteriusae"
+        },
+        {
+            "name": "Tik Tok",
+            "service": "TikTok",
+            "link": "https://www.tiktok.com/@asteriusae"
+        },
+        {
+            "name": "Github",
+            "service": "Github",
+            "link": "https://github.com/AsteriusAE",
+            "display": false
+        }
+    ]
+}
