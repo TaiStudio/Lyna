@@ -1,0 +1,26 @@
+{
+    "name": "Asterius Meteo",
+    "description": "Asterius, Développeur Web UI/UX Integrateur & Depanage informatique",
+    "logo": "pages/asterius-meteo/asterius.png",
+    "background": "pages/asterius-meteo/background.png",
+    "font": "ancient",
+    "music": "pages/asterius-meteo/music.wav",
+    "links": [
+        {
+            "name": "Les Réseaux Asterius",
+            "service": "internet",
+            "link": "https://lyna.ga/asterius",
+            "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico"
+        },
+        {
+            "name": "prevision-meteo France/Belgique/Suisse",
+            "service": "internet",
+            "link": "https://www.prevision-meteo.ch"
+        },
+        {
+            "name": "windy.com WebCams",
+            "service": "internet",
+            "link": "https://www.windy.com"
+        }
+    ]
+}
