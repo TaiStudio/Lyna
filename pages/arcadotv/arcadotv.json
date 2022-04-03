@@ -23,12 +23,6 @@
             "name": "Discord",
             "service": "Discord",
             "link": "https://discord.gg/ub8gDyyNHR"
-        },
-        {
-            "name": "Orchidee",
-            "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
         }
     ]
 }

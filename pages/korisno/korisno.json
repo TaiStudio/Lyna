@@ -20,9 +20,15 @@
             "link": "https://www.youtube.com/channel/UCRwOyud_vsEDSlWSPgt_-Lg"
         },
         {
-            "name": "Orchidee",
+            "name": "Orchidée",
             "service": "Internet",
             "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        },
+        {
+            "name": "Orchidée Membres",
+            "service": "Internet",
+            "link": "https://lyna.ga/orchidee",
             "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
         }
     ]

@@ -58,9 +58,15 @@
             "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
         },
         {
-            "name": "Orchidee",
+            "name": "Orchidée",
             "service": "Internet",
             "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        },
+        {
+            "name": "Orchidée Membres",
+            "service": "Internet",
+            "link": "https://lyna.ga/orchidee",
             "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
         }
     ]

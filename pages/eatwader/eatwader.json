@@ -18,12 +18,6 @@
             "name": "Soundcloud",
             "service": "soundcloud",
             "link": "https://soundcloud.com/salomarusbeats"
-        },
-        {
-            "name": "Orchidee",
-            "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
         }
     ]
 }

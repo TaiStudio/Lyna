@@ -12,20 +12,14 @@
         {
             "name": "Site",
             "service": "Internet",
-            "link": "https://orchidee.ml/",
-            "icon": "pages/orchidee/orchidee.png"
+            "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
         },
         {
-            "name": "Tai",
+            "name": "Tai Tetsuyuki",
             "service": "Internet",
             "link": "https://lyna.ga/la_chaine_de_tai",
             "icon": "pages/la_chaine_de_tai/la_chaine_de_tai.png"
-        },
-        {
-            "name": "POTION",
-            "service": "Internet",
-            "link": "https://lyna.ga/potion_design",
-            "icon": "pages/potion_design/potion_design.jpg"
         },
         {
             "name": "Eldarkar",
@@ -37,10 +31,11 @@
             "name": "Noki_85",
             "service": "Internet",
             "link": "https://lyna.ga/noki_85",
-            "icon": "pages/noki_85/noki_85.png"
+            "icon": "pages/noki_85/noki_85.png",
+            "display": false
         },
         {
-            "name": "korisno",
+            "name": "Korisno",
             "service": "Internet",
             "link": "https://lyna.ga/korisno",
             "icon": "pages/korisno/korisno.png"
@@ -49,19 +44,32 @@
             "name": "Treany",
             "service": "Internet",
             "link": "https://lyna.ga/louisvuitt41",
-            "icon": "pages/louisvuitt41/louisvuitt41.png"
-        },
-        {
-            "name": "Mystery22",
-            "service": "Internet",
-            "link": "https://lyna.ga/Mystery22",
-            "icon": "pages/Mystery22/Mystery22.png"
+            "icon": "pages/louisvuitt41/louisvuitt41.png",
+            "display": false
         },
         {
             "name": "Silver Souls",
             "service": "Internet",
             "link": "https://lyna.ga/d0ps_silversouls",
             "icon": "pages/d0ps_silversouls/d0ps_silversouls.png"
+        },
+        {
+            "name": "BriceStabileau",
+            "service": "Internet",
+            "link": "https://www.twitch.tv/bricestabileau",
+            "icon": "pages/bricestabileau/bricestabileau.png"
+        },
+        {
+            "name": "Thales49",
+            "service": "Internet",
+            "link": "https://www.twitch.tv/Thales49",
+            "icon": "pages/thales49/thales49.png"
+        },
+        {
+            "name": "Toasty",
+            "service": "Internet",
+            "link": "https://lyna.ga/toasty",
+            "icon": "pages/toasty/toasty.png"
         }
     ]
 }

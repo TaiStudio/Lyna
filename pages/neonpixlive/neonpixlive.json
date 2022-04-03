@@ -13,12 +13,6 @@
             "name": "Youtube",
             "service": "youtube",
             "link": "https://www.youtube.com/channel/UCcXG-rYbypnipCrR5h-4SRA"
-        },
-        {
-            "name": "Orchidee",
-            "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
         }
     ]
 }

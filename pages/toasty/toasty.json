@@ -1,0 +1,40 @@
+{
+    "name": "Toasty",
+    "description": "je fais des lives pour m'amuser et amuser les autres, hésitez pas a venir me faire un coucou dans le tchat ou dans le discord. Je fais des lives tous les soir a partir de 21h/22h tous les deux jours mais il peut y avoir des exceptions.",
+    "logo": "pages/toasty/toasty.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://www.twitch.tv/posepain"
+        },
+        {
+            "name": "Tips",
+            "service": "streamelements",
+            "link": "https://streamelements.com/posepain/tip"
+        },
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/toastyandsyrup?t=Pl-Wp8IaXpqeiZpJo5Eh4Q&s=09"
+        },
+        {
+            "name": "Discord",
+            "service": "discord",
+            "link": "https://discord.gg/EFpR3NtR"
+        },
+        {
+            "name": "Orchidée",
+            "service": "Internet",
+            "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        },
+        {
+            "name": "Orchidée Membres",
+            "service": "Internet",
+            "link": "https://lyna.ga/orchidee",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        }
+    ]
+}
