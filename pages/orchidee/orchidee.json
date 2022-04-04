@@ -70,6 +70,12 @@
             "service": "Internet",
             "link": "https://lyna.ga/toasty",
             "icon": "pages/toasty/toasty.png"
+        },
+        {
+            "name": "Camillem62",
+            "service": "Internet",
+            "link": "https://lyna.ga/camillem62",
+            "icon": "pages/camillem62/camillem62.png"
         }
     ]
 }
