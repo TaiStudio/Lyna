@@ -1,0 +1,40 @@
+{
+    "name": "VerryaChan",
+    "description": "Sur cette chaîne vous trouverez principalement du Pokémon, du positif (ou du moins on essaie) et du multigaming en tout genre ! N'hésitez pas à laisser un petit message ça me ferait plaisir !",
+    "logo": "pages/verryachan/verryachan.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/verryachan"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCXScnj2gpakxCKWDPtUbLUA"
+        },
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/VerryaChan"
+        },
+        {
+            "name": "VODs",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCLWssiluzNQMTEQcnscnmMQ"
+        },
+        {
+            "name": "Orchidée",
+            "service": "Internet",
+            "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        },
+        {
+            "name": "Orchidée Membres",
+            "service": "Internet",
+            "link": "https://lyna.ga/orchidee",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        }
+    ]
+}

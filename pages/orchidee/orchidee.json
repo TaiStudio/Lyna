@@ -76,6 +76,12 @@
             "service": "Internet",
             "link": "https://lyna.ga/camillem62",
             "icon": "pages/camillem62/camillem62.png"
+        },
+        {
+            "name": "VerryaChan",
+            "service": "Internet",
+            "link": "https://lyna.ga/verryachan",
+            "icon": "pages/verryachan/verryachan.png"
         }
     ]
 }
