@@ -82,6 +82,12 @@
             "service": "Internet",
             "link": "https://lyna.ga/verryachan",
             "icon": "pages/verryachan/verryachan.png"
+        },
+        {
+            "name": "LouseBodia",
+            "service": "Internet",
+            "link": "https://lyna.ga/lousebodia",
+            "icon": "pages/lousebodia/lousebodia.png"
         }
     ]
 }
