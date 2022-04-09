@@ -88,6 +88,12 @@
             "service": "Internet",
             "link": "https://lyna.ga/lousebodia",
             "icon": "pages/lousebodia/lousebodia.png"
+        },
+        {
+            "name": "Hope88000",
+            "service": "Internet",
+            "link": "https://lyna.ga/hope88000",
+            "icon": "pages/hope88000/hope88000.png"
         }
     ]
 }
