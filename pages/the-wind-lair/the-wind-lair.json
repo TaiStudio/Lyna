@@ -13,22 +13,26 @@
         {
             "name": "Game Jolt",
             "service": "gamejolt",
-            "link": "https://gamejolt.com/c/tai_studio-jeqvqq"
+            "link": "https://gamejolt.com/c/tai_studio-jeqvqq",
+            "display": false
         },
         {
             "name": "Itch IO",
             "service": "itchio",
-            "link": "https://tai-studio.itch.io/the-wind-lair/"
+            "link": "https://tai-studio.itch.io/the-wind-lair/",
+            "display": false
         },
         {
             "name": "Epic Game",
             "service": "epicgame",
-            "link": "#"
+            "link": "#",
+            "display": false
         },
         {
             "name": "Steam",
             "service": "steam",
-            "link": "#"
+            "link": "#",
+            "display": false
         },
         {
             "name": "Discord",
@@ -38,7 +42,8 @@
         {
             "name": "Reddit",
             "service": "reddit",
-            "link": "https://www.reddit.com/r/the_wind_lair/"
+            "link": "https://www.reddit.com/r/the_wind_lair/",
+            "display": false
         },
         {
             "name": "Tai Studio",
