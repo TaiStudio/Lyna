@@ -11,14 +11,35 @@
             "link": "https://www.twitch.tv/lafolledurang8"
         },
         {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCovfKjoR_6Ue63l4NVlg1EA"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/lafolledurang8/"
+        },
+        {
+            "name": "Tiktok",
+            "service": "tiktok",
+            "link": "https://www.tiktok.com/@folledurang8"
+        },
+        {
             "name": "Discord",
             "service": "Discord",
             "link": "https://discord.gg/X4sAKCqGZQ"
         },
         {
+            "name": "Site",
+            "service": "internet",
+            "link": "https://lafolledurang8.wixsite.com/lafolle"
+        },
+        {
             "name": "Facebook",
             "service": "facebook",
-            "link": "https://www.facebook.com/lafabriquedurang8"
+            "link": "https://www.facebook.com/lafabriquedurang8",
+            "display": false
         },
         {
             "name": "Etsy",
@@ -29,7 +50,8 @@
         {
             "name": "Suis moi partout",
             "service": "facebook",
-            "link": "https://www.facebook.com/La-folle-du-rang-8-108216381460293/"
+            "link": "https://www.facebook.com/La-folle-du-rang-8-108216381460293/",
+            "display": false
         }
     ]
 }
