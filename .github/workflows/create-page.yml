@@ -13,7 +13,7 @@ jobs:
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
   add-comment:
-      if: github.event.label.name == 'help-wanted'
+      if: github.event.label.name == 'Request Page'
       runs-on: ubuntu-latest
       permissions:
         issues: write
