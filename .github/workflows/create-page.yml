@@ -1,0 +1,14 @@
+on: issues
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Page
+        run: |
+          echo "Issue title: ${{ github.event.issue.title }}"
+          echo "Issue body: ${{ github.event.issue.body }}"
+      - name: Create Page
+        run: echo "$GITHUB_CONTEXT"
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
