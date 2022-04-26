@@ -1,3 +1,5 @@
+name: "Create Page"
+
 on: issues
 
 jobs:
