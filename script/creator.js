@@ -95,7 +95,6 @@ function addLink(name, link, service){
 }
 
 function setProd(key, value){
-    console.log(prod);
     switch(key){
         case 'links':
             prod[key].push(value);
