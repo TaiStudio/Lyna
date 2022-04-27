@@ -49,8 +49,8 @@ function getFiles (dir, files_){
         $('meta[property="og:title"]').attr('content', `Lyna | ${config.name}`);
         
         //IMAGES
-        $('meta[name="twitter:image"]').attr('content', `https://lyna.ga/${config.logo}`);
-        $('meta[property="og:image"]').attr('content', `https://lyna.ga/${config.logo}`);
+        $('meta[name="twitter:image"]').attr('content', `https://lyna.netlify.app/${config.logo}`);
+        $('meta[property="og:image"]').attr('content', `https://lyna.netlify.app/${config.logo}`);
 
         //DESCRIPTION
         if(config.description == null){config.description = "Create a page for provide your social links and other."}
@@ -61,6 +61,11 @@ function getFiles (dir, files_){
         fs.writeFileSync(`dist/${files[i]}.html`, $.html());
 
         sitemap("urlset").append(`
+            <url>
+                <loc>https://lyna.netlify.app/${files[i]}</loc>
+                <lastmod>${today}</lastmod>
+                <changefreq>hourly</changefreq>
+            </url>
             <url>
                 <loc>https://lyna.ga/${files[i]}</loc>
                 <lastmod>${today}</lastmod>
