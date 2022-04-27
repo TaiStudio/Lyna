@@ -10,10 +10,7 @@ jobs:
         run: |
           echo "Issue title: ${{ github.event.issue.title }}"
           echo "Issue body: ${{ github.event.issue.body }}"
-      - name: Create Page
-        run: echo "$GITHUB_CONTEXT"
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
+          echo "${{ github.event.issue.body }}"
   add-comment:
       if: github.event.label.name == 'Request Page'
       runs-on: ubuntu-latest
