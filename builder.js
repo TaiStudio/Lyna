@@ -66,11 +66,6 @@ function getFiles (dir, files_){
                 <lastmod>${today}</lastmod>
                 <changefreq>hourly</changefreq>
             </url>
-            <url>
-                <loc>https://lyna.ga/${files[i]}</loc>
-                <lastmod>${today}</lastmod>
-                <changefreq>hourly</changefreq>
-            </url>
         `);
 
         fs.writeFileSync(`./dist/sitemap.xml`, sitemap.html());
