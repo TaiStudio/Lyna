@@ -75,7 +75,7 @@ function links(){
         if(config[l].startsWith('[') == true){
             let temp = config[l].split(']');
 
-            var name = temp[0].replace('[', ''),
+            var name = temp[0].replace('\[', ''),
                 link = replaceAll(replaceAll(temp[1], '(', ''), ')', ''),
                 service = getService(link);
 

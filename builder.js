@@ -62,7 +62,7 @@ function getFiles (dir, files_){
 
         sitemap("urlset").append(`
             <url>
-                <loc>https://lyna.netlify.app/${files[i]}</loc>
+                <loc>https://lyna.ga/${files[i]}</loc>
                 <lastmod>${today}</lastmod>
                 <changefreq>hourly</changefreq>
             </url>
