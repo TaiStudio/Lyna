@@ -38,6 +38,8 @@ function init(){
 
     links();
 
+    colors();
+
     savePage(prod.name.toLowerCase());
 }
 init();
@@ -47,11 +49,12 @@ function colors(){
         if(config[l].startsWith('>') == true){
             let temp = config[l].split(',');
 
-            var name = temp[0].replace('\>', ''),
-                link = replaceAll(replaceAll(temp[1], '(', ''), ')', ''),
-                service = getService(link);
-
-            addLink(name, link, service);
+            temp[0] = temp[0].replace('\> ', '');
+            
+            for(l2=0;l2<temp.length;l2++){
+                temp[l2] = replaceAll(temp[l2], ' ', '');
+            }
+            setProd('colors', temp);
         }
     }
 }
