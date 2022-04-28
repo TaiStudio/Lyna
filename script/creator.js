@@ -9,7 +9,17 @@
 \--------------------------------------------------------------------------------------*/
 
 const fs = require('fs');
+const request = require('request');
 const listService = require('../lib/services.json');
+
+var download = function(uri, filename, callback){
+    request.head(uri, function(err, res, body){
+    console.log('content-type:', res.headers['content-type']);
+    console.log('content-length:', res.headers['content-length']);
+
+    request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+    });
+};
 
 var config = process.argv[2].replace('--body=', '');
 config = config.split('\\r\\n');
@@ -17,10 +27,10 @@ config = config.split('\\r\\n');
 var prod = {
     "name": "",
     "description": "",
-    "background": "pages/orchidee/orchideeBG.png",
+    "background": "",
     "backgroundV": "",
     "music": "",
-    "logo": "pages/orchidee/orchidee.png",
+    "logo": "",
     "font": "ancient",
     "animations": [],
     "links": [],
@@ -55,27 +65,39 @@ function filter(){
         if(config[f].startsWith('[') == true){
             links(config[f]);
         }
-
-        // switch(config[f].slice(0, 4)){
-        //     case '### ':
-        //         setName(config[f]);
-        //         createDir(prod.name.toLowerCase());
-        //         break;
-        //     case '##':
-        //         setDescription(config[f]);
-        //         break;
-        //     case '>':
-        //         colors(config[f]);
-        //         break;
-        //     case '[':
-        //         links(config[f]);
-        //         break;
-        //     default:
-        //         console.log(config[f]);
-        // }
+        if(config[f].startsWith('Logo:') == true){
+            logo(config[f]);
+        }
+        if(config[f].startsWith('Background:') == true){
+            background(config[f]);
+        }
     }
 }
 
+function logo(arg){
+    if(arg.startsWith('Logo:') == true){
+        let temp = arg.split(']');
+
+        var link = replaceAll(replaceAll(temp[1], '(', ''), ')', '');
+        
+        download(link, `pages/${prod.name.toLowerCase()}/logo.png`, function(){
+            console.log('done');
+        });
+        setProd('logo', `pages/${prod.name.toLowerCase()}/logo.png`);
+    }
+}
+function background(arg){
+    if(arg.startsWith('Background:') == true){
+        let temp = arg.split(']');
+
+        var link = replaceAll(replaceAll(temp[1], '(', ''), ')', '');
+        
+        download(link, `pages/${prod.name.toLowerCase()}/background.png`, function(){
+            console.log('done');
+        });
+        setProd('background', `pages/${prod.name.toLowerCase()}/background.png`);
+    }
+}
 function colors(arg){
     if(arg.startsWith('>') == true){
         let temp = arg.split(',');
