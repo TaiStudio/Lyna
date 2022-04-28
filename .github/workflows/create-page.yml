@@ -1,6 +1,8 @@
 name: "Create Page"
 
-on: issues
+on: 
+  issues:
+    types: [opened]
 
 jobs:
   job1:
@@ -13,8 +15,6 @@ jobs:
       - name: Create Page
         run: |
           npm run creator -- --body="${{ github.event.issue.body }}"
-      - name: Commit files
-        run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Lyna[bot]"
           git add .
