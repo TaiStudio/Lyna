@@ -1,10 +1,5 @@
 name: Pull Request on Branch Push
-on:
-  push:
-    branches-ignore:
-      - staging
-      - launchpad
-      - production
+on: push
 jobs:
   auto-pull-request:
     name: PullRequestAction
@@ -15,4 +10,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           BRANCH_PREFIX: "pageCreator/"
-          PULL_REQUEST_BRANCH: "master"
+          PULL_REQUEST_BRANCH: "main"
