@@ -2,7 +2,7 @@ name: "Create Page"
 
 on: 
   issues:
-    types: [opened, labeled]
+    types: [labeled]
 
 jobs:
   job1:
@@ -23,7 +23,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          branch: ${{ github.event.issue.number }}
+          branch: "pageCreator/${{ github.event.issue.number }}"
   add-comment:
       if: github.event.label.name == 'Request Page'
       runs-on: ubuntu-latest
