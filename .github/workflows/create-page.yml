@@ -35,4 +35,4 @@ jobs:
           with:
             issue-number: ${{ github.event.issue.number }}
             body: |
-              This issue is available for anyone to work on. **Make sure to reference this issue in your pull request.** :sparkles: Thank you for your contribution! :sparkles:
+              This issue is available for anyone to work on. **Make sure to reference this issue in your pull request.** :sparkles: Thank you for your contribution! :sparkles: https://github.com/TaiStudio/Lyna/compare/pageCreator/${{ github.event.issue.number }}
