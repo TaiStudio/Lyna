@@ -17,11 +17,12 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Lyna[bot]"
+          git add .
           git commit -m "➕ Create New Page" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}
           branch: ${{ github.ref }}
   add-comment:
       if: github.event.label.name == 'Request Page'
