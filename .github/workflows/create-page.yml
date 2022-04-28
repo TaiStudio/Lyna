@@ -23,7 +23,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: ${{ github.event.issue.number }}
   add-comment:
       if: github.event.label.name == 'Request Page'
       runs-on: ubuntu-latest
