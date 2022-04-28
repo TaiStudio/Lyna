@@ -36,6 +36,8 @@ function init(){
     setName();
     createDir(prod.name.toLowerCase());
 
+    setDescription();
+
     links();
 
     colors();
@@ -108,6 +110,12 @@ function setProd(key, value){
 function setName(){
     if(config[0].startsWith('###')){
         setProd('name', replaceAll(config[0], '### ', ''));
+    }
+}
+
+function setDescription(){
+    if(config[1].startsWith('##')){
+        setProd('description', replaceAll(config[1], '## ', ''));
     }
 }
 
