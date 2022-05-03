@@ -25,6 +25,30 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           branch: "pageCreator/${{ github.event.issue.number }}"
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          commit-message: ➕ Create New Page
+          committer: Lyna <tai.studio@outlook.fr>
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          signoff: false
+          branch: "pageCreator/${{ github.event.issue.number }}"
+          delete-branch: false
+          title: '[LYNA] ${{ github.event.issue.title }}'
+          body: |
+            Hello and thank you for your contribution!
+            A moderator will check the links on your page within the next 48 hours.
+            © [Tai Studio][1] 2021/2022
+            [1]: https://tai-studio.netlify.app/
+            [2]: https://lyna.ga/
+          labels: |
+            Request Page
+          assignees: LeGitHubDeTai
+          reviewers: LeGitHubDeTai
+          draft: false
   add-comment:
       if: github.event.label.name == 'Request Page'
       runs-on: ubuntu-latest
