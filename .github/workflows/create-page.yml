@@ -41,9 +41,7 @@ jobs:
           body: |
             Hello and thank you for your contribution!
             A moderator will check the links on your page within the next 48 hours.
-            © [Tai Studio][1] 2021/2022
-            [1]: https://tai-studio.netlify.app/
-            [2]: https://lyna.ga/
+            © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
           labels: |
             Request Page
           assignees: LeGitHubDeTai
