@@ -1,4 +1,4 @@
-name: "Create Page"
+name: "Edit Page"
 
 on: 
   issues:
@@ -26,27 +26,6 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           branch: "pageCreator/${{ github.event.issue.number }}"
-      - name: Create Pull Request
-        id: cpr
-        uses: peter-evans/create-pull-request@v4
-        with:
-          token: ${{ secrets.GH_TOKEN }}
-          commit-message: ➕ Create New Page
-          committer: Lyna <tai.studio@outlook.fr>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          signoff: false
-          branch: "pageCreator/${{ github.event.issue.number }}"
-          delete-branch: false
-          title: '[LYNA] ${{ github.event.issue.title }}'
-          body: |
-            Hello and thank you for your contribution!
-            A moderator will check the links on your page within the next 48 hours.
-            © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
-          labels: |
-            Request Page
-          assignees: LeGitHubDeTai
-          reviewers: LeGitHubDeTai
-          draft: false
   add-comment:
       if: github.event.label.name == 'Request Page'
       runs-on: ubuntu-latest
@@ -58,4 +37,4 @@ jobs:
           with:
             issue-number: ${{ github.event.issue.number }}
             body: |
-              Hello and thank you for your contribution! A moderator will check the links on your page within the next 48 hours. © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
+              This issue is available for anyone to work on. **Make sure to reference this issue in your pull request.** :sparkles: Thank you for your contribution! :sparkles: https://github.com/TaiStudio/Lyna/compare/pageCreator/${{ github.event.issue.number }}
