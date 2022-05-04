@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - name: Create Page
+      - name: Edit Page
         run: |
           npm install
           npm run creator -- --body="${{ github.event.issue.body }}" --mode="edit"
