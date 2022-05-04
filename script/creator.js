@@ -23,6 +23,7 @@ var download = function(uri, filename, callback){
 
 var config = process.argv[2].replace('--body=', '');
 config = config.split('\\r\\n');
+var mode = process.argv[3].replace('--mode=', '');
 
 var prod = {
     "name": "",
@@ -43,6 +44,13 @@ var prod = {
 console.log(config);
 
 function init(){
+    console.log(mode);
+    if(mode == "edit"){
+        if(config[0].startsWith('###') == true){
+            let name = replaceAll(config[0], '### ', '');
+            prod = JSON.parse(fs.readFileSync(`pages/${name}/${name}.json`).toString());
+        }
+    }
 
     filter();
 

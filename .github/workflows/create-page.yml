@@ -16,7 +16,7 @@ jobs:
       - name: Create Page
         run: |
           npm install
-          npm run creator -- --body="${{ github.event.issue.body }}"
+          npm run creator -- --body="${{ github.event.issue.body }}" --mode="create"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Lyna[bot]"
           git add .
