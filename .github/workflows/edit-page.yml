@@ -6,7 +6,7 @@ on:
 
 jobs:
   job1:
-    if: github.event.label.name == 'Request Page'
+    if: github.event.label.name == 'Edit page'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
@@ -20,14 +20,14 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Lyna[bot]"
           git add .
-          git commit -m "➕ Create New Page" -a
+          git commit -m "📝 Edit Page" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           branch: "pageCreator/${{ github.event.issue.number }}"
   add-comment:
-      if: github.event.label.name == 'Request Page'
+      if: github.event.label.name == 'Edit page'
       runs-on: ubuntu-latest
       permissions:
         issues: write
