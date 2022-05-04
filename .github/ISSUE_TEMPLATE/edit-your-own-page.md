@@ -1,7 +1,7 @@
 ---
 name: Edit your own page
 about: Edit your lyna page
-title: 'Page: Test'
+title: 'Edit Page: Test'
 labels: Edit page
 assignees: LeGitHubDeTai
 

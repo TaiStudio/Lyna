@@ -1,7 +1,7 @@
 ---
 name: Create your own page
 about: Request your lyna page
-title: 'Page: Test'
+title: 'New Page: Test'
 labels: Request Page
 assignees: LeGitHubDeTai
 
