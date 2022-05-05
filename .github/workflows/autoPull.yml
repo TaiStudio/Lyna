@@ -18,6 +18,10 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body-includes: ✅ Deploy Preview for lyna ready!
+      - run: |
+          echo ${{ steps.fc.outputs.comment-id }}
+          echo ${{ steps.fc.outputs.comment-body }}
+          echo ${{ steps.fc.outputs.comment-author }}
       - name: Add comment
         uses: peter-evans/create-or-update-comment@c9fcb64660bc90ec1cc535646af190c992007c32
         with:
