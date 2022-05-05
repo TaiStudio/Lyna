@@ -22,6 +22,7 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           body-includes: ✅ Deploy Preview for lyna ready!
       - run: |
+          echo ${{ steps.fc.outputs }}
           echo ${{ steps.fc.outputs.comment-id }}
           echo ${{ steps.fc.outputs.comment-body }}
           echo ${{ steps.fc.outputs.comment-author }}
