@@ -1,9 +1,6 @@
 name: "Send Preview Link"
 
-on: 
-  issue_comment:
-    branches:
-        - 'pageCreator/**'
+on: issue_comment
 
 jobs:
   job1:
