@@ -24,15 +24,16 @@ jobs:
           body-includes: Deploy Preview for lyna ready!
       - run: |
           echo "${{ steps.fc.outputs.comment-body }}"
-      - uses: izhangzhihao/delete-comment@master
-        with: 
-          github_token: ${{ secrets.GH_TOKEN }}
-          delete_user_name: netlify[bot]
-          issue_number: ${{ github.event.number }} 
-      - name: Add comment
-        uses: peter-evans/create-or-update-comment@c9fcb64660bc90ec1cc535646af190c992007c32
+      - name: Delete comment
+        uses: jungwinter/comment@v1
         with:
+          type: delete
+          comment_id: ${{ steps.create.outputs.id }}
           token: ${{ secrets.GH_TOKEN }}
-          issue-number: ${{ github.event.issue.number }}
-          body: |
-            Check your preview: [PREVIEW](${{ steps.fc.outputs.comment-body }})
+      # - name: Add comment
+      #   uses: peter-evans/create-or-update-comment@c9fcb64660bc90ec1cc535646af190c992007c32
+      #   with:
+      #     token: ${{ secrets.GH_TOKEN }}
+      #     issue-number: ${{ github.event.issue.number }}
+      #     body: |
+      #       Check your preview: [PREVIEW](${{ steps.fc.outputs.comment-body }})
