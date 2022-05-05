@@ -12,6 +12,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
+      - name: Sleep for 30 seconds
+        run: sleep 30s
+        shell: bash
       - name: Find Comment
         uses: peter-evans/find-comment@v2
         id: fc
