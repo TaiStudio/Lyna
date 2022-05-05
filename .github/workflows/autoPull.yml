@@ -21,6 +21,7 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           comment-author: netlify[bot]
+          body-includes: Deploy Preview for lyna ready!
       - run: |
           echo "${{ steps.fc.outputs.comment-body }}"
       - name: Add comment
@@ -29,4 +30,4 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           issue-number: ${{ github.event.issue.number }}
           body: |
-            Hello and thank you for your contribution! A moderator will check the links on your page within the next 48 hours. © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
+            Check your preview: [PREVIEW](${{ steps.fc.outputs.comment-body }})
