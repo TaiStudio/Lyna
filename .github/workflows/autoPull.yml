@@ -20,7 +20,7 @@ jobs:
         id: fc
         with:
           issue-number: ${{ github.event.issue.number }}
-          body-includes: ✅ Deploy Preview for lyna ready!
+          comment-author: netlify
       - run: |
           printf ${{ steps.fc.outputs }}
           echo ${{ steps.fc.outputs.comment-id }}
