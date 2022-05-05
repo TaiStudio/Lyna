@@ -28,7 +28,7 @@ jobs:
         uses: jungwinter/comment@v1
         with:
           type: delete
-          comment_id: ${{ steps.create.outputs.id }}
+          comment_id: ${{ steps.couc.outputs.comment-id }}
           token: ${{ secrets.GH_TOKEN }}
       # - name: Add comment
       #   uses: peter-evans/create-or-update-comment@c9fcb64660bc90ec1cc535646af190c992007c32
