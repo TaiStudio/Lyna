@@ -20,7 +20,7 @@ jobs:
         id: fc
         with:
           issue-number: ${{ github.event.issue.number }}
-          comment-author: netlify
+          comment-author: netlify[bot]
       - run: |
           printf ${{ steps.fc.outputs }}
           echo ${{ steps.fc.outputs.comment-id }}
