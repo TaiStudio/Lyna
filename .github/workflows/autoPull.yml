@@ -1,13 +1,20 @@
-name: Pull Request on Branch Push
-on: push
+name: "Send Preview Link"
+
+on: 
+  issue_comment:
+    branches:
+        - 'pageCreator/**'
+
 jobs:
-  auto-pull-request:
-    name: PullRequestAction
+  job1:
+    if: github.event.label.name == 'Request Page'
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
-      - name: pull-request-action
-        uses: vsoch/pull-request-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          BRANCH_PREFIX: "pageCreator/"
-          PULL_REQUEST_BRANCH: "main"
+      - name: Add comment
+        uses: peter-evans/create-or-update-comment@c9fcb64660bc90ec1cc535646af190c992007c32
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Hello and thank you for your contribution! A moderator will check the links on your page within the next 48 hours. © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
