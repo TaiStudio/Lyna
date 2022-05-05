@@ -22,7 +22,6 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           comment-author: netlify[bot]
       - run: |
-          printf ${{ steps.fc.outputs }}
           echo ${{ steps.fc.outputs.comment-id }}
           echo ${{ steps.fc.outputs.comment-body }}
           echo ${{ steps.fc.outputs.comment-author }}
