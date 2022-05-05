@@ -4,7 +4,6 @@ on: issue_comment
 
 jobs:
   job1:
-    if: github.event.label.name == 'Request Page'
     runs-on: ubuntu-latest
     permissions:
       issues: write
