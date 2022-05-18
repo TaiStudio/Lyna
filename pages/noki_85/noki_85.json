@@ -38,7 +38,7 @@
         {
             "name": "Orchidée Membres",
             "service": "Internet",
-            "link": "https://lyna.ga/orchidee",
+            "link": "https://lyna.netlify.app/orchidee",
             "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
         }
     ]

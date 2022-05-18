@@ -56,7 +56,7 @@ function getFiles (dir, files_){
             //IMAGES
             $('meta[name="twitter:image"]').attr('content', `https://lyna.netlify.app/${config.logo}`);
             $('meta[property="og:image"]').attr('content', `https://lyna.netlify.app/${config.logo}`);
-            $('head').append(`<link rel="shortcut icon" href="https://lyna.ga/${config.logo}" type="image/x-icon">`);
+            $('head').append(`<link rel="shortcut icon" href="https://lyna.netlify.app/${config.logo}" type="image/x-icon">`);
     
             //DESCRIPTION
             if(config.description == null){config.description = "Create a page for provide your social links and other."}
@@ -68,7 +68,7 @@ function getFiles (dir, files_){
     
             sitemap("urlset").append(`
                 <url>
-                    <loc>https://lyna.ga/${files[i]}</loc>
+                    <loc>https://lyna.netlify.app/${files[i]}</loc>
                     <lastmod>${today}</lastmod>
                     <changefreq>hourly</changefreq>
                 </url>

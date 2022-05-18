@@ -18,39 +18,39 @@
         {
             "name": "Tai Tetsuyuki",
             "service": "Internet",
-            "link": "https://lyna.ga/la_chaine_de_tai",
+            "link": "https://lyna.netlify.app/la_chaine_de_tai",
             "icon": "pages/la_chaine_de_tai/la_chaine_de_tai.png"
         },
         {
             "name": "Eldarkar",
             "service": "Internet",
-            "link": "https://lyna.ga/Eldarkar66",
+            "link": "https://lyna.netlify.app/Eldarkar66",
             "icon": "pages/Eldarkar66/Eldarkar66.png"
         },
         {
             "name": "Noki_85",
             "service": "Internet",
-            "link": "https://lyna.ga/noki_85",
+            "link": "https://lyna.netlify.app/noki_85",
             "icon": "pages/noki_85/noki_85.png",
             "display": false
         },
         {
             "name": "Korisno",
             "service": "Internet",
-            "link": "https://lyna.ga/korisno",
+            "link": "https://lyna.netlify.app/korisno",
             "icon": "pages/korisno/korisno.png"
         },
         {
             "name": "Treany",
             "service": "Internet",
-            "link": "https://lyna.ga/louisvuitt41",
+            "link": "https://lyna.netlify.app/louisvuitt41",
             "icon": "pages/louisvuitt41/louisvuitt41.png",
             "display": false
         },
         {
             "name": "Silver Souls",
             "service": "Internet",
-            "link": "https://lyna.ga/d0ps_silversouls",
+            "link": "https://lyna.netlify.app/d0ps_silversouls",
             "icon": "pages/d0ps_silversouls/d0ps_silversouls.png"
         },
         {
@@ -68,31 +68,31 @@
         {
             "name": "Toasty",
             "service": "Internet",
-            "link": "https://lyna.ga/toasty",
+            "link": "https://lyna.netlify.app/toasty",
             "icon": "pages/toasty/toasty.png"
         },
         {
             "name": "Camillem62",
             "service": "Internet",
-            "link": "https://lyna.ga/camillem62",
+            "link": "https://lyna.netlify.app/camillem62",
             "icon": "pages/camillem62/camillem62.png"
         },
         {
             "name": "VerryaChan",
             "service": "Internet",
-            "link": "https://lyna.ga/verryachan",
+            "link": "https://lyna.netlify.app/verryachan",
             "icon": "pages/verryachan/verryachan.png"
         },
         {
             "name": "LØU SEBODIA",
             "service": "Internet",
-            "link": "https://lyna.ga/lousebodia",
+            "link": "https://lyna.netlify.app/lousebodia",
             "icon": "pages/lousebodia/lousebodia.png"
         },
         {
             "name": "Hope88000",
             "service": "Internet",
-            "link": "https://lyna.ga/hope88000",
+            "link": "https://lyna.netlify.app/hope88000",
             "icon": "pages/hope88000/hope88000.png"
         }
     ]

@@ -1,6 +1,6 @@
 # Lyna
 
-<a href="https://lyna.ga/">
+<a href="https://lyna.netlify.app/">
     <img src="https://api.netlify.com/api/v1/badges/d5847749-1cda-4d52-9efa-110b78b5515d/deploy-status" />
 </a>
 <a href="https://buymeacoffee.com/taistudio" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
@@ -12,7 +12,7 @@
 3. run `npm install`
 4. run `npm run gui`
 5. create an pull request
-6. open your web browser on `https://lyna.ga/YOUR_USER_NAME`
+6. open your web browser on `https://lyna.netlify.app/YOUR_USER_NAME`
 7. enjoy
 
 ## ⚙️ Supported services
@@ -48,10 +48,10 @@
 
 ## 📷 ScreenShots
 <p align="center">
-    <a href="https://lyna.ga/taistudio">
+    <a href="https://lyna.netlify.app/taistudio">
         <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/taistudio.png" width="45%"/>
     </a>
-    <a href="https://lyna.ga/potion">
+    <a href="https://lyna.netlify.app/potion">
         <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/potion.png" width="45%"/>
     </a>
 </p>

@@ -9,4 +9,4 @@ assignees: LeGitHubDeTai
 
 
 ### YOUR_PAGE_NAME
-[Lyna](https://lyna.ga/)
+[Lyna](https://lyna.netlify.app/)

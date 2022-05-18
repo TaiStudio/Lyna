@@ -45,7 +45,7 @@
         {
             "name": "Tai Studio",
             "service": "Internet",
-            "link": "https://lyna.ga/taistudio",
+            "link": "https://lyna.netlify.app/taistudio",
             "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png"
         }
     ]
