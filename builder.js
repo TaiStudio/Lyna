@@ -12,6 +12,11 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const rimraf = require('rimraf');
 
+//SITEMAP
+const sitemap = cheerio.load(fs.readFileSync('PatternSitemap.xml'), {
+    xmlMode: true
+});
+
 if(!fs.existsSync('dist')){
     fs.mkdirSync('dist');
     getFiles('pages');
@@ -34,10 +39,6 @@ var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0');
 var yyyy = today.getFullYear();
 today = `${yyyy}-${mm}-${dd}`;
-//SITEMAP
-const sitemap = cheerio.load(fs.readFileSync('PatternSitemap.xml'), {
-    xmlMode: true
-});
 function getFiles (dir, files_){
     files_ = files_ || [];
     var files = fs.readdirSync(dir);
