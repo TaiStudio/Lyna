@@ -61,13 +61,13 @@
         {
             "name": "BriceStabileau",
             "service": "Internet",
-            "link": "https://www.twitch.tv/bricestabileau",
+            "link": "https://lyna.netlify.app/bricestabileau",
             "icon": "pages/bricestabileau/bricestabileau.png"
         },
         {
             "name": "Thales49",
             "service": "Internet",
-            "link": "https://www.twitch.tv/Thales49",
+            "link": "https://lyna.netlify.app/Thales49",
             "icon": "pages/thales49/thales49.png"
         },
         {
