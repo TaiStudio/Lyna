@@ -10,6 +10,11 @@
     ],
     "links": [
         {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCqXpC0XW6D1kkNF2ZLYvwtA"
+        },
+        {
             "name": "Site",
             "service": "Internet",
             "link": "https://orchidee-tai-studio.netlify.app/",
@@ -94,6 +99,18 @@
             "service": "Internet",
             "link": "https://lyna.netlify.app/hope88000",
             "icon": "pages/hope88000/hope88000.png"
+        },
+        {
+            "name": "Kirouko",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/kirouko_gaming",
+            "icon": "pages/kirouko_gaming/kirouko_gaming.png"
+        },
+        {
+            "name": "Atinylittlepotatoe",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/atinylittlepotatoe",
+            "icon": "pages/atinylittlepotatoe/atinylittlepotatoe.png"
         }
     ]
 }
