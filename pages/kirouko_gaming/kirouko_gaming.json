@@ -1,0 +1,39 @@
+{
+    "name": "kirouko_gaming",
+    "description": "Venez On Joue Sans Chichi",
+    "logo": "pages/kirouko_gaming/kirouko_gaming.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://twitch.tv/kirouko_gaming"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCAXBfqE3HnIPzh0btNhbtvg"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/kirouko/"
+        },
+        {
+            "name": "Tip",
+            "service": "streamlabs",
+            "link": "https://streamlabs.com/kirouko_gaming/tip"
+        },
+        {
+            "name": "Discord",
+            "service": "discord",
+            "link": "https://discord.gg/7FYBczyC54"
+        },
+        {
+            "name": "Orchidée Membres",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/orchidee",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        }
+    ]
+}
