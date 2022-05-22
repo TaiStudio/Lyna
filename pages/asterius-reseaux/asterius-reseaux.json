@@ -22,8 +22,7 @@
         {
             "name": "Twitch",
             "service": "twitch",
-            "link": "https://www.twitch.tv/asteriusae",
-            "display": false
+            "link": "https://www.twitch.tv/asteriusae"
         },
         {
             "name": "Youtube",
