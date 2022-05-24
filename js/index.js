@@ -8,6 +8,8 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
+$('body').append('<div class="alerte">CHANGEMENT DE DOMAINE LYNA.GA -> lyna.netlify.app</div>');
+
 var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
     page = document.URL.replace(`${page}/`, '');
 
