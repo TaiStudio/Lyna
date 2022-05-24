@@ -57,6 +57,7 @@ function getFiles (dir, files_){
             //IMAGES
             $('meta[name="twitter:image"]').attr('content', `https://lyna.netlify.app/${config.logo}`);
             $('meta[property="og:image"]').attr('content', `https://lyna.netlify.app/${config.logo}`);
+            $('#favicon').attr('href', `https://lyna.netlify.app/${config.logo}`);
             $('head').append(`<link rel="shortcut icon" href="https://lyna.netlify.app/${config.logo}" type="image/x-icon">`);
     
             //DESCRIPTION
