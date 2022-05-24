@@ -8,7 +8,9 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
-$('body').append('<div class="alerte">CHANGEMENT DE DOMAINE LYNA.GA -> lyna.netlify.app</div>');
+if($(location).attr('href') != 'https://lyna.netlify.app'){
+    $('body').append('<div class="alerte">CHANGEMENT DE DOMAINE LYNA.GA -> lyna.netlify.app</div>');
+}
 
 var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
     page = document.URL.replace(`${page}/`, '');
