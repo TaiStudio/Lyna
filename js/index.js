@@ -8,7 +8,7 @@
 |                                                   \________/                          |
 \--------------------------------------------------------------------------------------*/
 
-if($(location).attr('href') != 'https://lyna.netlify.app'){
+if(window.location.origin != 'https://lyna.netlify.app'){
     $('body').append('<div class="alerte">CHANGEMENT DE DOMAINE LYNA.GA -> lyna.netlify.app</div>');
 }
 
