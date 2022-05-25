@@ -71,10 +71,10 @@
             "icon": "pages/thales49/thales49.png"
         },
         {
-            "name": "Toasty",
+            "name": "Haterna",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/toasty",
-            "icon": "pages/toasty/toasty.png"
+            "link": "https://lyna.netlify.app/HaternaTwitch",
+            "icon": "pages/HaternaTwitch/HaternaTwitch.png"
         },
         {
             "name": "Camillem62",
