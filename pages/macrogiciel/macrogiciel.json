@@ -1,0 +1,18 @@
+{
+    "name": "MacroGiciel",
+    "description": "WIP WIP WIP",
+    "logo": "pages/macrogiciel/macrogiciel.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Github",
+            "service": "github",
+            "link": "https://github.com/MacroGiciel"
+        },
+        {
+            "name": "Discord",
+            "service": "discord",
+            "link": "https://discord.gg/NAh5ZFpwB9"
+        }
+    ]
+}
