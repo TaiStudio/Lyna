@@ -48,6 +48,7 @@ function init(){
     if(mode == "edit"){
         if(config[0].startsWith('###') == true){
             let name = replaceAll(config[0], '### ', '');
+            name = name.toLowerCase();
             prod = JSON.parse(fs.readFileSync(`pages/${name}/${name}.json`).toString());
         }
     }
