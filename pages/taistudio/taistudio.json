@@ -9,7 +9,8 @@
         {
             "name": "Donate",
             "service": "Lyna",
-            "link": "https://lyna.netlify.app/taistudiodonate"
+            "link": "https://lyna.netlify.app/taistudiodonate",
+            "target": "_self"
         },
         {
             "name": "Youtube",

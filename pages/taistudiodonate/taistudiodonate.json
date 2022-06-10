@@ -9,7 +9,8 @@
         {
             "name": "Tai Studio",
             "service": "Lyna",
-            "link": "https://lyna.netlify.app/taistudio"
+            "link": "https://lyna.netlify.app/taistudio",
+            "target": "_self"
         },
         {
             "name": "Boutique",
