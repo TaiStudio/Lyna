@@ -103,12 +103,10 @@ function background(arg){
         
         var url = link.substring(link.lastIndexOf('/')+1);
 
-        console.log(url);
-        
-        download(link, `pages/${prod.name.toLowerCase()}/background.png`, function(){
+        download(link, `pages/${prod.name.toLowerCase()}/${url}`, function(){
             console.log('done');
         });
-        setProd('background', `pages/${prod.name.toLowerCase()}/background.png`);
+        setProd('background', `pages/${prod.name.toLowerCase()}/${url}`);
     }
 }
 function colors(arg){
