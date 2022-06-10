@@ -4,6 +4,7 @@
     "logo": "pages/tai_tetsuyuki/tai_tetsuyuki.png",
     "backgroundV": "pages/tai_tetsuyuki/Design.mp4",
     "font": "ancient",
+    "power": false,
     "links": [
         {
             "name": "Donate",
