@@ -101,6 +101,10 @@ function background(arg){
 
         var link = replaceAll(replaceAll(temp[1], '(', ''), ')', '');
         
+        var url = link.substring(link.lastIndexOf('/')+1);
+
+        console.log(url);
+        
         download(link, `pages/${prod.name.toLowerCase()}/background.png`, function(){
             console.log('done');
         });
