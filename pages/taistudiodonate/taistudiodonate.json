@@ -1,0 +1,32 @@
+{
+    "name": "Tai Studio",
+    "description": "Tai Studio, Développeur Web UI/UX Integrateur",
+    "logo": "pages/taistudiodonate/taistudio.png",
+    "font": "ancient",
+    "background": "pages/taistudiodonate/Tai Studio.png",
+    "power": false,
+    "links": [
+        {
+            "name": "Tai Studio",
+            "service": "Lyna",
+            "link": "https://lyna.netlify.app/taistudio"
+        },
+        {
+            "name": "Boutique",
+            "service": "spreadshirt",
+            "link": "https://shop.spreadshirt.fr/tai-studio/"
+        },
+        {
+            "name": "Tipeee",
+            "service": "tipeee",
+            "link": "https://fr.tipeee.com/tai-studio"
+        },
+        {
+            "name": "Buymeacoffee",
+            "service": "buymeacoffee",
+            "link": "https://www.buymeacoffee.com/taistudio"
+        }
+    ],
+    "colors": [
+    ]
+}
