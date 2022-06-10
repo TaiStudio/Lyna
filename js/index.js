@@ -42,7 +42,7 @@ $(function(){
             load(data);
             $('body').append(`
                 <div class="error">
-                    <p>ERROR: PAGE NOT FOUND! CREATE THE <a href="https://github.com/TaiStudio/Lyna">OWN</a> !</p>
+                    <p>ERROR: PAGE NOT FOUND! CREATE YOUR <a href="https://github.com/TaiStudio/Lyna">OWN</a> PAGE !</p>
                     <img src="./img/assets/close.png" class="close" />
                 </div>
             `);
