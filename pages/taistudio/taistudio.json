@@ -7,6 +7,11 @@
     "power": false,
     "links": [
         {
+            "name": "Donate",
+            "service": "Youtube",
+            "link": "https://lyna.netlify.app/taistudiodonate"
+        },
+        {
             "name": "Youtube",
             "service": "Youtube",
             "link": "https://www.youtube.com/channel/UCZiVWB8_UNH4NLzr7XbaI8A"
@@ -35,21 +40,6 @@
             "name": "Discord",
             "service": "Discord",
             "link": "https://discord.com/invite/kHWRn2x"
-        },
-        {
-            "name": "Boutique",
-            "service": "spreadshirt",
-            "link": "https://shop.spreadshirt.fr/tai-studio/"
-        },
-        {
-            "name": "Tipeee",
-            "service": "tipeee",
-            "link": "https://fr.tipeee.com/tai-studio"
-        },
-        {
-            "name": "Buymeacoffee",
-            "service": "buymeacoffee",
-            "link": "https://www.buymeacoffee.com/taistudio"
         },
         {
             "name": "Tai Studio",
