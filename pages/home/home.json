@@ -8,6 +8,11 @@
     "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png",
     "links": [
         {
+            "name": "Donate/Support",
+            "service": "buymeacoffee",
+            "link": "https://lyna.netlify.app/taistudiodonate"
+        },
+        {
             "name": "How to create/edit my own page ?",
             "service": "Internet",
             "link": "https://github.com/TaiStudio/Lyna/blob/main/CONTRIBUTING.md",
@@ -36,11 +41,6 @@
             "name": "Github",
             "service": "Github",
             "link": "https://github.com/TaiStudio"
-        },
-        {
-            "name": "Donate/Support",
-            "service": "buymeacoffee",
-            "link": "https://www.buymeacoffee.com/taistudio"
         },
         {
             "name": "Tai Studio",
