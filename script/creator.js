@@ -188,7 +188,7 @@ function createDir(dir){
 
 function savePage(dir){
     if(fs.existsSync(`pages/${dir}`) == true){
-        fs.writeFileSync(`pages/${dir}/${dir}.json`, JSON.stringify(prod));
+        fs.writeFileSync(`pages/${dir}/${dir}.json`, JSON.stringify(prod, null, 2));
     }
     else{
         console.log('ERROR SAVE PAGE !');
