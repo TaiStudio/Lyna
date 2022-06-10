@@ -6,6 +6,11 @@
     "font": "ancient",
     "links": [
         {
+            "name": "Donate",
+            "service": "Lyna",
+            "link": "https://lyna.netlify.app/taistudiodonate"
+        },
+        {
             "name": "Youtube",
             "service": "Youtube",
             "link": "https://www.youtube.com/channel/UCBEQSKPgaJiG4R02n5SMMKw"
@@ -29,21 +34,6 @@
             "name": "Github",
             "service": "Github",
             "link": "https://github.com/LeGitHubDeTai"
-        },
-        {
-            "name": "Spreadshirt",
-            "service": "spreadshirt",
-            "link": "https://shop.spreadshirt.fr/tai-studio/"
-        },
-        {
-            "name": "Tipeee",
-            "service": "tipeee",
-            "link": "https://fr.tipeee.com/tai-studio"
-        },
-        {
-            "name": "Buymeacoffee",
-            "service": "buymeacoffee",
-            "link": "https://www.buymeacoffee.com/taistudio"
         },
         {
             "name": "Tai Studio",
