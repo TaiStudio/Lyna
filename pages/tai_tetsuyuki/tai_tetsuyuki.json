@@ -1,0 +1,57 @@
+{
+    "name": "Tai Tetsuyuki",
+    "description": "Bonjour, Je m'appelle Tai et je suis développeur. je fais surtout du html/css/js/jquery/php/mysql/java. Sur la chaîne vous verrez du code de 14h à 18h et après 20h du jeu vidéo (minecraft/civilization 6/ ...).Merci a tout les Followers, VIP, SUB, Donateur, Modérateurs !",
+    "logo": "pages/tai_tetsuyuki/tai_tetsuyuki.png",
+    "backgroundV": "pages/tai_tetsuyuki/Design.mp4",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Donate",
+            "service": "Lyna",
+            "link": "https://lyna.netlify.app/taistudiodonate"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/channel/UCBEQSKPgaJiG4R02n5SMMKw"
+        },
+        {
+            "name": "Twitch",
+            "service": "Twitch",
+            "link": "https://www.twitch.tv/la_chaine_de_tai"
+        },
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/Tai_Tetsuyuki"
+        },
+        {
+            "name": "tai.tetsuyuki",
+            "service": "Instagram",
+            "link": "https://www.instagram.com/tai.tetsuyuki/"
+        },
+        {
+            "name": "Github",
+            "service": "Github",
+            "link": "https://github.com/LeGitHubDeTai"
+        },
+        {
+            "name": "Tai Studio",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/taistudio",
+            "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png"
+        },
+        {
+            "name": "Orchidée",
+            "service": "Internet",
+            "link": "https://orchidee-tai-studio.netlify.app",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        },
+        {
+            "name": "Orchidée Membres",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/orchidee",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        }
+    ]
+}
