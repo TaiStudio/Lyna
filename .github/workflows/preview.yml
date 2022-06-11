@@ -8,6 +8,8 @@ jobs:
   find-and-replace-job:
     name: "Preview Page"
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
       - uses: actions/checkout@main
       - uses: actions/setup-node@v3
@@ -25,8 +27,6 @@ jobs:
             source: ${{ steps.findandreplace.outputs.value }}"
             find: '[LYNA] ➕ New Page: '
             replace: '' 
-      permissions:
-        issues: write
       - name: Add comment
         uses: peter-evans/create-or-update-comment@c9fcb64660bc90ec1cc535646af190c992007c32
         with:
