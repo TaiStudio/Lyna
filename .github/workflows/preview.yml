@@ -9,20 +9,22 @@ jobs:
     name: "Preview Page"
     runs-on: ubuntu-latest
     permissions:
-      pull_request: write
+      issues: write
     steps:
       - uses: actions/checkout@main
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
       - uses: mad9000/actions-find-and-replace-string@2
+        id: findandreplace
         with:
             source: ${{ github.event.pull_request.title }}
             find: '[LYNA] 📝 Edit Page: '
             replace: '' 
       - uses: mad9000/actions-find-and-replace-string@2
+        id: commentwith
         with:
-            source: ${{ github.event.pull_request.title }}
+            source: ${{ steps.findandreplace.outputs.value }}"
             find: '[LYNA] ➕ New Page: '
             replace: '' 
       - name: Add comment
@@ -32,5 +34,5 @@ jobs:
           body: |
             Hello and thank you for your contribution!
             A moderator will check the links on your page within the next 48 hours.
-            Preview link: https://deploy-preview-${{ github.event.pull_request.number }}--lyna.netlify.app/${{ github.event.pull_request.title }}
+            Preview link: https://deploy-preview-${{ github.event.pull_request.number }}--lyna.netlify.app/${{ steps.commentwith.outputs.value }}"
             © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
