@@ -40,3 +40,8 @@ jobs:
             Preview link: [${{ steps.commentwith.outputs.value }}](https://deploy-preview-${{ github.event.pull_request.number }}--lyna.netlify.app/${{ steps.string.outputs.lowercase }})
             © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - uses: izhangzhihao/delete-comment@master
+        with: 
+          github_token: ${{ secrets.GH_TOKEN }}
+          delete_user_name: netlify[bot]
+          issue_number: ${{ github.event.pull_request.number }}
