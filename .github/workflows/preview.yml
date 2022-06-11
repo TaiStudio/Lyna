@@ -1,12 +1,8 @@
 name: "Preview Page"
 
-on: 
-  pull_requests:
-    types: [labeled]
+on: pull_requests
 
 jobs:
-  job1:
-    if: github.event.label.name == 'Edit page'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
