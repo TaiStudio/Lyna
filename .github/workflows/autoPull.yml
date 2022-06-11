@@ -1,35 +1,36 @@
-name: "Send Preview Link"
+# name: "Send Preview Link"
 
-on: issue_comment
+# on: issue_comment
 
-jobs:
-  job1:
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-    steps:
-      - uses: actions/checkout@main
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-      - name: Sleep for 30 seconds
-        run: sleep 30s
-        shell: bash
-      - name: Find Comment
-        uses: peter-evans/find-comment@v2
-        id: fc
-        with:
-          issue-number: ${{ github.event.issue.number }}
-          comment-author: netlify[bot]
-          body-includes: Deploy Preview for lyna ready!
-      - run: |
-          echo "${{ steps.fc.outputs.comment-body }}"
-      - name: Delete comment
-        uses: jungwinter/comment@v1
-        with:
-          type: delete
-          comment_id: ${{ steps.couc.outputs.comment-id }}
-          token: ${{ secrets.GH_TOKEN }}
+# jobs:
+#   job1:
+#     runs-on: ubuntu-latest
+#     permissions:
+#       issues: write
+#     steps:
+#       - uses: actions/checkout@main
+#       - uses: actions/setup-node@v3
+#         with:
+#           node-version: '16'
+#       - name: Sleep for 30 seconds
+#         run: sleep 30s
+#         shell: bash
+#       - name: Find Comment
+#         uses: peter-evans/find-comment@v2
+#         id: fc
+#         with:
+#           issue-number: ${{ github.event.issue.number }}
+#           comment-author: netlify[bot]
+#           body-includes: Deploy Preview for lyna ready!
+#       - run: |
+#           echo "${{ steps.fc.outputs.comment-body }}"
+#       - name: Delete comment
+#         uses: jungwinter/comment@v1
+#         with:
+#           type: delete
+#           comment_id: ${{ steps.couc.outputs.comment-id }}
+#           token: ${{ secrets.GH_TOKEN }}
+
       # - name: Add comment
       #   uses: peter-evans/create-or-update-comment@c9fcb64660bc90ec1cc535646af190c992007c32
       #   with:
