@@ -24,7 +24,7 @@ jobs:
       - uses: mad9000/actions-find-and-replace-string@2
         id: commentwith
         with:
-            source: ${{ steps.findandreplace.outputs.value }}"
+            source: ${{ steps.findandreplace.outputs.value }}
             find: '[LYNA] ➕ New Page: '
             replace: '' 
       - name: Comment PR
