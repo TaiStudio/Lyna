@@ -41,7 +41,7 @@ jobs:
           body: |
             Hello and thank you for your contribution!
             A moderator will check the links on your page within the next 48 hours.
-            Preview link: https://deploy-preview-${{ github.event.issue.number }}--lyna.netlify.app/${{ github.event.issue.title.replace('[LYNA] 📝 Edit Page: ', '').replace('➕ Create your own page ', '') }}
+            Preview link: https://deploy-preview-${{ github.event.issue.number }}--lyna.netlify.app/${{ github.event.issue.title }}
             © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
           labels: |
             Edit page

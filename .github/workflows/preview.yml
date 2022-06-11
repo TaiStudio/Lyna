@@ -1,0 +1,36 @@
+name: "Preview Page"
+
+on: 
+  pull_requests:
+    types: [labeled]
+
+jobs:
+  job1:
+    if: github.event.label.name == 'Edit page'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - uses: mad9000/actions-find-and-replace-string@2
+        with:
+            source: ${{ github.event.issue.title }}
+            find: '[LYNA] 📝 Edit Page: '
+            replace: '' 
+      - uses: mad9000/actions-find-and-replace-string@2
+        with:
+            source: ${{ github.event.issue.title }}
+            find: '[LYNA] ➕ New Page: '
+            replace: '' 
+      permissions:
+        issues: write
+      - name: Add comment
+        uses: peter-evans/create-or-update-comment@c9fcb64660bc90ec1cc535646af190c992007c32
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Hello and thank you for your contribution!
+            A moderator will check the links on your page within the next 48 hours.
+            Preview link: https://deploy-preview-${{ github.event.issue.number }}--lyna.netlify.app/${{ github.event.issue.title }}
+            © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
