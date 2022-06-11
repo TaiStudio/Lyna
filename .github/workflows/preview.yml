@@ -27,12 +27,12 @@ jobs:
             source: ${{ steps.findandreplace.outputs.value }}"
             find: '[LYNA] ➕ New Page: '
             replace: '' 
-      - name: Add comment
-        uses: peter-evans/create-pull-request@v4
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v1
         with:
-          issue-number: ${{ github.event.pull_request.number }}
-          body: |
+          message: |
             Hello and thank you for your contribution!
             A moderator will check the links on your page within the next 48 hours.
             Preview link: [${{ steps.commentwith.outputs.value }}](https://deploy-preview-${{ github.event.pull_request.number }}--lyna.netlify.app/${{ steps.commentwith.outputs.value }})
             © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
