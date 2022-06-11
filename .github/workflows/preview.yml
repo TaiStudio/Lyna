@@ -1,6 +1,8 @@
 name: "Preview Page"
 
-on: [pull_requests]
+on:
+  pull_request:
+    types: [opened]
 
 jobs:
   find-and-replace-job:
