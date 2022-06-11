@@ -26,13 +26,17 @@ jobs:
         with:
             source: ${{ steps.findandreplace.outputs.value }}
             find: '[LYNA] ➕ New Page: '
-            replace: '' 
+            replace: ''
+      - uses: ASzc/change-string-case-action@v2
+        id: string
+        with:
+          string: ${{ steps.commentwith.outputs.value }}
       - name: Comment PR
         uses: thollander/actions-comment-pull-request@v1
         with:
           message: |
             Hello and thank you for your contribution!
             A moderator will check the links on your page within the next 48 hours.
-            Preview link: [${{ steps.commentwith.outputs.value }}](https://deploy-preview-${{ github.event.pull_request.number }}--lyna.netlify.app/${{ steps.commentwith.outputs.value }})
+            Preview link: [${{ steps.commentwith.outputs.value }}](https://deploy-preview-${{ github.event.pull_request.number }}--lyna.netlify.app/${{ steps.string.outputs.lowercase }})
             © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
