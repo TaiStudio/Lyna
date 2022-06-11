@@ -1,6 +1,6 @@
 name: "Preview Page"
 
-on: pull_requests
+on: [pull_requests]
 
 jobs:
   find-and-replace-job:
