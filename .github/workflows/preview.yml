@@ -34,5 +34,5 @@ jobs:
           body: |
             Hello and thank you for your contribution!
             A moderator will check the links on your page within the next 48 hours.
-            Preview link: https://deploy-preview-${{ github.event.pull_request.number }}--lyna.netlify.app/${{ steps.commentwith.outputs.value }}"
+            Preview link: [${{ steps.commentwith.outputs.value }}](https://deploy-preview-${{ github.event.pull_request.number }}--lyna.netlify.app/${{ steps.commentwith.outputs.value }})
             © [Tai Studio](https://tai-studio.netlify.app/) 2021/2022
