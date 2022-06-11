@@ -28,7 +28,7 @@ jobs:
             find: '[LYNA] ➕ New Page: '
             replace: '' 
       - name: Add comment
-        uses: peter-evans/create-or-update-comment@v2
+        uses: peter-evans/create-pull-request@v4
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
