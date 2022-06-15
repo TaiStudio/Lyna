@@ -1,14 +1,42 @@
 {
-  "name": "Asterius-Music",
-  "description": "Asterius, Développeur Web UI/UX Integrateur & Dépannage informatique",
-  "background": "",
-  "backgroundV": "",
-  "music": "",
+  "name": "Asterius Meteo",
+  "description": "Asterius, Développeur Web UI/UX Integrateur & Depanage informatique",
   "logo": "pages/asterius-music/logo.png",
+  "background": "pages/asterius-meteo/background.png",
   "font": "ancient",
-  "animations": [],
-  "links": [],
-  "colors": [],
-  "theme": "",
-  "power": true
+  "links": [
+      {
+          "name": "Retour",
+          "service": "internet",
+          "link": "https://lyna.netlify.app/asterius",
+          "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico",
+          "target": "_self"
+      },
+      {
+        "name": "Service Musique",
+        "service": "fiverr",
+        "link": "https://fr.fiverr.com/taistudio/create-your-original-music"
+      },
+      {
+          "name": "Les Réseaux Asterius",
+          "service": "internet",
+          "link": "https://lyna.netlify.app/asterius-reseaux",
+          "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico"
+      },
+      {
+          "name": "Youtube Music",
+          "service": "youtube",
+          "link": "https://www.youtube.com/channel/UC1UfZtWgdMtESL0BYtC7csw/playlists?view=50&sort=dd&shelf_id=4"
+      },
+      {
+          "name": "Bandcamp",
+          "service": "bandcamp",
+          "link": "https://asteriusbot.bandcamp.com/"
+      },
+      {
+          "name": "Soundcloud",
+          "service": "soundcloud",
+          "link": "https://soundcloud.com/asteriusae"
+      }
+  ]
 }
