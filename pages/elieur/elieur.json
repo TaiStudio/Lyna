@@ -5,9 +5,9 @@
     "font": "ancient",
     "links": [
         {
-            "name": "Twitter",
-            "service": "twitter",
-            "link": "https://twitter.com/elieur"
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://www.twitch.tv/elieur"
         },
         {
             "name": "planetminecraft",
