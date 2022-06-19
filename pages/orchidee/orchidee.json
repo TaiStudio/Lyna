@@ -105,6 +105,12 @@
             "service": "Internet",
             "link": "https://lyna.netlify.app/atinylittlepotatoe",
             "icon": "pages/atinylittlepotatoe/atinylittlepotatoe.png"
+        },
+        {
+            "name": "elieur",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/elieur",
+            "icon": "pages/elieur/elieur.png"
         }
     ]
 }

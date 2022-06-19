@@ -1,0 +1,30 @@
+{
+    "name": "elieur",
+    "description": "Passionné de construction sur Minecraft, joueur lambda Rocket League, amoureux du RP...",
+    "logo": "pages/elieur/elieur.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/elieur"
+        },
+        {
+            "name": "planetminecraft",
+            "service": "planetminecraft",
+            "link": "https://www.planetminecraft.com/member/elieur/"
+        },
+        {
+            "name": "Orchidée",
+            "service": "Internet",
+            "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        },
+        {
+            "name": "Orchidée Membres",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/orchidee",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        }
+    ]
+}
