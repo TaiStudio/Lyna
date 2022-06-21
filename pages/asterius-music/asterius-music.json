@@ -1,8 +1,9 @@
 {
-  "name": "Asterius Meteo",
+  "name": "Asterius Music",
   "description": "Asterius, Développeur Web UI/UX Integrateur & Depanage informatique",
   "logo": "pages/asterius-music/logo.png",
   "background": "pages/asterius-meteo/background.png",
+  "music": "pages/asterius-meteo/music.wav",
   "font": "ancient",
   "links": [
       {
