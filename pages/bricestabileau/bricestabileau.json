@@ -1,62 +1,45 @@
 {
-    "name": "BriceStabileau",
-    "description": "Je suis un STABILEAU. Je fais des lives Minecraft. Si tu veux un max de construction. Bah, je crois que tes bien tombé(e).",
-    "logo": "pages/bricestabileau/bricestabileau.png",
-    "font": "ancient",
-    "links": [
-        {
-            "name": "Twitch",
-            "service": "Twitch",
-            "link": "https://www.twitch.tv/bricestabileau"
-        },
-        {
-            "name": "discord",
-            "service": "discord",
-            "link": "https://discord.gg/6puYuEmbsu"
-        },
-        {
-            "name": "twitter",
-            "service": "twitter",
-            "link": "https://twitter.com/SubileauB",
-            "display": false
-        },
-        {
-            "name": "instagram",
-            "service": "instagram",
-            "link": "https://www.instagram.com/brice.sbl/"
-        },
-        {
-            "name": "tiktok",
-            "service": "tiktok",
-            "link": "https://vm.tiktok.com/ZMR2osnwW/"
-        },
-        {
-            "name": "tipeeestream",
-            "service": "tipeeestream",
-            "link": "https://www.tipeeestream.com/bricestabileau/donation",
-            "display": false
-        },
-        {
-            "name": "AZURIA",
-            "service": "discord",
-            "link": "https://discord.gg/azuria"
-        },
-        {
-            "name": "OCEANQUEST",
-            "service": "discord",
-            "link": "https://discord.gg/fMmGZvrpKc"
-        },
-        {
-            "name": "Orchidée",
-            "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
-        },
-        {
-            "name": "Orchidée Membres",
-            "service": "Internet",
-            "link": "https://lyna.netlify.app/orchidee",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
-        }
-    ]
+  "name": "BriceStabileau",
+  "description": "Jeune Streamer Minecraft et bien plus | Builder (XD ça reste a voir)",
+  "background": "pages/bricestabileau/173403497-bdedea6c-11ed-4ff7-88b4-9dab359088be.png",
+  "backgroundV": "",
+  "music": "",
+  "logo": "pages//logo.png",
+  "font": "ancient",
+  "animations": [],
+  "links": [
+    {
+      "name": "Instagram",
+      "service": "Internet",
+      "link": "https://www.instagram.com/brice.sbl?r=nametag ",
+      "icon": ""
+    },
+    {
+      "name": "TikTok",
+      "service": "Internet",
+      "link": "https://vm.tiktok.com/ZMR2osnwW/ ",
+      "icon": ""
+    },
+    {
+      "name": "Discord",
+      "service": "discord",
+      "link": "https://discord.gg/6puYuEmbsu",
+      "icon": ""
+    },
+    {
+      "name": "OceanQuest",
+      "service": "discord",
+      "link": "https://discord.gg/fBydsNh3va",
+      "icon": ""
+    },
+    {
+      "name": "Site OceanQuest",
+      "service": "Internet",
+      "link": "https://www.ocean-quest.fr/",
+      "icon": ""
+    }
+  ],
+  "colors": [],
+  "theme": "",
+  "power": true
 }
