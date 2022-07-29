@@ -20,6 +20,11 @@
             "link": "https://twitter.com/LittlePotatoeee"
         },
         {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/user/titelea100"
+        },
+        {
             "name": "Soutien à la chaine",
             "service": "streamelements",
             "link": "https://streamelements.com/atinylittlepotatoe/tip"
