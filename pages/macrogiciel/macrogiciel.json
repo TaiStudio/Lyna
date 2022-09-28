@@ -18,6 +18,11 @@
             "name": "Twitter",
             "service": "twitter",
             "link": "https://twitter.com/macrogiciel"
+        },
+        {
+            "name": "Beta Tester",
+            "service": "typeform",
+            "link": "https://6rclj5sugxe.typeform.com/to/udpT86qs"
         }
     ]
 }
