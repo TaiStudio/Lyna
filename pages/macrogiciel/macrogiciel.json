@@ -13,6 +13,11 @@
             "name": "Discord",
             "service": "discord",
             "link": "https://discord.gg/NAh5ZFpwB9"
+        },
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/macrogiciel"
         }
     ]
 }
