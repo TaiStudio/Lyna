@@ -5,51 +5,29 @@
     "font": "ancient",
     "links": [
         {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/brice.sbl/"
+        },
+        {
+            "name": "TikTok",
+            "service": "tiktok",
+            "link": "https://vm.tiktok.com/ZMR2osnwW/"
+        },
+        {
             "name": "Twitch",
             "service": "Twitch",
             "link": "https://www.twitch.tv/bricestabileau"
         },
         {
-            "name": "discord",
+            "name": "PORTFOLIO",
             "service": "discord",
-            "link": "https://discord.gg/6puYuEmbsu"
-        },
-        {
-            "name": "twitter",
-            "service": "twitter",
-            "link": "https://twitter.com/SubileauB",
-            "display": false
-        },
-        {
-            "name": "instagram",
-            "service": "instagram",
-            "link": "https://www.instagram.com/brice.sbl/"
-        },
-        {
-            "name": "tiktok",
-            "service": "tiktok",
-            "link": "https://vm.tiktok.com/ZMR2osnwW/"
-        },
-        {
-            "name": "tipeeestream",
-            "service": "tipeeestream",
-            "link": "https://www.tipeeestream.com/bricestabileau/donation",
-            "display": false
-        },
-        {
-            "name": "AZURIA",
-            "service": "discord",
-            "link": "https://discord.gg/azuria"
+            "link": "https://discord.gg/7a52bhMer8"
         },
         {
             "name": "OCEANQUEST",
             "service": "discord",
             "link": "https://discord.gg/fMmGZvrpKc"
-        },
-        {
-            "name": "Portfolio",
-            "service": "discord",
-            "link": "https://discord.gg/7a52bhMer8"
         },
         {
             "name": "Orchidée",
