@@ -1,0 +1,50 @@
+{
+    "name": "TV_Slimi",
+    "description": "Streamer de 20 ans en étude a Londres et bien déterminé a rencontrer du monde et kiffer le stream du debut a la fin! Si tu vois ce message, BIENVENUE PARMIS LES TS !",
+    "logo": "pages/TV_Slimi/TV_Slimi.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://twitch.tv/tv_slimi"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://bit.ly/33BkSn2"
+        },
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/TV_Slimi"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/tv_slimi/"
+        },
+        {
+            "name": "Discord",
+            "service": "discord",
+            "link": "https://discord.gg/KNjYB4chnP"
+        },
+        {
+            "name": "Tips",
+            "service": "streamlabs",
+            "link": "https://streamlabs.com/tv_slimi/tip"
+        },
+        {
+            "name": "Orchidée",
+            "service": "Internet",
+            "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        },
+        {
+            "name": "Orchidée Membres",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/orchidee",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        }
+    ]
+}
