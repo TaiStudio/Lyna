@@ -111,6 +111,12 @@
             "service": "Internet",
             "link": "https://lyna.netlify.app/elieur",
             "icon": "pages/elieur/elieur.png"
+        },
+        {
+            "name": "TV_Slimi",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/TV_Slimi",
+            "icon": "pages/TV_Slimi/TV_Slimi.png"
         }
     ]
 }
