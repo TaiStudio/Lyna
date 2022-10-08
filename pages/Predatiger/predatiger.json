@@ -1,0 +1,35 @@
+{
+    "name": "Predatiger",
+    "description": "predatiger streame Fortnite, Ark: Survival Evolved et Minecraft.",
+    "logo": "pages/Predatiger/predatiger.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://twitch.tv/predatiger"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://youtube.com/c/predatiger"
+        },
+        {
+            "name": "Discord",
+            "service": "discord",
+            "link": "https://discord.gg/UXWcpsp8Re"
+        },
+        {
+            "name": "Orchidée",
+            "service": "Internet",
+            "link": "https://orchidee-tai-studio.netlify.app",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        },
+        {
+            "name": "Orchidée Membres",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/orchidee",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        }
+    ]
+}
