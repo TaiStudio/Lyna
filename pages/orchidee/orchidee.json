@@ -105,7 +105,8 @@
             "name": "Atinylittlepotatoe",
             "service": "Internet",
             "link": "https://lyna.netlify.app/atinylittlepotatoe",
-            "icon": "pages/atinylittlepotatoe/atinylittlepotatoe.png"
+            "icon": "pages/atinylittlepotatoe/atinylittlepotatoe.png",
+            "display": false
         },
         {
             "name": "elieur",
@@ -118,6 +119,12 @@
             "service": "Internet",
             "link": "https://lyna.netlify.app/TV_Slimi",
             "icon": "pages/TV_Slimi/TV_Slimi.png"
+        },
+        {
+            "name": "Predatiger",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/Predatiger",
+            "icon": "pages/Predatiger/Predatiger.png"
         }
     ]
 }
