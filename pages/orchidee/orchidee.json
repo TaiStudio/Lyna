@@ -90,10 +90,10 @@
             "icon": "pages/lousebodia/lousebodia.png"
         },
         {
-            "name": "Hope88000",
+            "name": "MancH0pe",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/hope88000",
-            "icon": "pages/hope88000/hope88000.png"
+            "link": "https://lyna.netlify.app/MancH0pe",
+            "icon": "pages/MancH0pe/MancH0pe.png"
         },
         {
             "name": "Kirouko",
@@ -112,7 +112,8 @@
             "name": "elieur",
             "service": "Internet",
             "link": "https://lyna.netlify.app/elieur",
-            "icon": "pages/elieur/elieur.png"
+            "icon": "pages/elieur/elieur.png",
+            "display": false
         },
         {
             "name": "TV_Slimi",

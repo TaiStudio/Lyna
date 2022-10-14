@@ -35,18 +35,6 @@
             "name": "Tik Tok",
             "service": "TikTok",
             "link": "https://www.tiktok.com/@silver_souls_d0ps"
-        },
-        {
-            "name": "Orchidée",
-            "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
-        },
-        {
-            "name": "Orchidée Membres",
-            "service": "Internet",
-            "link": "https://lyna.netlify.app/orchidee",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
         }
     ]
 }
