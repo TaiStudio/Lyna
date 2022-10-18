@@ -15,6 +15,16 @@
             "link": "https://www.youtube.com/channel/UCqXpC0XW6D1kkNF2ZLYvwtA"
         },
         {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/teamorchidee"
+        },
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://www.twitch.tv/teamorchidee"
+        },
+        {
             "name": "Site",
             "service": "Internet",
             "link": "https://orchidee-tai-studio.netlify.app/",
