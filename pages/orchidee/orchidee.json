@@ -25,6 +25,11 @@
             "link": "https://www.twitch.tv/teamorchidee"
         },
         {
+            "name": "TikTok",
+            "service": "tiktok",
+            "link": "https://www.tiktok.com/@teamorchidee"
+        },
+        {
             "name": "Site",
             "service": "Internet",
             "link": "https://orchidee-tai-studio.netlify.app/",
