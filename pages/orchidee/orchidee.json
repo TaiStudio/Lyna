@@ -10,6 +10,11 @@
     ],
     "links": [
         {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.gg/VujtYkWryS"
+        },
+        {
             "name": "Youtube",
             "service": "Youtube",
             "link": "https://www.youtube.com/channel/UCqXpC0XW6D1kkNF2ZLYvwtA"
