@@ -92,6 +92,12 @@
             "icon": "pages/thales49/thales49.png"
         },
         {
+            "name": "ArcadoTV",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/arcadotv",
+            "icon": "pages/arcadotv/arcadotv.png"
+        },
+        {
             "name": "Haterna",
             "service": "Internet",
             "link": "https://lyna.netlify.app/HaternaTwitch",
