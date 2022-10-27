@@ -27,7 +27,7 @@ jobs:
             source: ${{ steps.findandreplace.outputs.value }}
             find: '[LYNA] ➕ New Page: '
             replace: ''
-      - uses: ASzc/change-string-case-action@v2
+      - uses: ASzc/change-string-case-action@v4
         id: string
         with:
           string: ${{ steps.commentwith.outputs.value }}
