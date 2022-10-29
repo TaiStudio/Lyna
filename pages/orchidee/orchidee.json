@@ -35,6 +35,11 @@
             "link": "https://www.tiktok.com/@teamorchidee"
         },
         {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/TeamOrchidee"
+        },
+        {
             "name": "Site",
             "service": "Internet",
             "link": "https://orchidee-tai-studio.netlify.app/",
