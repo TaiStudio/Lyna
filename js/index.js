@@ -233,6 +233,10 @@ function animator(){
             for(a=0;a<config.animations.length;a++){
                 default_anim = `${default_anim} ${all_anim[config.animations[a]]["default"]}`;
                 active_anim = `${active_anim} ${all_anim[config.animations[a]]["active"]}`;
+
+                if(config.animations[a] == "fix"){
+                    $('body .content').addClass('fix');
+                }
             }
              
             $('body .content').attr('style', `transform: ${default_anim}`);

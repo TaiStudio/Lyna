@@ -6,7 +6,8 @@
     "background": "pages/orchidee/orchideeBG.png",
     "animations": [
         "rotateLeft",
-        "zoom"
+        "zoom",
+        "fix"
     ],
     "links": [
         {

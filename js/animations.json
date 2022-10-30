@@ -26,5 +26,9 @@
     "zoom": {
         "default": "scale(0)",
         "active": "scale(1)"
+    },
+    "fix": {
+        "default": "translate(50%, 0)",
+        "active": "translate(50%, 0)"
     }
 }

@@ -75,6 +75,9 @@ body .content.active{
     opacity: 1;
     transform: translate(-50%, 0%);
 }
+body .content.fix{
+    transform: translate(-50%, 0%)!important;
+}
 body .content .top{
     display: flex;
     flex-direction: column;
@@ -224,6 +227,10 @@ body .power a{
         left: 0;
         right: inherit;
         bottom: inherit;
+    }
+    
+    body .content.fix{
+        transform: translate(0%, 0%)!important;
     }
 }
 
