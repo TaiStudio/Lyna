@@ -138,7 +138,7 @@ function creator(data){
                 var twitchName = config.links[i].link.substr(0,config.links[i].link.lastIndexOf('/'));
                     twitchName = config.links[i].link.replace(`${twitchName}/`, '');
                 twitchButton = "twitchButton";
-                $('body').append(`twitchGetID("${twitchName}");`);
+                $('body').append(`<script>twitchGetID("${twitchName}");</script>`);
             }
             if(config.icon != null){
                 $('head').append(`<link rel="shortcut icon" href="${config.icon}" type="image/x-icon">`);
