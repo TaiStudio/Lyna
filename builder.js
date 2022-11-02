@@ -201,7 +201,7 @@ function creator(data){
             `);
         }
         
-        fs.writeFileSync(`dist/${data}.html`, $.html());
+        fs.writeFileSync(`dist/${data.toLowerCase()}.html`, $.html());
         if(data == "home"){
             fs.writeFileSync(`index.html`, $.html());
         }
