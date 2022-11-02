@@ -1,0 +1,52 @@
+{
+    "name": "Home",
+    "description": "Create a page for provide your social links and other.",
+    "logo": "pages/home/lyna.png",
+    "font": "ancient",
+    "background": "pages/home/homeback.png",
+    "power": false,
+    "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png",
+    "links": [
+        {
+            "name": "Donate/Support",
+            "service": "buymeacoffee",
+            "link": "https://lyna.netlify.app/taistudiodonate"
+        },
+        {
+            "name": "How to create/edit my own page ?",
+            "service": "Internet",
+            "link": "https://doc-lyna.netlify.app",
+            "icon": "pages/home/add.png"
+        },
+        {
+            "name": "I have found a bug ! (github)",
+            "service": "Internet",
+            "link": "https://github.com/TaiStudio/Lyna/issues",
+            "icon": "pages/home/bug.png"
+        },
+        {
+            "name": "I have found a bug ! (discord)",
+            "service": "Internet",
+            "link": "https://github.com/TaiStudio/Lyna/issues",
+            "icon": "pages/home/bug.png",
+            "display": false
+        },
+        {
+            "name": "I have an idea !",
+            "service": "Internet",
+            "link": "https://github.com/TaiStudio/Lyna/discussions/categories/ideas",
+            "icon": "pages/home/idea.png"
+        },
+        {
+            "name": "Github",
+            "service": "Github",
+            "link": "https://github.com/TaiStudio"
+        },
+        {
+            "name": "Tai Studio",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/taistudio",
+            "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png"
+        }
+    ]
+}
