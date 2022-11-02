@@ -57,7 +57,7 @@ function creator(data){
     if(fs.existsSync(`./pages/${data}/${data}.json`)){
         //PAGES
         var config = require(`./pages/${data}/${data}.json`);
-        const $ = cheerio.load(fs.readFileSync('index.html'));
+        const $ = cheerio.load(fs.readFileSync('indexgen.html'));
         console.log(data);
         
         //TITLES
@@ -104,7 +104,7 @@ function creator(data){
         }
         $('.top .logo img').attr('src', config.logo);
         $('.top .name').text(config.name);
-        //AHZEUIOHAZEUHAIZEHIHAZEUIAUZEUHIAUZEHIAZHE
+
         if(config.colors != null){
             if(config.colors.length == 4){
                 $('body').append(`
@@ -200,9 +200,11 @@ function creator(data){
                 </script>
             `);
         }
-        //ENENENENENENENENENENENENENENNENEENENENENEN
         
         fs.writeFileSync(`dist/${data}.html`, $.html());
+        if(data == "home"){
+            fs.writeFileSync(`index.html`, $.html());
+        }
 
         sitemap("urlset").append(`
             <url>
