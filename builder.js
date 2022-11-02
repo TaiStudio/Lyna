@@ -42,13 +42,17 @@ var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0');
 var yyyy = today.getFullYear();
-today = `${yyyy}-${mm}-${dd}`;
+    today = `${yyyy}-${mm}-${dd}`;
 function getFiles (dir, files_){
     files_ = files_ || [];
     var files = fs.readdirSync(dir);
     for (var i in files){
         if(fs.existsSync(`./pages/${files[i]}/${files[i]}.json`)){
             creator(files[i]);
+
+            if(i == files.length-1){
+                console.log('DONE!');
+            }
         }
     }
 }
@@ -181,25 +185,25 @@ function creator(data){
             </script>
         `);
         
-        if(config.animations != null){
-            for(a=0;a<config.animations.length;a++){
-                default_anim = `${default_anim} ${animations[config.animations[a]]["default"]}`;
-                active_anim = `${active_anim} ${animations[config.animations[a]]["active"]}`;
-                if(config.animations[a] == "fix"){
-                    $('body .content').addClass('fix');
-                }
-            }
+        // if(config.animations != null){
+        //     for(a=0;a<config.animations.length;a++){
+        //         default_anim = `${default_anim} ${animations[config.animations[a]]["default"]}`;
+        //         active_anim = `${active_anim} ${animations[config.animations[a]]["active"]}`;
+        //         if(config.animations[a] == "fix"){
+        //             $('body .content').addClass('fix');
+        //         }
+        //     }
             
-            $('body .content').attr('style', `transform: ${default_anim}`);
+        //     $('body .content').attr('style', `transform: ${default_anim}`);
             
-            $('body').append(`
-                <script>
-                    setTimeout(() => {
-                        $('body .content').attr('style', 'transform: ${active_anim}');
-                    }, 1000);
-                </script>
-            `);
-        }
+        //     $('body').append(`
+        //         <script>
+        //             setTimeout(() => {
+        //                 $('body .content').attr('style', 'transform: ${active_anim}');
+        //             }, 1000);
+        //         </script>
+        //     `);
+        // }
         
         fs.writeFileSync(`dist/${data.toLowerCase()}.html`, $.html());
         if(data == "home"){
