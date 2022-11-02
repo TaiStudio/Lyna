@@ -11,9 +11,19 @@
             "link": "https://lyna.netlify.app/taistudiodonate"
         },
         {
-            "name": "Youtube",
+            "name": "Chaine Principale",
             "service": "Youtube",
-            "link": "https://www.youtube.com/channel/UCBEQSKPgaJiG4R02n5SMMKw"
+            "link": "https://youtube.com/@TaiTetsuyuki"
+        },
+        {
+            "name": "Les Clips",
+            "service": "Youtube",
+            "link": "https://youtube.com/@TetsuyuClips"
+        },
+        {
+            "name": "Les VODs",
+            "service": "Youtube",
+            "link": "https://youtube.com/@TetsuyukiVOD"
         },
         {
             "name": "Twitch",
