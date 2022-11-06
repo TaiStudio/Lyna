@@ -127,53 +127,55 @@ function creator(data){
         if(config.theme != null){
             $('body').addClass(config.theme);
         }
-        for(i=0;i<config.links.length;i++){
-            var icon,
-                twitchButton = "",
-                display = "",
-                trustIDB = null;
-            if(config.links[i].icon != null){
-                icon = config.links[i].icon;
-            }
-            else{
-                icon = `./img/services/${config.links[i].service}.png`;
-            }
-            if(config.links[i].link.includes('twitch.tv/')){
-                var twitchName = config.links[i].link.substr(0,config.links[i].link.lastIndexOf('/'));
-                    twitchName = config.links[i].link.replace(`${twitchName}/`, '');
-                twitchButton = "twitchButton";
-                $('body').append(`<script>twitchGetID("${twitchName}");</script>`);
-            }
-            if(config.icon != null){
-                $('head').append(`<link rel="shortcut icon" href="${config.icon}" type="image/x-icon">`);
-            }
-            else{
-                $('head').append(`<link rel="shortcut icon" href="${config.logo}" type="image/x-icon">`);
-            }
-            if(config.links[i].display == false){
-                display = "hide";
-            }
-            if(config.links[i].trustpilot != null){
-                trustIDB = 'trust1';
-                $('body').append(`trustpilot("${config.links[i].trustpilot}", "${trustIDB}");`);
-            }
-            $('.bottom').append(`
-                <div class="link ${twitchButton} ${display} ${trustIDB}" data-link="${config.links[i].link}" data-target="${config.links[i].target || null}">
-                    <div class="left">
-                        <div class="logo">
-                            <img src="${icon}" alt="${config.links[i].service}" onerror="imgError(this);" />
+        if(config.links != null){
+            for(i=0;i<config.links.length;i++){
+                var icon,
+                    twitchButton = "",
+                    display = "",
+                    trustIDB = null;
+                if(config.links[i].icon != null){
+                    icon = config.links[i].icon;
+                }
+                else{
+                    icon = `./img/services/${config.links[i].service}.png`;
+                }
+                if(config.links[i].link.includes('twitch.tv/')){
+                    var twitchName = config.links[i].link.substr(0,config.links[i].link.lastIndexOf('/'));
+                        twitchName = config.links[i].link.replace(`${twitchName}/`, '');
+                    twitchButton = "twitchButton";
+                    $('body').append(`<script>twitchGetID("${twitchName}");</script>`);
+                }
+                if(config.icon != null){
+                    $('head').append(`<link rel="shortcut icon" href="${config.icon}" type="image/x-icon">`);
+                }
+                else{
+                    $('head').append(`<link rel="shortcut icon" href="${config.logo}" type="image/x-icon">`);
+                }
+                if(config.links[i].display == false){
+                    display = "hide";
+                }
+                if(config.links[i].trustpilot != null){
+                    trustIDB = 'trust1';
+                    $('body').append(`trustpilot("${config.links[i].trustpilot}", "${trustIDB}");`);
+                }
+                $('.bottom').append(`
+                    <div class="link ${twitchButton} ${display} ${trustIDB}" data-link="${config.links[i].link}" data-target="${config.links[i].target || null}">
+                        <div class="left">
+                            <div class="logo">
+                                <img src="${icon}" alt="${config.links[i].service}" onerror="imgError(this);" />
+                            </div>
+                        </div>
+                        <div class="center">
+                            <div class="name">
+                                ${config.links[i].name}
+                            </div>
+                        </div>
+                        <div class="arrow">
+                            <img src="./img/assets/arrow-circle-right-solid.svg" alt="ARROW">
                         </div>
                     </div>
-                    <div class="center">
-                        <div class="name">
-                            ${config.links[i].name}
-                        </div>
-                    </div>
-                    <div class="arrow">
-                        <img src="./img/assets/arrow-circle-right-solid.svg" alt="ARROW">
-                    </div>
-                </div>
-            `);
+                `);
+            }
         }
         $('body').append(`
             <script>
@@ -184,6 +186,14 @@ function creator(data){
                 }, 1000);
             </script>
         `);
+
+        if(config.redirect != null){
+            $('body').append(`
+                <script>
+                    window.location.replace("${config.redirect}");
+                </script>
+            `);
+        }
         
         // if(config.animations != null){
         //     for(a=0;a<config.animations.length;a++){
