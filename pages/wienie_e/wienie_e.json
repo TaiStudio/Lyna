@@ -1,0 +1,35 @@
+{
+    "name": "wienie_e",
+    "description": "Mon mots d'ordre LA QUALITE! Installez-vous avec nous passez un agréable moment en notre compagnie. on a remplie l'objectif d'affiliation grâce à vous merci infiniment 🧡💛🍯",
+    "logo": "pages/wienie_e/wienie_e.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://twitch.tv/wienie_e"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://youtube.com/c/wienie"
+        },
+        {
+            "name": "Discord",
+            "service": "discord",
+            "link": "https://discord.gg/ZJqvXm4bdB"
+        },
+        {
+            "name": "Orchidée",
+            "service": "Internet",
+            "link": "https://orchidee-tai-studio.netlify.app",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        },
+        {
+            "name": "Orchidée Membres",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/orchidee",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        }
+    ]
+}
