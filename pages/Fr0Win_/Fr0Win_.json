@@ -15,6 +15,11 @@
             "link": "https://streamlabs.com/fr0win_/tip"
         },
         {
+            "name": "Discord",
+            "service": "discord",
+            "link": "https://discord.gg/JN7nyUcCa2"
+        },
+        {
             "name": "Orchidée",
             "service": "Internet",
             "link": "https://orchidee-tai-studio.netlify.app/",
