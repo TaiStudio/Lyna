@@ -134,6 +134,12 @@
             "icon": "pages/kirouko_gaming/kirouko_gaming.png"
         },
         {
+            "name": "Fr0Win",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/Fr0Win_",
+            "icon": "pages/Fr0Win_/Fr0Win_.png"
+        },
+        {
             "name": "Atinylittlepotatoe",
             "service": "Internet",
             "link": "https://lyna.netlify.app/atinylittlepotatoe",

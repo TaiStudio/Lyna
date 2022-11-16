@@ -15,6 +15,12 @@
             "link": "https://streamlabs.com/fr0win_/tip"
         },
         {
+            "name": "Orchidée",
+            "service": "Internet",
+            "link": "https://orchidee-tai-studio.netlify.app/",
+            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+        },
+        {
             "name": "Orchidée Membres",
             "service": "Internet",
             "link": "https://lyna.netlify.app/orchidee",
