@@ -8,18 +8,6 @@
             "name": "Twitch",
             "service": "Twitch",
             "link": "https://www.twitch.tv/louisvuitt41"
-        },
-        {
-            "name": "Orchidée",
-            "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
-        },
-        {
-            "name": "Orchidée Membres",
-            "service": "Internet",
-            "link": "https://lyna.netlify.app/orchidee",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
         }
     ]
 }

@@ -44,7 +44,7 @@
             "name": "Site",
             "service": "Internet",
             "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+            "icon": "pages/orchidee/Orchid.png"
         },
         {
             "name": "Tai Tetsuyuki",
@@ -164,6 +164,13 @@
             "service": "Internet",
             "link": "https://lyna.netlify.app/Predatiger",
             "icon": "pages/Predatiger/Predatiger.png"
+        },
+        {
+            "name": "wienie_e",
+            "service": "Internet",
+            "link": "https://lyna.netlify.app/wienie_e",
+            "icon": "pages/wienie_e/wienie_e.png",
+            "display": false
         }
     ]
 }

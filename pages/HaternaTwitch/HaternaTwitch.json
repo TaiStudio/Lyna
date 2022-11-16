@@ -1,7 +1,7 @@
 {
-    "name": "Toasty",
+    "name": "Haterna",
     "description": "je fais des lives pour m'amuser et amuser les autres, hésitez pas a venir me faire un coucou dans le tchat ou dans le discord. Je fais des lives tous les soir a partir de 21h/22h tous les deux jours mais il peut y avoir des exceptions.",
-    "logo": "pages/toasty/toasty.png",
+    "logo": "pages/HaternaTwitch/HaternaTwitch.png",
     "font": "ancient",
     "links": [
         {
@@ -28,13 +28,13 @@
             "name": "Orchidée",
             "service": "Internet",
             "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+            "icon": "pages/orchidee/Orchid.png"
         },
         {
             "name": "Orchidée Membres",
             "service": "Internet",
             "link": "https://lyna.netlify.app/orchidee",
-            "icon": "https://orchidee-tai-studio.netlify.app/favicon.png"
+            "icon": "pages/orchidee/Orchid.png"
         }
     ]
 }
