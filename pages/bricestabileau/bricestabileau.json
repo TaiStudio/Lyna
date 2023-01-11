@@ -22,7 +22,8 @@
         {
             "name": "PORTFOLIO",
             "service": "discord",
-            "link": "https://www.canva.com/design/DAFSlyJhd-Y/S791w86B_WFXPzlyyPIf_Q/view"
+            "link": "https://www.canva.com/design/DAFSlyJhd-Y/S791w86B_WFXPzlyyPIf_Q/view",
+            "icon": "https://lyna.netlify.app/pages/bricestabileau/Brice_portfolio.png"
         },
         {
             "name": "OCEANQUEST",
