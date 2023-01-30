@@ -9,14 +9,13 @@
 <a href="https://buymeacoffee.com/taistudio" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
 ## 📝 How to create your Lyna page ?
-
-1. Fork the project
-2. Clone on your pc
-3. run `npm install`
-4. run `npm run gui`
-5. create an pull request
-6. open your web browser on `https://lyna.netlify.app/YOUR_USER_NAME`
-7. enjoy
+1. Start by forking the project from its Github repository.
+2. Clone the forked project onto your local machine.
+3. Navigate to the project's directory and run `npm install` to install all the necessary dependencies.
+4. After the dependencies are installed, run `npm run gui` to start the development environment.
+5. Once you have made your desired changes, create a pull request to merge your changes into the main branch.
+6. Open your web browser and visit `https://lyna.netlify.app/YOUR_USER_NAME` to see your page live.
+7. Enjoy your custom Lyna page!
 
 ## ⚙️ Supported services
 
