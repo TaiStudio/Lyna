@@ -89,6 +89,11 @@
             "service": "Internet",
             "link": "https://lyna.netlify.app/asterius",
             "icon": "https://lyna.netlify.app/pages/asterius/asterius.png"
+        },
+        {
+            "name": "Portfolio",
+            "service": "Trenton",
+            "link": "https://trenton.netlify.app/tetsuyuki"
         }
     ],
     "colors": [
