@@ -113,19 +113,22 @@
             "name": "Camillem62",
             "service": "Internet",
             "link": "https://lyna.netlify.app/camillem62",
-            "icon": "pages/camillem62/camillem62.png"
+            "icon": "pages/camillem62/camillem62.png",
+            "display": false
         },
         {
             "name": "LØU SEBODIA",
             "service": "Internet",
             "link": "https://lyna.netlify.app/lousebodia",
-            "icon": "pages/lousebodia/lousebodia.png"
+            "icon": "pages/lousebodia/lousebodia.png",
+            "display": false
         },
         {
             "name": "MancH0pe",
             "service": "Internet",
             "link": "https://lyna.netlify.app/MancH0pe",
-            "icon": "pages/MancH0pe/MancH0pe.png"
+            "icon": "pages/MancH0pe/MancH0pe.png",
+            "display": false
         },
         {
             "name": "Kirouko",
@@ -137,7 +140,8 @@
             "name": "Fr0Win",
             "service": "Internet",
             "link": "https://lyna.netlify.app/Fr0Win_",
-            "icon": "pages/Fr0Win_/Fr0Win_.png"
+            "icon": "pages/Fr0Win_/Fr0Win_.png",
+            "display": false
         },
         {
             "name": "Atinylittlepotatoe",
