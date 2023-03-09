@@ -28,7 +28,8 @@
         {
             "name": "OCEANQUEST",
             "service": "discord",
-            "link": "https://discord.gg/fBydsNh3va"
+            "link": "https://discord.gg/fBydsNh3va",
+            "display": false
         },
         {
             "name": "Orchidée",
