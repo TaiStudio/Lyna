@@ -1,0 +1,23 @@
+{
+    "name": "mathiasdame",
+    "description": "I wanna play a game !(elle a déjà été faite celle là non ?)",
+    "logo": "pages/mathiasdame/mathiasdame.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://twitch.tv/mathiasdame"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCCpF5MucxdQu4wjdKzexN2g"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/mathiasdame/"
+        }
+    ]
+}

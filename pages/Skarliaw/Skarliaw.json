@@ -1,0 +1,28 @@
+{
+    "name": "Skarliaw",
+    "description": "Bienvenue à tous ! Prenez un siège, venez vous amusez et partagez avec moi 😉 Valorant, Call of, Fortnite, multi gaming, just chatting ! 🎮",
+    "logo": "pages/Skarliaw/Skarliaw.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://twitch.tv/Skarliaw"
+        },
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/skarliaw_"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://instagram.com/skarliaw"
+        },
+        {
+            "name": "TikTok",
+            "service": "tiktok",
+            "link": "https://tiktok.com/@skarliaw_"
+        }
+    ]
+}

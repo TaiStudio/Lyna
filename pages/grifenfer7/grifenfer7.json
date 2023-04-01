@@ -1,0 +1,23 @@
+{
+    "name": "grifenfer7",
+    "description": "Salut bande de P'tis Rigolos ! Moi c'est Grifenfer 7eme du nom ! Eclate toi a suivre mes Stream sur des petit jeux tel que Minecraft, Rocket League, Dofus ou autre a voir par la suite ! Que de la joie et de la bonne humeur tu trouvera ici !",
+    "logo": "pages/grifenfer7/grifenfer7.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://twitch.tv/grifenfer7"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCMYnnQ9lORbQ-6fecjjmVfA"
+        },
+        {
+            "name": "Discord",
+            "service": "discord",
+            "link": "https://discord.gg/7ZHFy9Emqn"
+        }
+    ]
+}

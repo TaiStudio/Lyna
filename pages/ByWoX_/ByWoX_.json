@@ -1,0 +1,38 @@
+{
+    "name": "ByWoX_",
+    "description": "Hey, moi c'est ByWoX, je suis un jeune streamer qui stream principalement du gaming sur toutes sortes de jeux (Minecraft, R6..). Donc si tu es intéressé par ce genre de contenue, n'hésite pas à lâcher ton plus beau follow 😀",
+    "logo": "pages/ByWoX_/ByWoX_.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://twitch.tv/bywox_"
+        },
+        {
+            "name": "Discord",
+            "service": "discord",
+            "link": "https://discord.gg/X2nnG5QZEx"
+        },
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/bywox88"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://youtube.com/c/bywox_Gaming"
+        },
+        {
+            "name": "Facebook",
+            "service": "facebook",
+            "link": "https://facebook.com/ByWoX"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://instagram.com/adrie_gal/?hl=fr"
+        }
+    ]
+}

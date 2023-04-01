@@ -1,0 +1,28 @@
+{
+    "name": "audric37000",
+    "description": "Yo ! Débutant dans le streaming, j'adore partager mon gameplay tout en discutant ! J'essaye de faire de cette passion un métier et ce qui est sur c'est que je n'y arriverai pas sans toi ! Le meilleur des soutiens reste le simple follow alors n'hésite pas !",
+    "logo": "pages/audric37000/audric37000.png",
+    "font": "ancient",
+    "links": [
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://twitch.tv/audric37000"
+        },
+        {
+            "name": "Discord",
+            "service": "discord",
+            "link": "https://discord.gg/tJvQmYvscK"
+        },
+        {
+            "name": "Youtube",
+            "service": "youtube",
+            "link": "https://www.youtube.com/channel/UCOFUv5jJ3cFkmHrxjdTCFWw"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.tiktok.com/@audric37000?lang=fr"
+        }
+    ]
+}
