@@ -28,18 +28,6 @@
             "name": "Discord",
             "service": "discord",
             "link": "https://discord.gg/7FYBczyC54"
-        },
-        {
-            "name": "Orchidée",
-            "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "pages/orchidee/Orchid.png"
-        },
-        {
-            "name": "Orchidée Membres",
-            "service": "Internet",
-            "link": "https://lyna.netlify.app/orchidee",
-            "icon": "pages/orchidee/Orchid.png"
         }
     ]
 }

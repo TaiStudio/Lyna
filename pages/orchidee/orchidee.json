@@ -113,8 +113,7 @@
             "name": "Camillem62",
             "service": "Internet",
             "link": "https://lyna.netlify.app/camillem62",
-            "icon": "pages/camillem62/camillem62.png",
-            "display": false
+            "icon": "pages/camillem62/camillem62.png"
         },
         {
             "name": "LØU SEBODIA",
@@ -127,14 +126,14 @@
             "name": "MancH0pe",
             "service": "Internet",
             "link": "https://lyna.netlify.app/MancH0pe",
-            "icon": "pages/MancH0pe/MancH0pe.png",
-            "display": false
+            "icon": "pages/MancH0pe/MancH0pe.png"
         },
         {
             "name": "Kirouko",
             "service": "Internet",
             "link": "https://lyna.netlify.app/kirouko_gaming",
-            "icon": "pages/kirouko_gaming/kirouko_gaming.png"
+            "icon": "pages/kirouko_gaming/kirouko_gaming.png",
+            "display": false
         },
         {
             "name": "Fr0Win",
