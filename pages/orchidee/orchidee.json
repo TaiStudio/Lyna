@@ -82,8 +82,7 @@
             "name": "Silver Souls",
             "service": "Internet",
             "link": "https://lyna.netlify.app/d0ps_silversouls",
-            "icon": "pages/d0ps_silversouls/d0ps_silversouls.png",
-            "display": false
+            "icon": "pages/d0ps_silversouls/d0ps_silversouls.png"
         },
         {
             "name": "BriceStabileau",
