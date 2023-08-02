@@ -3,6 +3,7 @@ dist
 sitemap.xml
 pages/your_page_name
 pages/test
+pages/demo
 
 # Local Netlify folder
 .netlify
