@@ -32,6 +32,11 @@
             "link": "https://www.instagram.com/tai.tetsuyuki/"
         },
         {
+            "name": "Artstation",
+            "service": "Artstation",
+            "link": "https://tai_tetsuyuki.artstation.com/"
+        },
+        {
             "name": "Github",
             "service": "Github",
             "link": "https://github.com/LeGitHubDeTai"
