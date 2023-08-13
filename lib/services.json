@@ -2,6 +2,7 @@
     "all": [
         "amazon.png",
         "applemusic.png",
+        "artstation.jpg",
         "bandcamp.png",
         "bigcommerce.png",
         "bitbucket.png",
@@ -39,13 +40,14 @@
         "streamlabs.png",
         "tiktok.png",
         "tipeee.png",
+        "trenton.png",
         "trustpilot.png",
         "twitch.png",
         "twitter.png",
+        "typeform.png",
         "ulule.png",
         "utip.png",
         "yahoo.png.crdownload",
-        "youtube.png",
-        "trenton.png"
+        "youtube.png"
     ]
 }
