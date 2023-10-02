@@ -1,9 +1,9 @@
 <html><head></head><body><p align="center">
-<a href="https://lyna.netlify.app/">
+<a href="https://lyna.taistudio.fr/">
     <img src="img/assets/lyna.png" width="28%">
 </a>
 </p><p>
-<a href="https://lyna.netlify.app/">
+<a href="https://lyna.taistudio.fr/">
     <img src="https://api.netlify.com/api/v1/badges/d5847749-1cda-4d52-9efa-110b78b5515d/deploy-status">
 </a>
 <a href="https://buymeacoffee.com/taistudio" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
@@ -14,7 +14,7 @@
 3. Navigate to the project's directory and run `npm install` to install all the necessary dependencies.
 4. After the dependencies are installed, run `npm run gui` to start the development environment.
 5. Once you have made your desired changes, create a pull request to merge your changes into the main branch.
-6. Open your web browser and visit `https://lyna.netlify.app/YOUR_USER_NAME` to see your page live.
+6. Open your web browser and visit `https://lyna.taistudio.fr/YOUR_USER_NAME` to see your page live.
 7. Enjoy your custom Lyna page!
 
 ## ⚙️ Supported services
@@ -24,16 +24,16 @@
 
 ## 📷 ScreenShots
 <p align="center">
-    <a href="https://lyna.netlify.app/taistudio">
+    <a href="https://lyna.taistudio.fr/taistudio">
         <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/taistudio.png" width="45%">
     </a>
-    <a href="https://lyna.netlify.app/potion">
+    <a href="https://lyna.taistudio.fr/potion">
         <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/potion.png" width="45%">
     </a>
-    <a href="https://lyna.netlify.app/">
+    <a href="https://lyna.taistudio.fr/">
         <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/Lyna demo.PNG" width="45%">
     </a>
-    <a href="https://lyna.netlify.app/les-autodidactes">
+    <a href="https://lyna.taistudio.fr/les-autodidactes">
         <img src="https://raw.githubusercontent.com/TaiStudio/Lyna/main/img/assets/les-autodidactes.PNG" width="45%">
     </a>
 </p>
