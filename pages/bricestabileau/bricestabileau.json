@@ -23,7 +23,7 @@
             "name": "PORTFOLIO",
             "service": "discord",
             "link": "https://www.canva.com/design/DAFSlyJhd-Y/S791w86B_WFXPzlyyPIf_Q/view",
-            "icon": "https://lyna.netlify.app/pages/bricestabileau/Brice_portfolio.png"
+            "icon": "https://lyna.taistudio.fr//pages/bricestabileau/Brice_portfolio.png"
         },
         {
             "name": "OCEANQUEST",
@@ -40,7 +40,7 @@
         {
             "name": "Orchidée Membres",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/orchidee",
+            "link": "https://lyna.taistudio.fr//orchidee",
             "icon": "pages/orchidee/Orchid.png"
         }
     ]

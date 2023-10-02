@@ -48,13 +48,13 @@
         {
             "name": "Tai Studio",
             "service": "Internet",
-            "link": "https://tai-studio.netlify.app/",
+            "link": "https://taistudio.fr/",
             "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png"
         },
         {
             "name": "Animeback",
             "service": "Internet",
-            "link": "https://animeback.tai-studio.ml/",
+            "link": "https://animeback.taistudio.fr/",
             "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
         }
     ]

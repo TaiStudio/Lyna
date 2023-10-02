@@ -8,20 +8,6 @@
             "name": "Twitch",
             "service": "Twitch",
             "link": "https://www.twitch.tv/MancH0pe"
-        },
-        {
-            "name": "Orchidée",
-            "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "pages/orchidee/Orchid.png",
-            "display": false
-        },
-        {
-            "name": "Orchidée Membres",
-            "service": "Internet",
-            "link": "https://lyna.netlify.app/orchidee",
-            "icon": "pages/orchidee/Orchid.png",
-            "display": false
         }
     ]
 }

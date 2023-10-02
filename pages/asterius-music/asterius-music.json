@@ -9,8 +9,8 @@
       {
           "name": "Retour",
           "service": "internet",
-          "link": "https://lyna.netlify.app/asterius",
-          "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico",
+          "link": "https://lyna.taistudio.fr/asterius",
+          "icon": "https://asterius.taistudio.fr//assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico",
           "target": "_self"
       },
       {
@@ -21,8 +21,8 @@
       {
           "name": "Les Réseaux Asterius",
           "service": "internet",
-          "link": "https://lyna.netlify.app/asterius-reseaux",
-          "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico"
+          "link": "https://lyna.taistudio.fr/asterius-reseaux",
+          "icon": "https://asterius.taistudio.fr//assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico"
       },
       {
           "name": "Youtube Music",

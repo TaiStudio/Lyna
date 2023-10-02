@@ -49,128 +49,129 @@
         {
             "name": "Tai Tetsuyuki",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/la_chaine_de_tai",
+            "link": "https://lyna.taistudio.fr/la_chaine_de_tai",
             "icon": "pages/la_chaine_de_tai/la_chaine_de_tai.png"
         },
         {
             "name": "Eldarkar",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/Eldarkar66",
+            "link": "https://lyna.taistudio.fr/Eldarkar66",
             "icon": "pages/Eldarkar66/Eldarkar66.png"
         },
         {
             "name": "Noki_85",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/noki_85",
+            "link": "https://lyna.taistudio.fr/noki_85",
             "icon": "pages/noki_85/noki_85.png",
             "display": false
         },
         {
             "name": "Korisno",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/korisno",
+            "link": "https://lyna.taistudio.fr/korisno",
             "icon": "pages/korisno/korisno.png"
         },
         {
             "name": "Treany",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/louisvuitt41",
+            "link": "https://lyna.taistudio.fr/louisvuitt41",
             "icon": "pages/louisvuitt41/louisvuitt41.png",
             "display": false
         },
         {
             "name": "Silver Souls",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/d0ps_silversouls",
+            "link": "https://lyna.taistudio.fr/d0ps_silversouls",
             "icon": "pages/d0ps_silversouls/d0ps_silversouls.png"
         },
         {
             "name": "BriceStabileau",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/bricestabileau",
+            "link": "https://lyna.taistudio.fr/bricestabileau",
             "icon": "pages/bricestabileau/bricestabileau.png"
         },
         {
             "name": "Thales49",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/Thales49",
+            "link": "https://lyna.taistudio.fr/Thales49",
             "icon": "pages/thales49/thales49.png"
         },
         {
             "name": "ArcadoTV",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/arcadotv",
+            "link": "https://lyna.taistudio.fr/arcadotv",
             "icon": "pages/arcadotv/arcadotv.png"
         },
         {
             "name": "Haterna",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/HaternaTwitch",
+            "link": "https://lyna.taistudio.fr/HaternaTwitch",
             "icon": "pages/HaternaTwitch/HaternaTwitch.png"
         },
         {
             "name": "Camillem62",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/camillem62",
+            "link": "https://lyna.taistudio.fr/camillem62",
             "icon": "pages/camillem62/camillem62.png"
         },
         {
             "name": "LØU SEBODIA",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/lousebodia",
+            "link": "https://lyna.taistudio.fr/lousebodia",
             "icon": "pages/lousebodia/lousebodia.png",
             "display": false
         },
         {
             "name": "MancH0pe",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/MancH0pe",
-            "icon": "pages/MancH0pe/MancH0pe.png"
+            "link": "https://lyna.taistudio.fr/MancH0pe",
+            "icon": "pages/MancH0pe/MancH0pe.png",
+            "display": false
         },
         {
             "name": "Kirouko",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/kirouko_gaming",
+            "link": "https://lyna.taistudio.fr/kirouko_gaming",
             "icon": "pages/kirouko_gaming/kirouko_gaming.png",
             "display": false
         },
         {
             "name": "Fr0Win",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/Fr0Win_",
+            "link": "https://lyna.taistudio.fr/Fr0Win_",
             "icon": "pages/Fr0Win_/Fr0Win_.png",
             "display": false
         },
         {
             "name": "Atinylittlepotatoe",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/atinylittlepotatoe",
+            "link": "https://lyna.taistudio.fr/atinylittlepotatoe",
             "icon": "pages/atinylittlepotatoe/atinylittlepotatoe.png",
             "display": false
         },
         {
             "name": "elieur",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/elieur",
+            "link": "https://lyna.taistudio.fr/elieur",
             "icon": "pages/elieur/elieur.png",
             "display": false
         },
         {
             "name": "TV_Slimi",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/TV_Slimi",
+            "link": "https://lyna.taistudio.fr/TV_Slimi",
             "icon": "pages/TV_Slimi/TV_Slimi.png"
         },
         {
             "name": "Predatiger",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/Predatiger",
+            "link": "https://lyna.taistudio.fr/Predatiger",
             "icon": "pages/Predatiger/Predatiger.png"
         },
         {
             "name": "wienie_e",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/wienie_e",
+            "link": "https://lyna.taistudio.fr/wienie_e",
             "icon": "pages/wienie_e/wienie_e.png",
             "display": false
         }

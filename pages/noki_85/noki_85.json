@@ -28,18 +28,6 @@
             "name": "Tip/Don",
             "service": "streamlabs",
             "link": "https://streamlabs.com/noki_85/tip"
-        },
-        {
-            "name": "Orchidée",
-            "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "pages/orchidee/Orchid.png"
-        },
-        {
-            "name": "Orchidée Membres",
-            "service": "Internet",
-            "link": "https://lyna.netlify.app/orchidee",
-            "icon": "pages/orchidee/Orchid.png"
         }
     ]
 }

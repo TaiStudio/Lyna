@@ -9,7 +9,7 @@
         {
             "name": "Donate",
             "service": "Lyna",
-            "link": "https://lyna.netlify.app/taistudiodonate",
+            "link": "https://lyna.taistudio.fr/taistudiodonate",
             "target": "_self"
         },
         {
@@ -45,55 +45,55 @@
         {
             "name": "Tai Studio",
             "service": "Internet",
-            "link": "https://tai-studio.netlify.app",
+            "link": "https://taistudio.fr",
             "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png"
         },
         {
             "name": "Animeback",
             "service": "Internet",
-            "link": "https://animeback-tai-studio.netlify.app",
+            "link": "https://animeback.taistudio.fr",
             "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
         },
         {
             "name": "Octavia",
             "service": "Internet",
             "link": "https://www.youtube.com/playlist?list=PLZiAlHsp810GJPX3CScsk3HGiH-rYiDPh",
-            "icon": "https://tai-studio.netlify.app/img/projet/octavia.png"
+            "icon": "https://taistudio.fr/img/projet/octavia.png"
         },
         {
             "name": "Sofia",
             "service": "Internet",
             "link": "https://github.com/TaiStudio/Sofia",
-            "icon": "https://tai-studio.netlify.app/img/projet/sofia.png"
+            "icon": "https://taistudio.fr/img/projet/sofia.png"
         },
         {
             "name": "IO",
             "service": "Internet",
-            "link": "https://io-tai-studio.netlify.app",
-            "icon": "https://tai-studio.netlify.app/img/projet/IO.png"
+            "link": "https://io.taistudio.fr",
+            "icon": "https://taistudio.fr/wp-content/uploads/2023/09/IO.png"
         },
         {
             "name": "Orchidee",
             "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
-            "icon": "https://tai-studio.netlify.app/img/projet/Orchidee.png"
+            "link": "https://orchidee.taistudio.fr/",
+            "icon": "https://taistudio.fr/img/projet/Orchidee.png"
         },
         {
             "name": "Brawlshoot",
             "service": "Internet",
-            "link": "https://brawlshoot-tai-studio.netlify.app",
-            "icon": "https://tai-studio.netlify.app/img/projet/Brawl%20Shoot.png"
+            "link": "https://brawlshoot.taistudio.fr",
+            "icon": "https://taistudio.fr/wp-content/uploads/2023/09/Brawl-Shoot.png"
         },
         {
             "name": "Asterius",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/asterius",
-            "icon": "https://lyna.netlify.app/pages/asterius/asterius.png"
+            "link": "https://lyna.taistudio.fr/asterius",
+            "icon": "https://lyna.taistudio.fr/pages/asterius/asterius.png"
         },
         {
             "name": "Portfolio",
             "service": "Trenton",
-            "link": "https://trenton.netlify.app/tetsuyuki"
+            "link": "https://trenton.taistudio.fr/tetsuyuki"
         }
     ],
     "colors": [

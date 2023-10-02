@@ -22,13 +22,13 @@
         {
             "name": "Orchidée",
             "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app",
+            "link": "https://orchidee.taistudio.fr",
             "icon": "pages/orchidee/Orchid.png"
         },
         {
             "name": "Orchidée Membres",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/orchidee",
+            "link": "https://lyna.taistudio.fr/orchidee",
             "icon": "pages/orchidee/Orchid.png"
         }
     ]

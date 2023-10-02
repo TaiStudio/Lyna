@@ -9,7 +9,7 @@
         {
             "name": "Donate",
             "service": "Lyna",
-            "link": "https://lyna.netlify.app/taistudiodonate"
+            "link": "https://lyna.taistudio.fr/taistudiodonate"
         },
         {
             "name": "Youtube",
@@ -44,24 +44,24 @@
         {
             "name": "Tai Studio",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/taistudio",
+            "link": "https://lyna.taistudio.fr/taistudio",
             "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png"
         },
         {
             "name": "Portfolio",
             "service": "Trenton",
-            "link": "https://trenton.netlify.app/tetsuyuki"
+            "link": "https://trenton.taistudio.fr/tetsuyuki"
         },
         { 
             "name": "Orchidée",
             "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app",
+            "link": "https://orchidee.taistudio.fr",
             "icon": "pages/orchidee/Orchid.png"
         },
         {
             "name": "Orchidée Membres",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/orchidee",
+            "link": "https://lyna.taistudio.fr/orchidee",
             "icon": "pages/orchidee/Orchid.png"
         }
     ]

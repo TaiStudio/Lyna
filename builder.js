@@ -14,6 +14,8 @@ const animations = require('./js/animations.json');
 var default_anim = "translate(-50%, 0%)",
     active_anim = "translate(-50%, 0%)";
 
+const LYNAWEBSITE = 'https://lyna.taistudio.fr/';
+
 //SITEMAP
 const sitemap = cheerio.load(fs.readFileSync('PatternSitemap.xml'), {
     xmlMode: true,
@@ -70,10 +72,10 @@ function creator(data){
         $('meta[property="og:title"]').attr('content', `Lyna | ${config.name}`);
         
         //IMAGES
-        $('meta[name="twitter:image"]').attr('content', `https://lyna.netlify.app/${config.logo}`);
-        $('meta[property="og:image"]').attr('content', `https://lyna.netlify.app/${config.logo}`);
-        $('#favicon').attr('href', `https://lyna.netlify.app/${config.logo}`);
-        $('head').append(`<link rel="shortcut icon" href="https://lyna.netlify.app/${config.logo}" type="image/x-icon">`);
+        $('meta[name="twitter:image"]').attr('content', `${LYNAWEBSITE}${config.logo}`);
+        $('meta[property="og:image"]').attr('content', `${LYNAWEBSITE}${config.logo}`);
+        $('#favicon').attr('href', `${LYNAWEBSITE}${config.logo}`);
+        $('head').append(`<link rel="shortcut icon" href="${LYNAWEBSITE}${config.logo}" type="image/x-icon">`);
 
         //DESCRIPTION
         if(config.description == null){config.description = "Create a page for provide your social links and other."}
@@ -221,7 +223,7 @@ function creator(data){
 
         sitemap("urlset").append(`
             <url>
-                <loc>https://lyna.netlify.app/${data}</loc>
+                <loc>${LYNAWEBSITE}${data}</loc>
                 <lastmod>${today}</lastmod>
                 <changefreq>hourly</changefreq>
             </url>

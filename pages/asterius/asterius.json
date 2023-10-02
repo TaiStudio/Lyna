@@ -9,21 +9,21 @@
         {
             "name": "Asterius Réseaux",
             "service": "internet",
-            "link": "https://lyna.netlify.app/asterius-reseaux",
+            "link": "https://lyna.taistudio.fr/asterius-reseaux",
             "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico",
             "target": "_self"
         },
         {
             "name": "Asterius Météo",
             "service": "twitch",
-            "link": "https://lyna.netlify.app/asterius-meteo",
+            "link": "https://lyna.taistudio.fr/asterius-meteo",
             "icon": "https://prevision-meteo.ch/style/images/icon/eclaircies-big.png",
             "target": "_self"
         },
         {
             "name": "Asterius Musiques",
             "service": "twitch",
-            "link": "https://lyna.netlify.app/asterius-music",
+            "link": "https://lyna.taistudio.fr/asterius-music",
             "icon": "https://asteriusae.netlify.app/assets/Logo/Asterius%20Logo%20-%20Favicon%20-%2032x32.ico",
             "target": "_self"
         }

@@ -8,7 +8,7 @@
         {
             "name": "Donate",
             "service": "Lyna",
-            "link": "https://lyna.netlify.app/taistudiodonate"
+            "link": "https://lyna.taistudio.fr/taistudiodonate"
         },
         {
             "name": "Chaine Principale",
@@ -48,25 +48,25 @@
         {
             "name": "Tai Studio",
             "service": "Internet",
-            "link": "https://tai-studio.netlify.app/",
+            "link": "https://taistudio.fr/",
             "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png"
         },
         {
             "name": "Animeback",
             "service": "Internet",
-            "link": "https://animeback-tai-studio.netlify.app/",
+            "link": "https://animeback.taistudio.fr/",
             "icon": "https://raw.githubusercontent.com/LeGitHubDeTai/AnimeBack/main/icon.png"
         },
         {
             "name": "Orchidée",
             "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
+            "link": "https://orchidee.taistudio.fr/",
             "icon": "pages/orchidee/Orchid.png"
         },
         {
             "name": "Orchidée Membres",
             "service": "Internet",
-            "link": "https://lyna.netlify.app/orchidee",
+            "link": "https://lyna.taistudio.fr/orchidee",
             "icon": "pages/orchidee/Orchid.png"
         }
     ]

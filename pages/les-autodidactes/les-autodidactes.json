@@ -32,13 +32,13 @@
         {
             "name": "Potion",
             "service": "Lyna",
-            "link": "https://lyna.netlify.app/potion",
+            "link": "https://lyna.taistudio.fr/potion",
             "icon": "pages/potion/potion.jpg"
         },
         {
             "name": "Tai",
             "service": "Lyna",
-            "link": "https://lyna.netlify.app/legithubdetai",
+            "link": "https://lyna.taistudio.fr/legithubdetai",
             "icon": "pages/legithubdetai/legithubdetai.png"
         }
     ]
