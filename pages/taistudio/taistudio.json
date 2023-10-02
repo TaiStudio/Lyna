@@ -64,7 +64,7 @@
             "name": "Sofia",
             "service": "Internet",
             "link": "https://github.com/TaiStudio/Sofia",
-            "icon": "https://taistudio.fr/img/projet/sofia.png"
+            "icon": "https://taistudio.fr/wp-content/uploads/2023/09/icon-1.png"
         },
         {
             "name": "IO",
@@ -76,7 +76,7 @@
             "name": "Orchidee",
             "service": "Internet",
             "link": "https://orchidee.taistudio.fr/",
-            "icon": "https://taistudio.fr/img/projet/Orchidee.png"
+            "icon": "https://res.cloudinary.com/orchidee/image/upload/v1670776967/favicon_5637ad71f2.png"
         },
         {
             "name": "Brawlshoot",
