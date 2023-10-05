@@ -18,7 +18,7 @@
         {
             "name": "Youtube",
             "service": "Youtube",
-            "link": "https://youtube.com/@TeamOrchidee"
+            "link": "https://youtube.com/@TeamPhoenix_"
         },
         {
             "name": "Instagram",
@@ -38,12 +38,12 @@
         {
             "name": "Twitter",
             "service": "twitter",
-            "link": "https://twitter.com/TeamOrchidee"
+            "link": "https://twitter.com/Equipe_Phoenix_"
         },
         {
             "name": "Site",
             "service": "Internet",
-            "link": "https://orchidee-tai-studio.netlify.app/",
+            "link": "https://orchidee.taistudio.fr/",
             "icon": "pages/orchidee/Orchid.png"
         },
         {
