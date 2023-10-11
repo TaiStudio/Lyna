@@ -227,10 +227,14 @@ function creator(data){
                 <lastmod>${today}</lastmod>
                 <changefreq>hourly</changefreq>
             </url>
+            <url>
+                <loc>https://lyna.netlify.app/${data}</loc>
+                <lastmod>${today}</lastmod>
+                <changefreq>hourly</changefreq>
+            </url>
         `);
 
         fs.writeFileSync(`./dist/sitemap.xml`, sitemap.html());
         fs.writeFileSync(`sitemap.xml`, sitemap.html());
-        fs.writeFileSync(`sitemap2021.xml`, sitemap.html());
     }
 }
