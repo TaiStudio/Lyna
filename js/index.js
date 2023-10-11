@@ -11,8 +11,8 @@ if(typeof $ == "undefined"){
     var $ = require('jquery');
 }
 
-if(window.location.origin != 'https://lyna.netlify.app'){
-    $('body').append('<div class="alerte">CHANGEMENT DE DOMAINE LYNA.GA -> lyna.netlify.app</div>');
+if(window.location.origin != 'https://lyna.taistudio.fr' ){
+    $('body').append('<div class="alerte">CHANGEMENT DE DOMAINE -> lyna.taistudio.fr/</div>');
 }
 
 var page = document.URL.substr(0,document.URL.lastIndexOf('/'));
