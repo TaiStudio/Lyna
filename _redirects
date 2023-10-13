@@ -1,1 +1,3 @@
+https://lyna.netlify.app/* https://lyna.taistudio.fr/:splat 301!
+https://lyna.netlify.app/* https://lyna.taistudio.fr/:splat 301
 /:user  /dist/:user 200
