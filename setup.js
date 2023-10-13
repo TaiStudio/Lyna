@@ -7,22 +7,20 @@
 |   \_/\__,_|_| \____/ \__|\__,_|\__,_|_|\___/   \_____/ \___/ \_____/\___/_/   \_____/ \___/ \_____/\____/  |
 \-----------------------------------------------------------------------------------------------------------*/
 
-
 const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
-const rimraf = require('rimraf');
 
 const readme = cheerio.load(fs.readFileSync('README.md'));
 readme('.services img').remove();
 var list = [],
     file = {};
-function getFiles (dir, files_){
+function getFiles(dir, files_) {
     files_ = files_ || [];
     var files = fs.readdirSync(dir);
-    for (var i in files){
+    for (var i in files) {
         var name = dir + '/' + files[i];
-        if (fs.statSync(name).isDirectory()){
+        if (fs.statSync(name).isDirectory()) {
             getFiles(name, files_);
         } else {
             list.push(files[i]);
@@ -36,8 +34,27 @@ getFiles('img/services');
 file.all = list;
 fs.writeFileSync(`lib/services.json`, `${JSON.stringify(file)}`);
 fs.writeFileSync(`README.md`, readme.html());
-rimraf(path.join(__dirname, 'pages', 'demo'), (err) => {
-    if(err)console.log(err);
-});
+
+// Fonction pour supprimer un répertoire récursivement
+const deleteDirectory = (dirPath) => {
+    if (fs.existsSync(dirPath)) {
+        fs.readdirSync(dirPath).forEach((file) => {
+            const currentPath = path.join(dirPath, file);
+            if (fs.lstatSync(currentPath).isDirectory()) {
+                // Si c'est un répertoire, récursion pour supprimer son contenu
+                deleteDirectory(currentPath);
+            } else {
+                // Si c'est un fichier, le supprimer
+                fs.unlinkSync(currentPath);
+            }
+        });
+        // Supprimer le répertoire lui-même
+        fs.rmdirSync(dirPath);
+        console.log(`Le répertoire ${dirPath} a été supprimé avec succès.`);
+    }
+};
+
+// Appeler la fonction pour supprimer le répertoire
+deleteDirectory(path.join(__dirname, 'pages', 'demo'));
 
 console.log('DONE !');

@@ -8,8 +8,8 @@
 \-----------------------------------------------------------------------------------------------------------*/
 
 const fs = require('fs');
+const path = require('path');
 const cheerio = require('cheerio');
-const rimraf = require('rimraf');
 const animations = require('./js/animations.json');
 var default_anim = "translate(-50%, 0%)",
     active_anim = "translate(-50%, 0%)";
@@ -21,6 +21,25 @@ const sitemap = cheerio.load(fs.readFileSync('PatternSitemap.xml'), {
     xmlMode: true,
     decodeEntities: true
 });
+
+// Fonction pour supprimer un répertoire récursivement
+const deleteDirectory = (dirPath) => {
+    if (fs.existsSync(dirPath)) {
+        fs.readdirSync(dirPath).forEach((file) => {
+            const currentPath = path.join(dirPath, file);
+            if (fs.lstatSync(currentPath).isDirectory()) {
+                // Si c'est un répertoire, récursion pour supprimer son contenu
+                deleteDirectory(currentPath);
+            } else {
+                // Si c'est un fichier, le supprimer
+                fs.unlinkSync(currentPath);
+            }
+        });
+        // Supprimer le répertoire lui-même
+        fs.rmdirSync(dirPath);
+        console.log(`Le répertoire ${dirPath} a été supprimé avec succès.`);
+    }
+};
 
 if(!fs.existsSync('dist')){
     fs.mkdirSync('dist');
@@ -34,9 +53,7 @@ else{
     });
 }
 if(fs.existsSync('pages/demo')){
-    rimraf('pages/demo', (err) => {
-        if(err)console.log(err);
-    });
+    deleteDirectory(path.join(__dirname, 'pages', 'demo'));
 }
 
 var today = new Date();
