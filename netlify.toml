@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://lyna.netlify.app/*"
+  to = "https://lyna.taistudio.fr/:splat"
+  status = 301
+  force = true
