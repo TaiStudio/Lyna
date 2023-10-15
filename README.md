@@ -4,7 +4,7 @@
 </a>
 </p><p>
 <a href="https://lyna.taistudio.fr/">
-    <img src="https://api.netlify.com/api/v1/badges/d5847749-1cda-4d52-9efa-110b78b5515d/deploy-status">
+    <img src="https://api.netlify.com/api/v1/badges/544bb5ee-259b-4172-acde-08eb42eaf0d7/deploy-status">
 </a>
 <a href="https://buymeacoffee.com/taistudio" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
