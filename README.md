@@ -1,6 +1,6 @@
 <html><head></head><body><p align="center">
 <a href="https://lyna.taistudio.fr/">
-    <img src="img/assets/lyna.png" width="28%">
+    <img src="./img/assets/lyna.png" width="28%">
 </a>
 </p><p>
 <a href="https://lyna.taistudio.fr/">
