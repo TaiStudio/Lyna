@@ -4,7 +4,9 @@
   "description": "provide your social links",
   "main": "app/main.js",
   "scripts": {
-    "build": "node ./builder.js",
+    "build": "npm-run-all build:*",
+    "build:pages": "node ./builder.js",
+    "build:sitemap": "node ./builder.js",
     "gui": "electron .",
     "release": "script/release.sh",
     "setup": "node ./setup.js",
@@ -34,6 +36,7 @@
     "fs": "^0.0.1-security",
     "jquery": "^3.6.0",
     "nconf": "^0.12.0",
+    "npm-run-all": "^4.1.5",
     "path": "^0.12.7"
   },
   "devDependencies": {
