@@ -1,0 +1,53 @@
+{
+    "name": "Phoenix",
+    "description": "",
+    "logo": "pages\\phoenix\\phoenix.png",
+    "font": "ancient",
+    "background": "pages\\phoenix\\phoenixBack.png",
+    "power": false,
+    "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png",
+    "links": [
+        {
+            "name": "Discord",
+            "service": "Discord",
+            "link": "https://discord.gg/VujtYkWryS"
+        },
+        {
+            "name": "Youtube",
+            "service": "Youtube",
+            "link": "https://www.youtube.com/@TeamPhoenix_"
+        },
+        {
+            "name": "Instagram",
+            "service": "instagram",
+            "link": "https://www.instagram.com/phoenix_bird_team"
+        },
+        {
+            "name": "Twitch",
+            "service": "twitch",
+            "link": "https://www.twitch.tv/tm_phoenix_"
+        },
+        {
+            "name": "TikTok",
+            "service": "tiktok",
+            "link": "https://www.tiktok.com/@_phoenix_team"
+        },
+        {
+            "name": "Twitter",
+            "service": "twitter",
+            "link": "https://twitter.com/Equipe_Phoenix_"
+        },
+        {
+            "name": "Site",
+            "service": "Internet",
+            "link": "https://phoenix.taistudio.fr/",
+            "icon": "pages/phoenix/phoenix.png"
+        }
+    ],
+    "animations": [
+        "rotateLeft",
+        "zoom",
+        "fix"
+    ],
+    "colors": []
+}
