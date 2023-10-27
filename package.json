@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/TaiStudio/Lyna#readme",
   "dependencies": {
-    "axios": "^1.5.1",
+    "axios": "^1.6.0",
     "cheerio": "*",
     "electron": "^25.0.1",
     "express": "^4.18.1",
