@@ -1,0 +1,28 @@
+{
+    "name": "Tai Studio Art",
+    "description": "",
+    "logo": "pages/taistudio_art/avatar.png",
+    "font": "ancient",
+    "background": "pages/taistudio_art/background.png",
+    "power": true,
+    "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png",
+    "links": [
+        {
+            "name": "Instagram (tai.tetsuyuki)",
+            "link": "https://www.instagram.com/tai.tetsuyuki/",
+            "service": "instagram"
+        },
+        {
+            "name": "ArtStation",
+            "link": "https://www.artstation.com/tai_tetsuyuki",
+            "service": "artstation"
+        },
+        {
+            "name": "Instagram (loup_mystique)",
+            "link": "https://www.instagram.com/loup_mystique/",
+            "service": "instagram"
+        }
+    ],
+    "animations": [],
+    "colors": []
+}
