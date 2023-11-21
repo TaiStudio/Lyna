@@ -1,12 +1,19 @@
 {
     "name": "Tai Studio Art",
-    "description": "",
+    "description": "Tai Studio, Développeur Web UI/UX Integrateur",
     "logo": "pages/taistudio_art/avatar.png",
     "font": "ancient",
     "background": "pages/taistudio_art/background.png",
     "power": true,
     "icon": "https://raw.githubusercontent.com/TaiStudio/Lyna/main/pages/taistudio/taistudio.png",
     "links": [
+        {
+            "name": "Retour",
+            "service": "internet",
+            "link": "https://lyna.taistudio.fr/taistudio",
+            "icon": "https://lyna.taistudio.fr/taistudio/Tai Studio.png",
+            "target": "_self"
+        },
         {
             "name": "Instagram (tai.tetsuyuki)",
             "link": "https://www.instagram.com/tai.tetsuyuki/",
